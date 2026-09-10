@@ -1,0 +1,91 @@
+<div
+  data-composition-id="captions"
+  data-width="0"
+  data-height="0"
+  data-duration="0"
+  id="captions-root"
+>
+  <div id="cap"></div>
+</div>
+
+<style data-brand-tokens></style>
+
+<style>
+  /* ── Standard caption skin (2026-09-10) — universal contrast ──
+     Readable on BOTH light and dark backgrounds:
+       · a semi-dark pill behind the text guarantees contrast on light scenes
+       · a heavy black text-shadow keeps words legible even where the pill is thin
+       · the active word flips to dark text on a coral highlight block (karaoke)
+     Brand tokens (--cap-ink / --cap-accent / --font-display) fill in from frame.md. */
+  #captions-root { position: absolute; inset: 0; pointer-events: none; }
+  #cap {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caption-group {
+    position: absolute;
+    max-width: 82%;
+    padding: 0.42em 0.9em;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 0.5em;
+    font-family: var(--font-display, "Inter"), sans-serif;
+    font-weight: 700;
+    font-size: clamp(30px, 2.6vw, 42px);
+    line-height: 1.2;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9), 0 0 2px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+  }
+  .caption-word {
+    color: rgba(255, 255, 255, 0.72);
+    border-radius: 0.22em;
+    padding: 0 0.06em;
+    transition: color 0.06s;
+  }
+  /* Active (spoken) word — set by JS to dark text on the brand coral highlight. */
+  .caption-word.cap-active {
+    background: var(--cap-accent, #E85D5D);
+    color: var(--cap-ink, #1A1A1A);
+    text-shadow: none;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+<script>
+  (function () {
+    var GROUPS = [];
+    var DURATION = 0;
+    var cap = document.getElementById("cap");
+    var tl = gsap.timeline({ paused: true });
+    GROUPS.forEach(function (g) {
+      var el = document.createElement("div");
+      el.className = "caption-group";
+      g.words.forEach(function (w) {
+        var s = document.createElement("span");
+        s.className = "caption-word";
+        s.textContent = w.text + " ";
+        el.appendChild(s);
+      });
+      cap.appendChild(el);
+      tl.fromTo(el, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.22, ease: "power2.out", overwrite: "auto" }, g.start);
+      tl.to(el, { opacity: 0, y: -8, duration: 0.16, ease: "power2.in", overwrite: "auto" }, g.end);
+      tl.set(el, { opacity: 0, visibility: "hidden" }, g.end + 0.16);
+      g.words.forEach(function (w, i) {
+        // Karaoke: activate the spoken word, deactivate the previous one.
+        tl.call(function (idx) { return function () {
+          for (var k = 0; k < el.children.length; k++) el.children[k].classList.remove("cap-active");
+          el.children[idx].classList.add("cap-active");
+        }; }(i), null, w.start);
+      });
+    });
+    tl.to({}, { duration: DURATION }, 0);
+    window.__timelines = window.__timelines || {};
+    window.__timelines["captions"] = tl;
+  })();
+</script>

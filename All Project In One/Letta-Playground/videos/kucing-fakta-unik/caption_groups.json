@@ -1,0 +1,2866 @@
+{
+  "total_duration_s": 160.32,
+  "width": 1920,
+  "height": 1080,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.06,
+      "end": 1.06,
+      "text": "Pernah lihat kucing",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "Pernah",
+          "start": 0.06,
+          "end": 0.42
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "lihat",
+          "start": 0.42,
+          "end": 0.68
+        },
+        {
+          "id": "caption-word-0-2",
+          "text": "kucing",
+          "start": 0.68,
+          "end": 1.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 1.06,
+      "end": 2.5,
+      "text": "tiba -tiba kesenangan",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "tiba",
+          "start": 1.06,
+          "end": 1.54
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "-tiba",
+          "start": 1.54,
+          "end": 2
+        },
+        {
+          "id": "caption-word-1-2",
+          "text": "kesenangan",
+          "start": 2,
+          "end": 2.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 2.5,
+      "end": 3.34,
+      "text": "sendiri?",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "sendiri?",
+          "start": 2.5,
+          "end": 3.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 3.34,
+      "end": 4.64,
+      "text": "Guling -guling,",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "Guling",
+          "start": 3.34,
+          "end": 3.82
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "-guling,",
+          "start": 3.82,
+          "end": 4.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 4.64,
+      "end": 5.98,
+      "text": "matanya sayu kayak",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "matanya",
+          "start": 4.64,
+          "end": 5.02
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "sayu",
+          "start": 5.02,
+          "end": 5.48
+        },
+        {
+          "id": "caption-word-4-2",
+          "text": "kayak",
+          "start": 5.48,
+          "end": 5.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 5.98,
+      "end": 6.1,
+      "text": "lagi mabuk.",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "lagi",
+          "start": 5.98,
+          "end": 5.98
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "mabuk.",
+          "start": 5.98,
+          "end": 5.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 2,
+      "start": 7.44,
+      "end": 7.98,
+      "text": "Nah,",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "Nah,",
+          "start": 7.44,
+          "end": 7.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 2,
+      "start": 7.98,
+      "end": 9.46,
+      "text": "itu bukan kebetulan.",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "itu",
+          "start": 7.98,
+          "end": 8.38
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "bukan",
+          "start": 8.38,
+          "end": 8.68
+        },
+        {
+          "id": "caption-word-7-2",
+          "text": "kebetulan.",
+          "start": 8.68,
+          "end": 9.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 3,
+      "start": 9.98,
+      "end": 11.88,
+      "text": "Biasanya itu gara -gara",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "Biasanya",
+          "start": 9.98,
+          "end": 10.68
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "itu",
+          "start": 10.68,
+          "end": 11.22
+        },
+        {
+          "id": "caption-word-8-2",
+          "text": "gara",
+          "start": 11.22,
+          "end": 11.56
+        },
+        {
+          "id": "caption-word-8-3",
+          "text": "-gara",
+          "start": 11.56,
+          "end": 11.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 3,
+      "start": 11.88,
+      "end": 13.22,
+      "text": "satu tanaman kecil",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "satu",
+          "start": 11.88,
+          "end": 12.26
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "tanaman",
+          "start": 12.26,
+          "end": 12.7
+        },
+        {
+          "id": "caption-word-9-2",
+          "text": "kecil",
+          "start": 12.7,
+          "end": 13.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 3,
+      "start": 13.22,
+      "end": 15.02,
+      "text": "bernama chatnip.",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "bernama",
+          "start": 13.22,
+          "end": 14.04
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "chatnip.",
+          "start": 14.04,
+          "end": 14.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 4,
+      "start": 15.44,
+      "end": 16.84,
+      "text": "Dan tanpa sadar,",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "Dan",
+          "start": 15.44,
+          "end": 15.64
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "tanpa",
+          "start": 15.64,
+          "end": 15.98
+        },
+        {
+          "id": "caption-word-11-2",
+          "text": "sadar,",
+          "start": 15.98,
+          "end": 16.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 4,
+      "start": 16.84,
+      "end": 17.4,
+      "text": "catnip ini",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "catnip",
+          "start": 16.84,
+          "end": 17.2
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "ini",
+          "start": 17.2,
+          "end": 17.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 4,
+      "start": 17.4,
+      "end": 18.48,
+      "text": "sering diselipkan ke",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "sering",
+          "start": 17.4,
+          "end": 17.78
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "diselipkan",
+          "start": 17.78,
+          "end": 18.36
+        },
+        {
+          "id": "caption-word-13-2",
+          "text": "ke",
+          "start": 18.36,
+          "end": 18.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 4,
+      "start": 18.48,
+      "end": 19.46,
+      "text": "dalam mainan kucing.",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "dalam",
+          "start": 18.48,
+          "end": 18.7
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "mainan",
+          "start": 18.7,
+          "end": 19.14
+        },
+        {
+          "id": "caption-word-14-2",
+          "text": "kucing.",
+          "start": 19.14,
+          "end": 19.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 5,
+      "start": 20.18,
+      "end": 20.86,
+      "text": "Kamu pikir",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "Kamu",
+          "start": 20.18,
+          "end": 20.54
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "pikir",
+          "start": 20.54,
+          "end": 20.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 5,
+      "start": 20.86,
+      "end": 21.8,
+      "text": "cuma itu?",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "cuma",
+          "start": 20.86,
+          "end": 21.1
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "itu?",
+          "start": 21.1,
+          "end": 21.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 5,
+      "start": 21.8,
+      "end": 23.02,
+      "text": "Masih ada 10",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "Masih",
+          "start": 21.8,
+          "end": 22.38
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "ada",
+          "start": 22.38,
+          "end": 22.62
+        },
+        {
+          "id": "caption-word-17-2",
+          "text": "10",
+          "start": 22.62,
+          "end": 23.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 5,
+      "start": 23.02,
+      "end": 24.02,
+      "text": "fakta lain yang",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "fakta",
+          "start": 23.02,
+          "end": 23.54
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "lain",
+          "start": 23.54,
+          "end": 23.82
+        },
+        {
+          "id": "caption-word-18-2",
+          "text": "yang",
+          "start": 23.82,
+          "end": 24.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 5,
+      "start": 24.02,
+      "end": 24.62,
+      "text": "bakal bikin",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "bakal",
+          "start": 24.02,
+          "end": 24.34
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "bikin",
+          "start": 24.34,
+          "end": 24.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 5,
+      "start": 24.62,
+      "end": 25.26,
+      "text": "kamu melongo.",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "kamu",
+          "start": 24.62,
+          "end": 24.88
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "melongo.",
+          "start": 24.88,
+          "end": 25.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 6,
+      "start": 26.12,
+      "end": 27.16,
+      "text": "Di video ini,",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "Di",
+          "start": 26.12,
+          "end": 26.3
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "video",
+          "start": 26.3,
+          "end": 26.6
+        },
+        {
+          "id": "caption-word-21-2",
+          "text": "ini,",
+          "start": 26.6,
+          "end": 27.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 6,
+      "start": 27.16,
+      "end": 28.54,
+      "text": "kita bongkar satu",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "kita",
+          "start": 27.16,
+          "end": 27.54
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "bongkar",
+          "start": 27.54,
+          "end": 28.12
+        },
+        {
+          "id": "caption-word-22-2",
+          "text": "satu",
+          "start": 28.12,
+          "end": 28.54
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 6,
+      "start": 28.54,
+      "end": 31.12,
+      "text": "persatu dari catnip sampai",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "persatu",
+          "start": 28.54,
+          "end": 29.18
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "dari",
+          "start": 29.18,
+          "end": 29.76
+        },
+        {
+          "id": "caption-word-23-2",
+          "text": "catnip",
+          "start": 29.76,
+          "end": 30.4
+        },
+        {
+          "id": "caption-word-23-3",
+          "text": "sampai",
+          "start": 30.4,
+          "end": 31.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 6,
+      "start": 31.12,
+      "end": 32.32,
+      "text": "alasan kucing nggak",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "alasan",
+          "start": 31.12,
+          "end": 31.6
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "kucing",
+          "start": 31.6,
+          "end": 32.1
+        },
+        {
+          "id": "caption-word-24-2",
+          "text": "nggak",
+          "start": 32.1,
+          "end": 32.32
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 6,
+      "start": 32.32,
+      "end": 33.18,
+      "text": "doyan manis.",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "doyan",
+          "start": 32.32,
+          "end": 32.7
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "manis.",
+          "start": 32.7,
+          "end": 33.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 7,
+      "start": 33.8,
+      "end": 35.12,
+      "text": "Jadi santai aja",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "Jadi",
+          "start": 33.8,
+          "end": 34.18
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "santai",
+          "start": 34.18,
+          "end": 34.7
+        },
+        {
+          "id": "caption-word-26-2",
+          "text": "aja",
+          "start": 34.7,
+          "end": 35.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 7,
+      "start": 35.12,
+      "end": 36.86,
+      "text": "dan siap -siap kaget.",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "dan",
+          "start": 35.12,
+          "end": 35.68
+        },
+        {
+          "id": "caption-word-27-1",
+          "text": "siap",
+          "start": 35.68,
+          "end": 36.26
+        },
+        {
+          "id": "caption-word-27-2",
+          "text": "-siap",
+          "start": 36.26,
+          "end": 36.68
+        },
+        {
+          "id": "caption-word-27-3",
+          "text": "kaget.",
+          "start": 36.68,
+          "end": 36.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 8,
+      "start": 37.84,
+      "end": 39.2,
+      "text": "Fakta pertama,",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "Fakta",
+          "start": 37.84,
+          "end": 38.24
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "pertama,",
+          "start": 38.24,
+          "end": 39.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 8,
+      "start": 39.2,
+      "end": 39.7,
+      "text": "ya soal",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "ya",
+          "start": 39.2,
+          "end": 39.3
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "soal",
+          "start": 39.3,
+          "end": 39.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 8,
+      "start": 39.7,
+      "end": 39.86,
+      "text": "chatnip ini.",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "chatnip",
+          "start": 39.7,
+          "end": 39.74
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "ini.",
+          "start": 39.74,
+          "end": 39.74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 9,
+      "start": 41.12,
+      "end": 42.26,
+      "text": "Catnip itu masih",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "Catnip",
+          "start": 41.12,
+          "end": 41.58
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "itu",
+          "start": 41.58,
+          "end": 41.88
+        },
+        {
+          "id": "caption-word-31-2",
+          "text": "masih",
+          "start": 41.88,
+          "end": 42.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 9,
+      "start": 42.26,
+      "end": 43.48,
+      "text": "saudara dengan daun",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "saudara",
+          "start": 42.26,
+          "end": 42.82
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "dengan",
+          "start": 42.82,
+          "end": 43.08
+        },
+        {
+          "id": "caption-word-32-2",
+          "text": "daun",
+          "start": 43.08,
+          "end": 43.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 9,
+      "start": 43.48,
+      "end": 44.06,
+      "text": "min,",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "min,",
+          "start": 43.48,
+          "end": 44.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 9,
+      "start": 44.06,
+      "end": 46.14,
+      "text": "nama ilmiahnya Nepeta Cataria.",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "nama",
+          "start": 44.06,
+          "end": 44.6
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "ilmiahnya",
+          "start": 44.6,
+          "end": 45.28
+        },
+        {
+          "id": "caption-word-34-2",
+          "text": "Nepeta",
+          "start": 45.28,
+          "end": 45.78
+        },
+        {
+          "id": "caption-word-34-3",
+          "text": "Cataria.",
+          "start": 45.78,
+          "end": 46.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 10,
+      "start": 47.12,
+      "end": 47.54,
+      "text": "Di dalam",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "Di",
+          "start": 47.12,
+          "end": 47.28
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "dalam",
+          "start": 47.28,
+          "end": 47.54
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 10,
+      "start": 47.54,
+      "end": 49.48,
+      "text": "daunnya ada zat aktif",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "daunnya",
+          "start": 47.54,
+          "end": 48.1
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "ada",
+          "start": 48.1,
+          "end": 48.68
+        },
+        {
+          "id": "caption-word-36-2",
+          "text": "zat",
+          "start": 48.68,
+          "end": 49
+        },
+        {
+          "id": "caption-word-36-3",
+          "text": "aktif",
+          "start": 49,
+          "end": 49.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 10,
+      "start": 49.48,
+      "end": 51.14,
+      "text": "bernama nepetalakton.",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "bernama",
+          "start": 49.48,
+          "end": 49.96
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "nepetalakton.",
+          "start": 49.96,
+          "end": 51.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 11,
+      "start": 51.76,
+      "end": 52.86,
+      "text": "Begitu kucing mencium",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "Begitu",
+          "start": 51.76,
+          "end": 52.16
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "kucing",
+          "start": 52.16,
+          "end": 52.5
+        },
+        {
+          "id": "caption-word-38-2",
+          "text": "mencium",
+          "start": 52.5,
+          "end": 52.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 11,
+      "start": 52.86,
+      "end": 53.92,
+      "text": "baunya,",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "baunya,",
+          "start": 52.86,
+          "end": 53.92
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 11,
+      "start": 53.92,
+      "end": 54.94,
+      "text": "zat ini langsung",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "zat",
+          "start": 53.92,
+          "end": 54.14
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "ini",
+          "start": 54.14,
+          "end": 54.46
+        },
+        {
+          "id": "caption-word-40-2",
+          "text": "langsung",
+          "start": 54.46,
+          "end": 54.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 11,
+      "start": 54.94,
+      "end": 56.26,
+      "text": "menempel di reseptor",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "menempel",
+          "start": 54.94,
+          "end": 55.56
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "di",
+          "start": 55.56,
+          "end": 55.72
+        },
+        {
+          "id": "caption-word-41-2",
+          "text": "reseptor",
+          "start": 55.72,
+          "end": 56.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 11,
+      "start": 56.26,
+      "end": 56.78,
+      "text": "penciumannya.",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "penciumannya.",
+          "start": 56.26,
+          "end": 56.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 12,
+      "start": 57.98,
+      "end": 59.88,
+      "text": "Sinyalnya diteruskan ke bagian",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "Sinyalnya",
+          "start": 57.98,
+          "end": 58.62
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "diteruskan",
+          "start": 58.62,
+          "end": 59.38
+        },
+        {
+          "id": "caption-word-43-2",
+          "text": "ke",
+          "start": 59.38,
+          "end": 59.52
+        },
+        {
+          "id": "caption-word-43-3",
+          "text": "bagian",
+          "start": 59.52,
+          "end": 59.88
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 12,
+      "start": 59.88,
+      "end": 61,
+      "text": "otak yang mengatur",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "otak",
+          "start": 59.88,
+          "end": 60.3
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "yang",
+          "start": 60.3,
+          "end": 60.48
+        },
+        {
+          "id": "caption-word-44-2",
+          "text": "mengatur",
+          "start": 60.48,
+          "end": 61
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 12,
+      "start": 61,
+      "end": 61.94,
+      "text": "emosi.",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "emosi.",
+          "start": 61,
+          "end": 61.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 13,
+      "start": 62.36,
+      "end": 63.12,
+      "text": "Hasilnya,",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "Hasilnya,",
+          "start": 62.36,
+          "end": 63.12
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 13,
+      "start": 63.12,
+      "end": 65,
+      "text": "kucing bisa kegirangan,",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "kucing",
+          "start": 63.12,
+          "end": 63.68
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "bisa",
+          "start": 63.68,
+          "end": 63.9
+        },
+        {
+          "id": "caption-word-47-2",
+          "text": "kegirangan,",
+          "start": 63.9,
+          "end": 65
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 13,
+      "start": 65,
+      "end": 66.06,
+      "text": "guling -guling,",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "guling",
+          "start": 65,
+          "end": 65.28
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "-guling,",
+          "start": 65.28,
+          "end": 66.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 13,
+      "start": 66.06,
+      "end": 66.72,
+      "text": "mengeong,",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "mengeong,",
+          "start": 66.06,
+          "end": 66.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 13,
+      "start": 66.72,
+      "end": 67.42,
+      "text": "sampai lompat -lompat.",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "sampai",
+          "start": 66.72,
+          "end": 67.2
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "lompat",
+          "start": 67.2,
+          "end": 67.3
+        },
+        {
+          "id": "caption-word-50-2",
+          "text": "-lompat.",
+          "start": 67.3,
+          "end": 67.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 14,
+      "start": 68.68,
+      "end": 70.22,
+      "text": "Tapi efeknya singkat,",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "Tapi",
+          "start": 68.68,
+          "end": 69
+        },
+        {
+          "id": "caption-word-51-1",
+          "text": "efeknya",
+          "start": 69,
+          "end": 69.52
+        },
+        {
+          "id": "caption-word-51-2",
+          "text": "singkat,",
+          "start": 69.52,
+          "end": 70.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 14,
+      "start": 70.22,
+      "end": 71.52,
+      "text": "cuma 10 sampai",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "cuma",
+          "start": 70.22,
+          "end": 70.56
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "10",
+          "start": 70.56,
+          "end": 71.04
+        },
+        {
+          "id": "caption-word-52-2",
+          "text": "sampai",
+          "start": 71.04,
+          "end": 71.52
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 14,
+      "start": 71.52,
+      "end": 71.74,
+      "text": "15 menit.",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "15",
+          "start": 71.52,
+          "end": 71.62
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "menit.",
+          "start": 71.62,
+          "end": 71.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 15,
+      "start": 72.92,
+      "end": 74,
+      "text": "Setelah itu,",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "Setelah",
+          "start": 72.92,
+          "end": 73.4
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "itu,",
+          "start": 73.4,
+          "end": 74
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 15,
+      "start": 74,
+      "end": 75.62,
+      "text": "dia kembali normal,",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "dia",
+          "start": 74,
+          "end": 74.4
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "kembali",
+          "start": 74.4,
+          "end": 74.86
+        },
+        {
+          "id": "caption-word-55-2",
+          "text": "normal,",
+          "start": 74.86,
+          "end": 75.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 15,
+      "start": 75.62,
+      "end": 77.16,
+      "text": "seolah tidak terjadi",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "seolah",
+          "start": 75.62,
+          "end": 76.24
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "tidak",
+          "start": 76.24,
+          "end": 76.56
+        },
+        {
+          "id": "caption-word-56-2",
+          "text": "terjadi",
+          "start": 76.56,
+          "end": 77.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 15,
+      "start": 77.16,
+      "end": 77.98,
+      "text": "apa -apa.",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "apa",
+          "start": 77.16,
+          "end": 77.64
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "-apa.",
+          "start": 77.64,
+          "end": 77.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 16,
+      "start": 78.8,
+      "end": 79.34,
+      "text": "Dan dia",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "Dan",
+          "start": 78.8,
+          "end": 79.02
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "dia",
+          "start": 79.02,
+          "end": 79.34
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 16,
+      "start": 79.34,
+      "end": 80.56,
+      "text": "butuh jeda setengah",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "butuh",
+          "start": 79.34,
+          "end": 79.72
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "jeda",
+          "start": 79.72,
+          "end": 80.04
+        },
+        {
+          "id": "caption-word-59-2",
+          "text": "setengah",
+          "start": 80.04,
+          "end": 80.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 16,
+      "start": 80.56,
+      "end": 81.56,
+      "text": "jam sampai dua",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "jam",
+          "start": 80.56,
+          "end": 80.88
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "sampai",
+          "start": 80.88,
+          "end": 81.3
+        },
+        {
+          "id": "caption-word-60-2",
+          "text": "dua",
+          "start": 81.3,
+          "end": 81.56
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 16,
+      "start": 81.56,
+      "end": 83.36,
+      "text": "jam sebelum bisa kena",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "jam",
+          "start": 81.56,
+          "end": 82
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "sebelum",
+          "start": 82,
+          "end": 82.74
+        },
+        {
+          "id": "caption-word-61-2",
+          "text": "bisa",
+          "start": 82.74,
+          "end": 83
+        },
+        {
+          "id": "caption-word-61-3",
+          "text": "kena",
+          "start": 83,
+          "end": 83.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 16,
+      "start": 83.36,
+      "end": 83.82,
+      "text": "efeknya lagi.",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "efeknya",
+          "start": 83.36,
+          "end": 83.7
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "lagi.",
+          "start": 83.7,
+          "end": 83.7
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 17,
+      "start": 85.04,
+      "end": 86.08,
+      "text": "Uniknya,",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "Uniknya,",
+          "start": 85.04,
+          "end": 86.08
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 17,
+      "start": 86.08,
+      "end": 86.58,
+      "text": "tidak semua",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "tidak",
+          "start": 86.08,
+          "end": 86.2
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "semua",
+          "start": 86.2,
+          "end": 86.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 17,
+      "start": 86.58,
+      "end": 87.06,
+      "text": "kucing bereaksi.",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "kucing",
+          "start": 86.58,
+          "end": 86.94
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "bereaksi.",
+          "start": 86.94,
+          "end": 86.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 18,
+      "start": 88.38,
+      "end": 89.78,
+      "text": "Hanya sekitar 50",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "Hanya",
+          "start": 88.38,
+          "end": 88.72
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "sekitar",
+          "start": 88.72,
+          "end": 89.22
+        },
+        {
+          "id": "caption-word-66-2",
+          "text": "50",
+          "start": 89.22,
+          "end": 89.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 18,
+      "start": 89.78,
+      "end": 92.22,
+      "text": "-70 % yang punya",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "-70",
+          "start": 89.78,
+          "end": 90.84
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "%",
+          "start": 90.84,
+          "end": 91.24
+        },
+        {
+          "id": "caption-word-67-2",
+          "text": "yang",
+          "start": 91.24,
+          "end": 91.84
+        },
+        {
+          "id": "caption-word-67-3",
+          "text": "punya",
+          "start": 91.84,
+          "end": 92.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 18,
+      "start": 92.22,
+      "end": 93.42,
+      "text": "gen sensitif catnip.",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "gen",
+          "start": 92.22,
+          "end": 92.56
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "sensitif",
+          "start": 92.56,
+          "end": 93.18
+        },
+        {
+          "id": "caption-word-68-2",
+          "text": "catnip.",
+          "start": 93.18,
+          "end": 93.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 19,
+      "start": 94.22,
+      "end": 94.9,
+      "text": "Anak kucing",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "Anak",
+          "start": 94.22,
+          "end": 94.56
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "kucing",
+          "start": 94.56,
+          "end": 94.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-70",
+      "frame": 19,
+      "start": 94.9,
+      "end": 95.26,
+      "text": "di bawah",
+      "words": [
+        {
+          "id": "caption-word-70-0",
+          "text": "di",
+          "start": 94.9,
+          "end": 95.02
+        },
+        {
+          "id": "caption-word-70-1",
+          "text": "bawah",
+          "start": 95.02,
+          "end": 95.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-71",
+      "frame": 19,
+      "start": 95.26,
+      "end": 96.58,
+      "text": "3 bulan malah",
+      "words": [
+        {
+          "id": "caption-word-71-0",
+          "text": "3",
+          "start": 95.26,
+          "end": 95.44
+        },
+        {
+          "id": "caption-word-71-1",
+          "text": "bulan",
+          "start": 95.44,
+          "end": 95.96
+        },
+        {
+          "id": "caption-word-71-2",
+          "text": "malah",
+          "start": 95.96,
+          "end": 96.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-72",
+      "frame": 19,
+      "start": 96.58,
+      "end": 97.96,
+      "text": "biasanya belum merespon",
+      "words": [
+        {
+          "id": "caption-word-72-0",
+          "text": "biasanya",
+          "start": 96.58,
+          "end": 97.12
+        },
+        {
+          "id": "caption-word-72-1",
+          "text": "belum",
+          "start": 97.12,
+          "end": 97.36
+        },
+        {
+          "id": "caption-word-72-2",
+          "text": "merespon",
+          "start": 97.36,
+          "end": 97.96
+        }
+      ]
+    },
+    {
+      "id": "caption-group-73",
+      "frame": 19,
+      "start": 97.96,
+      "end": 98.26,
+      "text": "sama sekali.",
+      "words": [
+        {
+          "id": "caption-word-73-0",
+          "text": "sama",
+          "start": 97.96,
+          "end": 98.14
+        },
+        {
+          "id": "caption-word-73-1",
+          "text": "sekali.",
+          "start": 98.14,
+          "end": 98.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-74",
+      "frame": 20,
+      "start": 99.5,
+      "end": 100.5,
+      "text": "Yang lebih menarik",
+      "words": [
+        {
+          "id": "caption-word-74-0",
+          "text": "Yang",
+          "start": 99.5,
+          "end": 99.7
+        },
+        {
+          "id": "caption-word-74-1",
+          "text": "lebih",
+          "start": 99.7,
+          "end": 99.92
+        },
+        {
+          "id": "caption-word-74-2",
+          "text": "menarik",
+          "start": 99.92,
+          "end": 100.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-75",
+      "frame": 20,
+      "start": 100.5,
+      "end": 101.76,
+      "text": "bukan cuma kucing",
+      "words": [
+        {
+          "id": "caption-word-75-0",
+          "text": "bukan",
+          "start": 100.5,
+          "end": 100.98
+        },
+        {
+          "id": "caption-word-75-1",
+          "text": "cuma",
+          "start": 100.98,
+          "end": 101.3
+        },
+        {
+          "id": "caption-word-75-2",
+          "text": "kucing",
+          "start": 101.3,
+          "end": 101.76
+        }
+      ]
+    },
+    {
+      "id": "caption-group-76",
+      "frame": 20,
+      "start": 101.76,
+      "end": 102.54,
+      "text": "rumahan.",
+      "words": [
+        {
+          "id": "caption-word-76-0",
+          "text": "rumahan.",
+          "start": 101.76,
+          "end": 102.42
+        }
+      ]
+    },
+    {
+      "id": "caption-group-77",
+      "frame": 21,
+      "start": 103.06,
+      "end": 104.1,
+      "text": "Harimau,",
+      "words": [
+        {
+          "id": "caption-word-77-0",
+          "text": "Harimau,",
+          "start": 103.06,
+          "end": 104.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-78",
+      "frame": 21,
+      "start": 104.1,
+      "end": 104.8,
+      "text": "singa,",
+      "words": [
+        {
+          "id": "caption-word-78-0",
+          "text": "singa,",
+          "start": 104.1,
+          "end": 104.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-79",
+      "frame": 21,
+      "start": 104.8,
+      "end": 106.06,
+      "text": "bahkan macan tutul",
+      "words": [
+        {
+          "id": "caption-word-79-0",
+          "text": "bahkan",
+          "start": 104.8,
+          "end": 105.18
+        },
+        {
+          "id": "caption-word-79-1",
+          "text": "macan",
+          "start": 105.18,
+          "end": 105.62
+        },
+        {
+          "id": "caption-word-79-2",
+          "text": "tutul",
+          "start": 105.62,
+          "end": 106.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-80",
+      "frame": 21,
+      "start": 106.06,
+      "end": 107.32,
+      "text": "bisa kena efek",
+      "words": [
+        {
+          "id": "caption-word-80-0",
+          "text": "bisa",
+          "start": 106.06,
+          "end": 106.68
+        },
+        {
+          "id": "caption-word-80-1",
+          "text": "kena",
+          "start": 106.68,
+          "end": 106.96
+        },
+        {
+          "id": "caption-word-80-2",
+          "text": "efek",
+          "start": 106.96,
+          "end": 107.32
+        }
+      ]
+    },
+    {
+      "id": "caption-group-81",
+      "frame": 21,
+      "start": 107.32,
+      "end": 108.06,
+      "text": "yang sama persis.",
+      "words": [
+        {
+          "id": "caption-word-81-0",
+          "text": "yang",
+          "start": 107.32,
+          "end": 107.46
+        },
+        {
+          "id": "caption-word-81-1",
+          "text": "sama",
+          "start": 107.46,
+          "end": 107.86
+        },
+        {
+          "id": "caption-word-81-2",
+          "text": "persis.",
+          "start": 107.86,
+          "end": 107.94
+        }
+      ]
+    },
+    {
+      "id": "caption-group-82",
+      "frame": 22,
+      "start": 109.12,
+      "end": 110.02,
+      "text": "Bayangkan,",
+      "words": [
+        {
+          "id": "caption-word-82-0",
+          "text": "Bayangkan,",
+          "start": 109.12,
+          "end": 110.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-83",
+      "frame": 22,
+      "start": 110.02,
+      "end": 111.3,
+      "text": "ada satu bau",
+      "words": [
+        {
+          "id": "caption-word-83-0",
+          "text": "ada",
+          "start": 110.02,
+          "end": 110.5
+        },
+        {
+          "id": "caption-word-83-1",
+          "text": "satu",
+          "start": 110.5,
+          "end": 110.86
+        },
+        {
+          "id": "caption-word-83-2",
+          "text": "bau",
+          "start": 110.86,
+          "end": 111.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-84",
+      "frame": 22,
+      "start": 111.3,
+      "end": 113.38,
+      "text": "yang membuatmu ingin guling",
+      "words": [
+        {
+          "id": "caption-word-84-0",
+          "text": "yang",
+          "start": 111.3,
+          "end": 111.84
+        },
+        {
+          "id": "caption-word-84-1",
+          "text": "membuatmu",
+          "start": 111.84,
+          "end": 112.54
+        },
+        {
+          "id": "caption-word-84-2",
+          "text": "ingin",
+          "start": 112.54,
+          "end": 112.94
+        },
+        {
+          "id": "caption-word-84-3",
+          "text": "guling",
+          "start": 112.94,
+          "end": 113.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-85",
+      "frame": 22,
+      "start": 113.38,
+      "end": 115.3,
+      "text": "-guling setiap menciumnya.",
+      "words": [
+        {
+          "id": "caption-word-85-0",
+          "text": "-guling",
+          "start": 113.38,
+          "end": 113.84
+        },
+        {
+          "id": "caption-word-85-1",
+          "text": "setiap",
+          "start": 113.84,
+          "end": 114.36
+        },
+        {
+          "id": "caption-word-85-2",
+          "text": "menciumnya.",
+          "start": 114.36,
+          "end": 115.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-86",
+      "frame": 22,
+      "start": 115.3,
+      "end": 116.64,
+      "text": "Kurang lebih,",
+      "words": [
+        {
+          "id": "caption-word-86-0",
+          "text": "Kurang",
+          "start": 115.3,
+          "end": 115.86
+        },
+        {
+          "id": "caption-word-86-1",
+          "text": "lebih,",
+          "start": 115.86,
+          "end": 116.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-87",
+      "frame": 22,
+      "start": 116.64,
+      "end": 118.14,
+      "text": "begitulah rasanya jadi kucing.",
+      "words": [
+        {
+          "id": "caption-word-87-0",
+          "text": "begitulah",
+          "start": 116.64,
+          "end": 117.2
+        },
+        {
+          "id": "caption-word-87-1",
+          "text": "rasanya",
+          "start": 117.2,
+          "end": 117.72
+        },
+        {
+          "id": "caption-word-87-2",
+          "text": "jadi",
+          "start": 117.72,
+          "end": 118.02
+        },
+        {
+          "id": "caption-word-87-3",
+          "text": "kucing.",
+          "start": 118.02,
+          "end": 118.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-88",
+      "frame": 23,
+      "start": 119.22,
+      "end": 120.58,
+      "text": "Fakta kedua,",
+      "words": [
+        {
+          "id": "caption-word-88-0",
+          "text": "Fakta",
+          "start": 119.22,
+          "end": 119.64
+        },
+        {
+          "id": "caption-word-88-1",
+          "text": "kedua,",
+          "start": 119.64,
+          "end": 120.58
+        }
+      ]
+    },
+    {
+      "id": "caption-group-89",
+      "frame": 23,
+      "start": 120.58,
+      "end": 121.22,
+      "text": "soal jam tidurnya.",
+      "words": [
+        {
+          "id": "caption-word-89-0",
+          "text": "soal",
+          "start": 120.58,
+          "end": 120.88
+        },
+        {
+          "id": "caption-word-89-1",
+          "text": "jam",
+          "start": 120.88,
+          "end": 121.1
+        },
+        {
+          "id": "caption-word-89-2",
+          "text": "tidurnya.",
+          "start": 121.1,
+          "end": 121.1
+        }
+      ]
+    },
+    {
+      "id": "caption-group-90",
+      "frame": 24,
+      "start": 122.34,
+      "end": 123.28,
+      "text": "Coba ingat,",
+      "words": [
+        {
+          "id": "caption-word-90-0",
+          "text": "Coba",
+          "start": 122.34,
+          "end": 122.72
+        },
+        {
+          "id": "caption-word-90-1",
+          "text": "ingat,",
+          "start": 122.72,
+          "end": 123.28
+        }
+      ]
+    },
+    {
+      "id": "caption-group-91",
+      "frame": 24,
+      "start": 123.28,
+      "end": 123.8,
+      "text": "ingat.",
+      "words": [
+        {
+          "id": "caption-word-91-0",
+          "text": "ingat.",
+          "start": 123.28,
+          "end": 123.8
+        }
+      ]
+    },
+    {
+      "id": "caption-group-92",
+      "frame": 24,
+      "start": 123.8,
+      "end": 125.18,
+      "text": "Terakhir kali kamu",
+      "words": [
+        {
+          "id": "caption-word-92-0",
+          "text": "Terakhir",
+          "start": 123.8,
+          "end": 124.4
+        },
+        {
+          "id": "caption-word-92-1",
+          "text": "kali",
+          "start": 124.4,
+          "end": 124.78
+        },
+        {
+          "id": "caption-word-92-2",
+          "text": "kamu",
+          "start": 124.78,
+          "end": 125.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-93",
+      "frame": 24,
+      "start": 125.18,
+      "end": 126.36,
+      "text": "melihat kucingmu.",
+      "words": [
+        {
+          "id": "caption-word-93-0",
+          "text": "melihat",
+          "start": 125.18,
+          "end": 125.56
+        },
+        {
+          "id": "caption-word-93-1",
+          "text": "kucingmu.",
+          "start": 125.56,
+          "end": 126.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-94",
+      "frame": 24,
+      "start": 126.36,
+      "end": 127.42,
+      "text": "Dia sedang apa?",
+      "words": [
+        {
+          "id": "caption-word-94-0",
+          "text": "Dia",
+          "start": 126.36,
+          "end": 126.84
+        },
+        {
+          "id": "caption-word-94-1",
+          "text": "sedang",
+          "start": 126.84,
+          "end": 127.18
+        },
+        {
+          "id": "caption-word-94-2",
+          "text": "apa?",
+          "start": 127.18,
+          "end": 127.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-95",
+      "frame": 25,
+      "start": 128.42,
+      "end": 129.86,
+      "text": "Besar kemungkinan,",
+      "words": [
+        {
+          "id": "caption-word-95-0",
+          "text": "Besar",
+          "start": 128.42,
+          "end": 128.86
+        },
+        {
+          "id": "caption-word-95-1",
+          "text": "kemungkinan,",
+          "start": 128.86,
+          "end": 129.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-96",
+      "frame": 25,
+      "start": 129.86,
+      "end": 131.24,
+      "text": "jawabannya 1.",
+      "words": [
+        {
+          "id": "caption-word-96-0",
+          "text": "jawabannya",
+          "start": 129.86,
+          "end": 130.5
+        },
+        {
+          "id": "caption-word-96-1",
+          "text": "1.",
+          "start": 130.5,
+          "end": 131.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-97",
+      "frame": 25,
+      "start": 131.24,
+      "end": 131.42,
+      "text": "Tidur.",
+      "words": [
+        {
+          "id": "caption-word-97-0",
+          "text": "Tidur.",
+          "start": 131.24,
+          "end": 131.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-98",
+      "frame": 26,
+      "start": 132.52,
+      "end": 133.18,
+      "text": "Kucing bisa",
+      "words": [
+        {
+          "id": "caption-word-98-0",
+          "text": "Kucing",
+          "start": 132.52,
+          "end": 132.94
+        },
+        {
+          "id": "caption-word-98-1",
+          "text": "bisa",
+          "start": 132.94,
+          "end": 133.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-99",
+      "frame": 26,
+      "start": 133.18,
+      "end": 134.36,
+      "text": "tidur 12 sampai",
+      "words": [
+        {
+          "id": "caption-word-99-0",
+          "text": "tidur",
+          "start": 133.18,
+          "end": 133.5
+        },
+        {
+          "id": "caption-word-99-1",
+          "text": "12",
+          "start": 133.5,
+          "end": 133.9
+        },
+        {
+          "id": "caption-word-99-2",
+          "text": "sampai",
+          "start": 133.9,
+          "end": 134.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-100",
+      "frame": 26,
+      "start": 134.36,
+      "end": 135.58,
+      "text": "16 jam sehari.",
+      "words": [
+        {
+          "id": "caption-word-100-0",
+          "text": "16",
+          "start": 134.36,
+          "end": 134.88
+        },
+        {
+          "id": "caption-word-100-1",
+          "text": "jam",
+          "start": 134.88,
+          "end": 135.2
+        },
+        {
+          "id": "caption-word-100-2",
+          "text": "sehari.",
+          "start": 135.2,
+          "end": 135.46
+        }
+      ]
+    },
+    {
+      "id": "caption-group-101",
+      "frame": 27,
+      "start": 136.36,
+      "end": 137.4,
+      "text": "Yang masih kecil",
+      "words": [
+        {
+          "id": "caption-word-101-0",
+          "text": "Yang",
+          "start": 136.36,
+          "end": 136.6
+        },
+        {
+          "id": "caption-word-101-1",
+          "text": "masih",
+          "start": 136.6,
+          "end": 136.9
+        },
+        {
+          "id": "caption-word-101-2",
+          "text": "kecil",
+          "start": 136.9,
+          "end": 137.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-102",
+      "frame": 27,
+      "start": 137.4,
+      "end": 138.84,
+      "text": "atau sudah tua,",
+      "words": [
+        {
+          "id": "caption-word-102-0",
+          "text": "atau",
+          "start": 137.4,
+          "end": 137.76
+        },
+        {
+          "id": "caption-word-102-1",
+          "text": "sudah",
+          "start": 137.76,
+          "end": 138.04
+        },
+        {
+          "id": "caption-word-102-2",
+          "text": "tua,",
+          "start": 138.04,
+          "end": 138.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-103",
+      "frame": 27,
+      "start": 138.84,
+      "end": 140.2,
+      "text": "bahkan bisa sampai",
+      "words": [
+        {
+          "id": "caption-word-103-0",
+          "text": "bahkan",
+          "start": 138.84,
+          "end": 139.32
+        },
+        {
+          "id": "caption-word-103-1",
+          "text": "bisa",
+          "start": 139.32,
+          "end": 139.74
+        },
+        {
+          "id": "caption-word-103-2",
+          "text": "sampai",
+          "start": 139.74,
+          "end": 140.2
+        }
+      ]
+    },
+    {
+      "id": "caption-group-104",
+      "frame": 27,
+      "start": 140.2,
+      "end": 140.42,
+      "text": "20 jam.",
+      "words": [
+        {
+          "id": "caption-word-104-0",
+          "text": "20",
+          "start": 140.2,
+          "end": 140.3
+        },
+        {
+          "id": "caption-word-104-1",
+          "text": "jam.",
+          "start": 140.3,
+          "end": 140.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-105",
+      "frame": 28,
+      "start": 141.7,
+      "end": 142.72,
+      "text": "Tapi ini bukan",
+      "words": [
+        {
+          "id": "caption-word-105-0",
+          "text": "Tapi",
+          "start": 141.7,
+          "end": 142.1
+        },
+        {
+          "id": "caption-word-105-1",
+          "text": "ini",
+          "start": 142.1,
+          "end": 142.4
+        },
+        {
+          "id": "caption-word-105-2",
+          "text": "bukan",
+          "start": 142.4,
+          "end": 142.72
+        }
+      ]
+    },
+    {
+      "id": "caption-group-106",
+      "frame": 28,
+      "start": 142.72,
+      "end": 143.78,
+      "text": "soal malas.",
+      "words": [
+        {
+          "id": "caption-word-106-0",
+          "text": "soal",
+          "start": 142.72,
+          "end": 143.16
+        },
+        {
+          "id": "caption-word-106-1",
+          "text": "malas.",
+          "start": 143.16,
+          "end": 143.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-107",
+      "frame": 29,
+      "start": 144.32,
+      "end": 145.46,
+      "text": "Ini warisan dari",
+      "words": [
+        {
+          "id": "caption-word-107-0",
+          "text": "Ini",
+          "start": 144.32,
+          "end": 144.64
+        },
+        {
+          "id": "caption-word-107-1",
+          "text": "warisan",
+          "start": 144.64,
+          "end": 145.18
+        },
+        {
+          "id": "caption-word-107-2",
+          "text": "dari",
+          "start": 145.18,
+          "end": 145.46
+        }
+      ]
+    },
+    {
+      "id": "caption-group-108",
+      "frame": 29,
+      "start": 145.46,
+      "end": 146.84,
+      "text": "nenek moyang mereka,",
+      "words": [
+        {
+          "id": "caption-word-108-0",
+          "text": "nenek",
+          "start": 145.46,
+          "end": 145.84
+        },
+        {
+          "id": "caption-word-108-1",
+          "text": "moyang",
+          "start": 145.84,
+          "end": 146.14
+        },
+        {
+          "id": "caption-word-108-2",
+          "text": "mereka,",
+          "start": 146.14,
+          "end": 146.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-109",
+      "frame": 29,
+      "start": 146.84,
+      "end": 147.9,
+      "text": "yang predator,",
+      "words": [
+        {
+          "id": "caption-word-109-0",
+          "text": "yang",
+          "start": 146.84,
+          "end": 146.94
+        },
+        {
+          "id": "caption-word-109-1",
+          "text": "predator,",
+          "start": 146.94,
+          "end": 147.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-110",
+      "frame": 29,
+      "start": 147.9,
+      "end": 149.18,
+      "text": "yang menyimpan energi",
+      "words": [
+        {
+          "id": "caption-word-110-0",
+          "text": "yang",
+          "start": 147.9,
+          "end": 148.16
+        },
+        {
+          "id": "caption-word-110-1",
+          "text": "menyimpan",
+          "start": 148.16,
+          "end": 148.7
+        },
+        {
+          "id": "caption-word-110-2",
+          "text": "energi",
+          "start": 148.7,
+          "end": 149.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-111",
+      "frame": 29,
+      "start": 149.18,
+      "end": 150.42,
+      "text": "untuk berburu.",
+      "words": [
+        {
+          "id": "caption-word-111-0",
+          "text": "untuk",
+          "start": 149.18,
+          "end": 149.4
+        },
+        {
+          "id": "caption-word-111-1",
+          "text": "berburu.",
+          "start": 149.4,
+          "end": 150.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-112",
+      "frame": 30,
+      "start": 150.8,
+      "end": 152.86,
+      "text": "Makanya jangan heran,",
+      "words": [
+        {
+          "id": "caption-word-112-0",
+          "text": "Makanya",
+          "start": 150.8,
+          "end": 151.36
+        },
+        {
+          "id": "caption-word-112-1",
+          "text": "jangan",
+          "start": 151.36,
+          "end": 151.64
+        },
+        {
+          "id": "caption-word-112-2",
+          "text": "heran,",
+          "start": 151.64,
+          "end": 152.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-113",
+      "frame": 30,
+      "start": 152.86,
+      "end": 153.38,
+      "text": "siang dia",
+      "words": [
+        {
+          "id": "caption-word-113-0",
+          "text": "siang",
+          "start": 152.86,
+          "end": 153.14
+        },
+        {
+          "id": "caption-word-113-1",
+          "text": "dia",
+          "start": 153.14,
+          "end": 153.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-114",
+      "frame": 30,
+      "start": 153.38,
+      "end": 154.38,
+      "text": "tidur terus,",
+      "words": [
+        {
+          "id": "caption-word-114-0",
+          "text": "tidur",
+          "start": 153.38,
+          "end": 153.76
+        },
+        {
+          "id": "caption-word-114-1",
+          "text": "terus,",
+          "start": 153.76,
+          "end": 154.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-115",
+      "frame": 30,
+      "start": 154.38,
+      "end": 156,
+      "text": "tapi begitu malam,",
+      "words": [
+        {
+          "id": "caption-word-115-0",
+          "text": "tapi",
+          "start": 154.38,
+          "end": 154.84
+        },
+        {
+          "id": "caption-word-115-1",
+          "text": "begitu",
+          "start": 154.84,
+          "end": 155.2
+        },
+        {
+          "id": "caption-word-115-2",
+          "text": "malam,",
+          "start": 155.2,
+          "end": 156
+        }
+      ]
+    },
+    {
+      "id": "caption-group-116",
+      "frame": 30,
+      "start": 156,
+      "end": 157.48,
+      "text": "tiba -tiba lincah,",
+      "words": [
+        {
+          "id": "caption-word-116-0",
+          "text": "tiba",
+          "start": 156,
+          "end": 156.46
+        },
+        {
+          "id": "caption-word-116-1",
+          "text": "-tiba",
+          "start": 156.46,
+          "end": 156.8
+        },
+        {
+          "id": "caption-word-116-2",
+          "text": "lincah,",
+          "start": 156.8,
+          "end": 157.48
+        }
+      ]
+    },
+    {
+      "id": "caption-group-117",
+      "frame": 30,
+      "start": 157.48,
+      "end": 159.26,
+      "text": "seperti habis minum energy",
+      "words": [
+        {
+          "id": "caption-word-117-0",
+          "text": "seperti",
+          "start": 157.48,
+          "end": 157.96
+        },
+        {
+          "id": "caption-word-117-1",
+          "text": "habis",
+          "start": 157.96,
+          "end": 158.52
+        },
+        {
+          "id": "caption-word-117-2",
+          "text": "minum",
+          "start": 158.52,
+          "end": 158.86
+        },
+        {
+          "id": "caption-word-117-3",
+          "text": "energy",
+          "start": 158.86,
+          "end": 159.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-118",
+      "frame": 30,
+      "start": 159.26,
+      "end": 159.82,
+      "text": "drink.",
+      "words": [
+        {
+          "id": "caption-word-118-0",
+          "text": "drink.",
+          "start": 159.26,
+          "end": 159.7
+        }
+      ]
+    }
+  ]
+}

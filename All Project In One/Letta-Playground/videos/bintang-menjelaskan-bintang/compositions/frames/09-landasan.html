@@ -1,0 +1,189 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+
+  #f09-landasan-bg { z-index: 0; background: #1A1A1A; }
+
+  .f09-landasan-star {
+    position: absolute; border-radius: 50%; background: #F5F0E8;
+    will-change: transform, opacity;
+  }
+
+  #f09-landasan-camera-group { position: absolute; inset: 0; will-change: transform; }
+
+  .f09-landasan-beat {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+    will-change: transform, opacity;
+  }
+  #f09-landasan-beat1 {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 81px; line-height: 1.0; letter-spacing: 2px; color: #F5F0E8;
+  }
+  #f09-landasan-beat2 {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 125px; line-height: 0.9; letter-spacing: 4px; color: #E85D5D; text-align: center;
+  }
+  #f09-landasan-accent-line {
+    position: absolute; bottom: -30px; left: 50%;
+    width: 400px; height: 5px; margin-left: -200px;
+    background: #E85D5D;
+    transform: scaleX(0); transform-origin: 0% 50%;
+    will-change: transform, opacity;
+  }
+  #f09-landasan-beat3 {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 125px; line-height: 0.9; letter-spacing: 4px; color: #F5F0E8; text-align: center;
+  }
+  /* readability scrim at the very bottom so captions stay legible */
+  /* readability scrim at the very bottom so captions stay legible */
+
+  #f09-landasan-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="09-landasan" data-width="1920" data-height="1080" data-duration="12.02">
+  <img id="f09-landasan-imgbg" class="clip" data-start="0" data-duration="12.02" data-track-index="3" src="assets/img/frame-09.png" alt="" />
+
+
+
+
+
+
+  <div id="f09-landasan-bg" class="clip" data-start="0" data-duration="12.52" data-track-index="0"></div>
+
+  <!-- Star field clip -->
+  <div id="f09-landasan-stars" class="clip" data-start="0" data-duration="12.52" data-track-index="1"></div>
+
+  <!-- Camera push group (wraps text for Scene 3 slow push) -->
+  <div id="f09-landasan-camera-group">
+    <div class="clip" data-start="0" data-duration="12.52" data-track-index="2">
+      <!-- Beat 1: BINTANG -->
+      <div class="f09-landasan-beat" id="f09-landasan-beat1-wrap">
+        <div id="f09-landasan-beat1">BINTANG</div>
+      </div>
+      <!-- Beat 2: PABRIK ELEMEN -->
+      <div class="f09-landasan-beat" id="f09-landasan-beat2-wrap">
+        <div id="f09-landasan-beat2">
+          <span style="display:block">PABRIK</span>
+          <span style="display:block">ELEMEN</span>
+        </div>
+        <div id="f09-landasan-accent-line"></div>
+      </div>
+      <!-- Beat 3: ALAM SEMESTA -->
+      <div class="f09-landasan-beat" id="f09-landasan-beat3-wrap">
+        <div id="f09-landasan-beat3">
+          <span style="display:block">ALAM</span>
+          <span style="display:block">SEMESTA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 11.52;
+
+  // Deterministic star positions (30 stars, top ~83% y ≤ 890)
+  var STAR_DEFS = [
+    { x: 120, y: 80, s: 4, b: 0.6 }, { x: 380, y: 200, s: 3, b: 0.5 },
+    { x: 720, y: 120, s: 5, b: 0.7 }, { x: 1050, y: 60, s: 3.5, b: 0.55 },
+    { x: 1400, y: 180, s: 4, b: 0.6 }, { x: 1700, y: 100, s: 3, b: 0.5 },
+    { x: 250, y: 350, s: 2.5, b: 0.4 }, { x: 1600, y: 300, s: 3.5, b: 0.55 },
+    { x: 80, y: 450, s: 3, b: 0.5 }, { x: 500, y: 500, s: 4, b: 0.6 },
+    { x: 900, y: 400, s: 2.5, b: 0.4 }, { x: 1200, y: 450, s: 5, b: 0.7 },
+    { x: 1550, y: 500, s: 3, b: 0.5 }, { x: 1800, y: 400, s: 4, b: 0.6 },
+    { x: 350, y: 650, s: 3.5, b: 0.55 }, { x: 800, y: 700, s: 2.5, b: 0.4 },
+    { x: 1100, y: 680, s: 4, b: 0.6 }, { x: 1450, y: 720, s: 3, b: 0.5 },
+    { x: 60, y: 250, s: 2.5, b: 0.4 }, { x: 200, y: 550, s: 4, b: 0.6 },
+    { x: 430, y: 80, s: 3, b: 0.5 }, { x: 600, y: 300, s: 2.5, b: 0.4 },
+    { x: 850, y: 550, s: 5, b: 0.7 }, { x: 1000, y: 200, s: 3.5, b: 0.55 },
+    { x: 1300, y: 350, s: 3, b: 0.5 }, { x: 1500, y: 60, s: 4, b: 0.6 },
+    { x: 1650, y: 550, s: 2.5, b: 0.4 }, { x: 1850, y: 250, s: 3.5, b: 0.55 },
+    { x: 150, y: 750, s: 4, b: 0.6 }, { x: 1750, y: 700, s: 3, b: 0.5 },
+  ];
+
+  var starsContainer = document.getElementById("f09-landasan-stars");
+  var starEls = [];
+  STAR_DEFS.forEach(function (def) {
+    var el = document.createElement("div");
+    el.className = "f09-landasan-star";
+    el.style.width = def.s + "px"; el.style.height = def.s + "px";
+    el.style.left = def.x + "px"; el.style.top = def.y + "px";
+    el.style.opacity = "0";
+    el.style.transform = "scale(0)";
+    starsContainer.appendChild(el);
+    starEls.push({ el: el, def: def });
+  });
+
+  var beat1 = document.getElementById("f09-landasan-beat1-wrap");
+  var beat2 = document.getElementById("f09-landasan-beat2-wrap");
+  var beat3 = document.getElementById("f09-landasan-beat3-wrap");
+  var accent = document.getElementById("f09-landasan-accent-line");
+  var cameraGroup = document.getElementById("f09-landasan-camera-group");
+
+  // ══ SCENE 1 (0.0–1.5s): "BINTANG" enters; few stars pop in ══
+  tl.fromTo(beat1, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.960, ease: "power3.out" }, 0.000);
+  for (var i = 0; i < 8; i++) {
+    tl.fromTo(starEls[i].el, { scale: 0, opacity: 0 }, { scale: 1, opacity: starEls[i].def.b, duration: 0.768, ease: "back.out(1.4)" }, 0.2 + i * 0.1);
+  }
+
+  // ══ SCENE 2 (1.5–3.0s): hard-cut to "PABRIK ELEMEN" coral; more stars; accent-line draws ══
+  tl.set(beat1, { opacity: 0 }, 2.880);
+  tl.fromTo(beat2, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.864, ease: "power3.out" }, 2.880);
+  tl.fromTo(accent, { transform: "scaleX(0)", opacity: 1 }, { transform: "scaleX(1)", duration: 1.152, ease: "power2.out" }, 3.456);
+  for (var i = 8; i < 18; i++) {
+    tl.fromTo(starEls[i].el, { scale: 0, opacity: 0 }, { scale: 1, opacity: starEls[i].def.b, duration: 0.768, ease: "back.out(1.4)" }, 1.6 + (i - 8) * 0.09);
+  }
+
+  // ══ SCENE 3 (3.0–4.5s): hard-cut to "ALAM SEMESTA" cream; ~30 stars; slow camera push ══
+  tl.set(beat2, { opacity: 0 }, 5.760);
+  tl.set(accent, { opacity: 0 }, 5.760);
+  tl.fromTo(beat3, { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.864, ease: "power3.out" }, 5.760);
+  for (var i = 18; i < 30; i++) {
+    tl.fromTo(starEls[i].el, { scale: 0, opacity: 0 }, { scale: 1, opacity: starEls[i].def.b, duration: 0.768, ease: "back.out(1.4)" }, 3.1 + (i - 18) * 0.07);
+  }
+  // Slow camera push underneath
+  tl.fromTo(cameraGroup, { scale: 1.0 }, { scale: 1.05, duration: 2.880, ease: "power1.inOut" }, 5.760);
+
+  // ══ SCENE 4 (4.5–6.0s): text fades out; star field holds; jitter on brightest stars ══
+  tl.to(beat3, { scale: 1.12, opacity: 0, duration: 1.344, ease: "power2.inOut" }, 8.640);
+  // Subtle jitter on brightest stars (finite, deterministic)
+  [2, 11, 22].forEach(function (idx, j) {
+    var star = starEls[idx].el;
+    var origB = starEls[idx].def.b;
+    var proxy = { p: 0 };
+    tl.to(proxy, { p: Math.PI * 4, duration: 2.880, ease: "none", onUpdate: (function (pr, s, b) {
+      return function () {
+        s.style.opacity = String(b + Math.sin(pr.p) * 0.12);
+      };
+    })(proxy, star, origB) }, 8.640);
+  });
+  
+  var genBg = document.getElementById("f09-landasan-imgbg");
+  var flatBg = document.getElementById("f09-landasan-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    // dim the flat wash so the illustration shows through but the brand tint stays
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["09-landasan"] = tl;
+})();
+</script>
+</template>

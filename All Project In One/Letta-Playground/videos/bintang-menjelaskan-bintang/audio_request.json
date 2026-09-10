@@ -1,0 +1,49 @@
+{
+  "provider": "auto",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "01",
+      "text": "Lihat ke langit malam. Setiap titik cahaya itu adalah bola api raksasa — jauh lebih besar dari yang bisa kamu bayangkan."
+    },
+    {
+      "id": "02",
+      "text": "Bintang adalah bola plasma raksasa. Di intinya, suhu mencapai jutaan derajat — cukup panas untuk mengubah hidrogen menjadi helium."
+    },
+    {
+      "id": "03",
+      "text": "Proses ini disebut fusi nuklir. Setiap detik, matahari mengubah 600 juta ton hidrogen menjadi helium — dan energi yang dilepaskan itulah yang kita lihat sebagai cahaya."
+    },
+    {
+      "id": "04",
+      "text": "Bintang lahir dari awan gas dan debu raksasa yang disebut nebula. Gravitasi menarik material ini bersama, memadat dan memanas — hingga fusi dimulai."
+    },
+    {
+      "id": "05",
+      "text": "Selama hidupnya, bintang memproduksi elemen-elemen berat: karbon, oksigen, nitrogen, besi. Semua elemen ini tidak ada sebelum bintang pertama kali menyala."
+    },
+    {
+      "id": "06",
+      "text": "Ketika bintang masif mati, ia meledak sebagai supernova. Semua elemen yang diproduksinya tersebar ke seluruh galaksi — menjadi bahan baku untuk bintang dan planet generasi berikutnya."
+    },
+    {
+      "id": "07",
+      "text": "Setiap atom dalam tubuhmu — kalsium di tulangmu, besi di darahmu — ditempa di dalam bintang yang sudah lama mati. Kita semua adalah debu bintang."
+    },
+    {
+      "id": "08",
+      "text": "Matahari kita sudah menyala 4,6 miliar tahun. Ia akan terus menyala sekitar 5 miliar tahun lagi — sebelum akhirnya mengembang dan menyusut menjadi katai putih."
+    },
+    {
+      "id": "09",
+      "text": "Jadi lain kali kamu melihat bintang — ingat: kamu sedang melihat pabrik elemen alam semesta. Dan setiap elemen di tubuhmu pernah menjadi bagian dari salah satunya."
+    },
+    {
+      "id": "10",
+      "text": "Kita adalah debu bintang."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

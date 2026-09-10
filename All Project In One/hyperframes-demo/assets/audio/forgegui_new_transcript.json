@@ -1,0 +1,336 @@
+[
+  {
+    "id": "vo_seg1",
+    "text": "Still building Roblox games the slow way?",
+    "timelineStart": 0.3,
+    "duration": 2.4,
+    "timelineEnd": 2.7,
+    "words": [
+      {
+        "word": "Still",
+        "startLocal": 0.08,
+        "endLocal": 0.34,
+        "startGlobal": 0.38,
+        "endGlobal": 0.64
+      },
+      {
+        "word": "building",
+        "startLocal": 0.34,
+        "endLocal": 0.66,
+        "startGlobal": 0.64,
+        "endGlobal": 0.96
+      },
+      {
+        "word": "Roblox",
+        "startLocal": 0.66,
+        "endLocal": 1.16,
+        "startGlobal": 0.96,
+        "endGlobal": 1.46
+      },
+      {
+        "word": "games",
+        "startLocal": 1.16,
+        "endLocal": 1.46,
+        "startGlobal": 1.46,
+        "endGlobal": 1.76
+      },
+      {
+        "word": "the",
+        "startLocal": 1.46,
+        "endLocal": 1.68,
+        "startGlobal": 1.76,
+        "endGlobal": 1.98
+      },
+      {
+        "word": "slow",
+        "startLocal": 1.68,
+        "endLocal": 1.92,
+        "startGlobal": 1.98,
+        "endGlobal": 2.22
+      },
+      {
+        "word": "way?",
+        "startLocal": 1.92,
+        "endLocal": 1.98,
+        "startGlobal": 2.22,
+        "endGlobal": 2.28
+      }
+    ]
+  },
+  {
+    "id": "vo_seg2",
+    "text": "Just type what you want in ForgeGUI.",
+    "timelineStart": 2.9,
+    "duration": 2.24,
+    "timelineEnd": 5.14,
+    "words": [
+      {
+        "word": "Just",
+        "startLocal": 0.06,
+        "endLocal": 0.3,
+        "startGlobal": 2.96,
+        "endGlobal": 3.2
+      },
+      {
+        "word": "type",
+        "startLocal": 0.3,
+        "endLocal": 0.56,
+        "startGlobal": 3.2,
+        "endGlobal": 3.46
+      },
+      {
+        "word": "what",
+        "startLocal": 0.56,
+        "endLocal": 0.72,
+        "startGlobal": 3.46,
+        "endGlobal": 3.62
+      },
+      {
+        "word": "you",
+        "startLocal": 0.72,
+        "endLocal": 0.86,
+        "startGlobal": 3.62,
+        "endGlobal": 3.76
+      },
+      {
+        "word": "want",
+        "startLocal": 0.86,
+        "endLocal": 1.16,
+        "startGlobal": 3.76,
+        "endGlobal": 4.06
+      },
+      {
+        "word": "in",
+        "startLocal": 1.16,
+        "endLocal": 1.38,
+        "startGlobal": 4.06,
+        "endGlobal": 4.28
+      },
+      {
+        "word": "Forge",
+        "startLocal": 1.38,
+        "endLocal": 1.74,
+        "startGlobal": 4.28,
+        "endGlobal": 4.64
+      },
+      {
+        "word": "GUI.",
+        "startLocal": 1.74,
+        "endLocal": 1.98,
+        "startGlobal": 4.64,
+        "endGlobal": 4.88
+      }
+    ]
+  },
+  {
+    "id": "vo_seg3",
+    "text": "Boom! An entire wheat farm generated instantly.",
+    "timelineStart": 6.4,
+    "duration": 3.44,
+    "timelineEnd": 9.84,
+    "words": [
+      {
+        "word": "Boom!",
+        "startLocal": 0.1,
+        "endLocal": 0.7,
+        "startGlobal": 6.5,
+        "endGlobal": 7.1
+      },
+      {
+        "word": "An",
+        "startLocal": 0.7,
+        "endLocal": 0.96,
+        "startGlobal": 7.1,
+        "endGlobal": 7.36
+      },
+      {
+        "word": "entire",
+        "startLocal": 0.96,
+        "endLocal": 1.44,
+        "startGlobal": 7.36,
+        "endGlobal": 7.84
+      },
+      {
+        "word": "wheat",
+        "startLocal": 1.44,
+        "endLocal": 1.7,
+        "startGlobal": 7.84,
+        "endGlobal": 8.1
+      },
+      {
+        "word": "farm",
+        "startLocal": 1.7,
+        "endLocal": 2.02,
+        "startGlobal": 8.1,
+        "endGlobal": 8.42
+      },
+      {
+        "word": "generated",
+        "startLocal": 2.02,
+        "endLocal": 2.52,
+        "startGlobal": 8.42,
+        "endGlobal": 8.92
+      },
+      {
+        "word": "instantly.",
+        "startLocal": 2.52,
+        "endLocal": 2.98,
+        "startGlobal": 8.92,
+        "endGlobal": 9.38
+      }
+    ]
+  },
+  {
+    "id": "vo_seg4",
+    "text": "Need gameplay mechanics? Just prompt it.",
+    "timelineStart": 11.7,
+    "duration": 2.4,
+    "timelineEnd": 14.1,
+    "words": [
+      {
+        "word": "Need",
+        "startLocal": 0.08,
+        "endLocal": 0.32,
+        "startGlobal": 11.78,
+        "endGlobal": 12.02
+      },
+      {
+        "word": "gameplay",
+        "startLocal": 0.32,
+        "endLocal": 0.68,
+        "startGlobal": 12.02,
+        "endGlobal": 12.38
+      },
+      {
+        "word": "mechanics?",
+        "startLocal": 0.68,
+        "endLocal": 1.46,
+        "startGlobal": 12.38,
+        "endGlobal": 13.16
+      },
+      {
+        "word": "Just",
+        "startLocal": 1.46,
+        "endLocal": 1.82,
+        "startGlobal": 13.16,
+        "endGlobal": 13.52
+      },
+      {
+        "word": "prompt",
+        "startLocal": 1.82,
+        "endLocal": 1.98,
+        "startGlobal": 13.52,
+        "endGlobal": 13.68
+      },
+      {
+        "word": "it.",
+        "startLocal": 1.98,
+        "endLocal": 1.98,
+        "startGlobal": 13.68,
+        "endGlobal": 13.68
+      }
+    ]
+  },
+  {
+    "id": "vo_seg5",
+    "text": "Live counters, collection logic, zero coding.",
+    "timelineStart": 16.7,
+    "duration": 3.6,
+    "timelineEnd": 20.3,
+    "words": [
+      {
+        "word": "Live",
+        "startLocal": 0.1,
+        "endLocal": 0.4,
+        "startGlobal": 16.8,
+        "endGlobal": 17.1
+      },
+      {
+        "word": "counters,",
+        "startLocal": 0.4,
+        "endLocal": 1.26,
+        "startGlobal": 17.1,
+        "endGlobal": 17.96
+      },
+      {
+        "word": "collection",
+        "startLocal": 1.26,
+        "endLocal": 1.72,
+        "startGlobal": 17.96,
+        "endGlobal": 18.42
+      },
+      {
+        "word": "logic,",
+        "startLocal": 1.72,
+        "endLocal": 2.72,
+        "startGlobal": 18.42,
+        "endGlobal": 19.42
+      },
+      {
+        "word": "zero",
+        "startLocal": 2.72,
+        "endLocal": 2.94,
+        "startGlobal": 19.42,
+        "endGlobal": 19.64
+      },
+      {
+        "word": "coding.",
+        "startLocal": 2.94,
+        "endLocal": 2.98,
+        "startGlobal": 19.64,
+        "endGlobal": 19.68
+      }
+    ]
+  },
+  {
+    "id": "vo_seg6",
+    "text": "Build Roblox games at lightspeed.",
+    "timelineStart": 20,
+    "duration": 2.32,
+    "timelineEnd": 22.32,
+    "words": [
+      {
+        "word": "Build",
+        "startLocal": 0.08,
+        "endLocal": 0.34,
+        "startGlobal": 20.08,
+        "endGlobal": 20.34
+      },
+      {
+        "word": "Roblox",
+        "startLocal": 0.34,
+        "endLocal": 0.9,
+        "startGlobal": 20.34,
+        "endGlobal": 20.9
+      },
+      {
+        "word": "games",
+        "startLocal": 0.9,
+        "endLocal": 1.22,
+        "startGlobal": 20.9,
+        "endGlobal": 21.22
+      },
+      {
+        "word": "at",
+        "startLocal": 1.22,
+        "endLocal": 1.44,
+        "startGlobal": 21.22,
+        "endGlobal": 21.44
+      },
+      {
+        "word": "light",
+        "startLocal": 1.44,
+        "endLocal": 1.66,
+        "startGlobal": 21.44,
+        "endGlobal": 21.66
+      },
+      {
+        "word": "speed.",
+        "startLocal": 1.66,
+        "endLocal": 1.98,
+        "startGlobal": 21.66,
+        "endGlobal": 21.98
+      }
+    ]
+  }
+]

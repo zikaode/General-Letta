@@ -1,0 +1,574 @@
+[
+  {
+    "phrase": "What if you could",
+    "words": [
+      {
+        "display": "What",
+        "start": 0.106,
+        "end": 0.36
+      },
+      {
+        "display": "if",
+        "start": 0.44,
+        "end": 0.44
+      },
+      {
+        "display": "you",
+        "start": 0.52,
+        "end": 0.52
+      },
+      {
+        "display": "could",
+        "start": 0.6,
+        "end": 0.68
+      }
+    ],
+    "start": 0.076,
+    "duration": 0.574
+  },
+  {
+    "phrase": "build an entire",
+    "words": [
+      {
+        "display": "build",
+        "start": 0.68,
+        "end": 1
+      },
+      {
+        "display": "an",
+        "start": 1.08,
+        "end": 1.08
+      },
+      {
+        "display": "entire",
+        "start": 1.08,
+        "end": 1.8
+      }
+    ],
+    "start": 0.65,
+    "duration": 1.12
+  },
+  {
+    "phrase": "Roblox game",
+    "words": [
+      {
+        "display": "Roblox",
+        "start": 1.8,
+        "end": 2.36
+      },
+      {
+        "display": "game",
+        "start": 2.44,
+        "end": 2.68
+      }
+    ],
+    "start": 1.77,
+    "duration": 0.96
+  },
+  {
+    "phrase": "just by typing?",
+    "words": [
+      {
+        "display": "just",
+        "start": 2.76,
+        "end": 2.84
+      },
+      {
+        "display": "by",
+        "start": 2.92,
+        "end": 2.92
+      },
+      {
+        "display": "typing?",
+        "start": 2.92,
+        "end": 3.56
+      }
+    ],
+    "start": 2.73,
+    "duration": 0.98
+  },
+  {
+    "phrase": "Fill the baseplate",
+    "words": [
+      {
+        "display": "Fill",
+        "start": 3.975,
+        "end": 4.28
+      },
+      {
+        "display": "the",
+        "start": 4.36,
+        "end": 4.36
+      },
+      {
+        "display": "baseplate",
+        "start": 4.36,
+        "end": 4.84
+      }
+    ],
+    "start": 3.945,
+    "duration": 0.945
+  },
+  {
+    "phrase": "with wheat...",
+    "words": [
+      {
+        "display": "with",
+        "start": 4.92,
+        "end": 5.08
+      },
+      {
+        "display": "wheat...",
+        "start": 5.16,
+        "end": 5.4
+      }
+    ],
+    "start": 4.89,
+    "duration": 0.66
+  },
+  {
+    "phrase": "and BOOM!",
+    "words": [
+      {
+        "display": "and",
+        "start": 5.649,
+        "end": 5.88
+      },
+      {
+        "display": "BOOM!",
+        "start": 5.88,
+        "end": 6.36
+      }
+    ],
+    "start": 5.619,
+    "duration": 0.891
+  },
+  {
+    "phrase": "Instant world created.",
+    "words": [
+      {
+        "display": "Instant",
+        "start": 6.681,
+        "end": 7.16
+      },
+      {
+        "display": "world",
+        "start": 7.24,
+        "end": 7.48
+      },
+      {
+        "display": "created.",
+        "start": 7.48,
+        "end": 8.12
+      }
+    ],
+    "start": 6.651,
+    "duration": 1.439
+  },
+  {
+    "phrase": "Need custom mechanics?",
+    "words": [
+      {
+        "display": "Need",
+        "start": 8.12,
+        "end": 8.36
+      },
+      {
+        "display": "custom",
+        "start": 8.44,
+        "end": 8.76
+      },
+      {
+        "display": "mechanics?",
+        "start": 8.76,
+        "end": 9.4
+      }
+    ],
+    "start": 8.09,
+    "duration": 1.422
+  },
+  {
+    "phrase": "Randomize the height",
+    "words": [
+      {
+        "display": "Randomize",
+        "start": 9.542,
+        "end": 10.12
+      },
+      {
+        "display": "the",
+        "start": 10.2,
+        "end": 10.2
+      },
+      {
+        "display": "height",
+        "start": 10.2,
+        "end": 10.6
+      }
+    ],
+    "start": 9.512,
+    "duration": 1.138
+  },
+  {
+    "phrase": "and add a respawn system.",
+    "words": [
+      {
+        "display": "and",
+        "start": 10.68,
+        "end": 10.76
+      },
+      {
+        "display": "add",
+        "start": 10.84,
+        "end": 11
+      },
+      {
+        "display": "a",
+        "start": 11.08,
+        "end": 11.08
+      },
+      {
+        "display": "respawn",
+        "start": 11.08,
+        "end": 11.56
+      },
+      {
+        "display": "system.",
+        "start": 11.64,
+        "end": 12.04
+      }
+    ],
+    "start": 10.65,
+    "duration": 1.54
+  },
+  {
+    "phrase": "Just like that,",
+    "words": [
+      {
+        "display": "Just",
+        "start": 12.347,
+        "end": 12.6
+      },
+      {
+        "display": "like",
+        "start": 12.68,
+        "end": 12.76
+      },
+      {
+        "display": "that,",
+        "start": 12.76,
+        "end": 13
+      }
+    ],
+    "start": 12.317,
+    "duration": 0.812
+  },
+  {
+    "phrase": "procedural logic is live.",
+    "words": [
+      {
+        "display": "procedural",
+        "start": 13.159,
+        "end": 13.72
+      },
+      {
+        "display": "logic",
+        "start": 13.8,
+        "end": 14.04
+      },
+      {
+        "display": "is",
+        "start": 14.12,
+        "end": 14.2
+      },
+      {
+        "display": "live.",
+        "start": 14.2,
+        "end": 14.6
+      }
+    ],
+    "start": 13.129,
+    "duration": 1.621
+  },
+  {
+    "phrase": "Now let's add",
+    "words": [
+      {
+        "display": "Now",
+        "start": 21.12,
+        "end": 21.44
+      },
+      {
+        "display": "let's",
+        "start": 21.52,
+        "end": 21.68
+      },
+      {
+        "display": "add",
+        "start": 21.76,
+        "end": 21.84
+      }
+    ],
+    "start": 21.09,
+    "duration": 0.72
+  },
+  {
+    "phrase": "the core gameplay:",
+    "words": [
+      {
+        "display": "the",
+        "start": 21.84,
+        "end": 22
+      },
+      {
+        "display": "core",
+        "start": 22.08,
+        "end": 22.32
+      },
+      {
+        "display": "gameplay:",
+        "start": 22.32,
+        "end": 22.96
+      }
+    ],
+    "start": 21.81,
+    "duration": 1.3
+  },
+  {
+    "phrase": "a wheat counter",
+    "words": [
+      {
+        "display": "a",
+        "start": 23.198,
+        "end": 23.2
+      },
+      {
+        "display": "wheat",
+        "start": 23.2,
+        "end": 23.52
+      },
+      {
+        "display": "counter",
+        "start": 23.6,
+        "end": 24.08
+      }
+    ],
+    "start": 23.168,
+    "duration": 0.882
+  },
+  {
+    "phrase": "and a harvest effect.",
+    "words": [
+      {
+        "display": "and",
+        "start": 24.08,
+        "end": 24.24
+      },
+      {
+        "display": "a",
+        "start": 24.32,
+        "end": 24.32
+      },
+      {
+        "display": "harvest",
+        "start": 24.4,
+        "end": 24.72
+      },
+      {
+        "display": "effect.",
+        "start": 24.72,
+        "end": 25.2
+      }
+    ],
+    "start": 24.05,
+    "duration": 1.3
+  },
+  {
+    "phrase": "That simple.",
+    "words": [
+      {
+        "display": "That",
+        "start": 25.439,
+        "end": 25.6
+      },
+      {
+        "display": "simple.",
+        "start": 25.6,
+        "end": 26.08
+      }
+    ],
+    "start": 25.409,
+    "duration": 0.821
+  },
+  {
+    "phrase": "Look at that!",
+    "words": [
+      {
+        "display": "Look",
+        "start": 26.72,
+        "end": 26.96
+      },
+      {
+        "display": "at",
+        "start": 27.04,
+        "end": 27.04
+      },
+      {
+        "display": "that!",
+        "start": 27.12,
+        "end": 27.44
+      }
+    ],
+    "start": 26.69,
+    "duration": 0.849
+  },
+  {
+    "phrase": "A fully playable",
+    "words": [
+      {
+        "display": "A",
+        "start": 27.569,
+        "end": 27.68
+      },
+      {
+        "display": "fully",
+        "start": 27.76,
+        "end": 28.16
+      },
+      {
+        "display": "playable",
+        "start": 28.16,
+        "end": 28.64
+      }
+    ],
+    "start": 27.539,
+    "duration": 1.071
+  },
+  {
+    "phrase": "simulator game",
+    "words": [
+      {
+        "display": "simulator",
+        "start": 28.64,
+        "end": 29.2
+      },
+      {
+        "display": "game",
+        "start": 29.28,
+        "end": 29.44
+      }
+    ],
+    "start": 28.61,
+    "duration": 0.88
+  },
+  {
+    "phrase": "built in seconds,",
+    "words": [
+      {
+        "display": "built",
+        "start": 29.52,
+        "end": 29.68
+      },
+      {
+        "display": "in",
+        "start": 29.68,
+        "end": 29.84
+      },
+      {
+        "display": "seconds,",
+        "start": 29.92,
+        "end": 30.56
+      }
+    ],
+    "start": 29.49,
+    "duration": 1.128
+  },
+  {
+    "phrase": "right inside Roblox.",
+    "words": [
+      {
+        "display": "right",
+        "start": 30.648,
+        "end": 30.96
+      },
+      {
+        "display": "inside",
+        "start": 31.04,
+        "end": 31.36
+      },
+      {
+        "display": "Roblox.",
+        "start": 31.36,
+        "end": 32
+      }
+    ],
+    "start": 30.618,
+    "duration": 1.532
+  },
+  {
+    "phrase": "Build faster with ForgeGUI.",
+    "words": [
+      {
+        "display": "Build",
+        "start": 33.109,
+        "end": 33.44
+      },
+      {
+        "display": "faster",
+        "start": 33.44,
+        "end": 33.92
+      },
+      {
+        "display": "with",
+        "start": 34,
+        "end": 34.16
+      },
+      {
+        "display": "ForgeGUI.",
+        "start": 34.16,
+        "end": 34.96
+      }
+    ],
+    "start": 33.079,
+    "duration": 2.031
+  },
+  {
+    "phrase": "Try it today",
+    "words": [
+      {
+        "display": "Try",
+        "start": 35.142,
+        "end": 35.36
+      },
+      {
+        "display": "it",
+        "start": 35.44,
+        "end": 35.44
+      },
+      {
+        "display": "today",
+        "start": 35.44,
+        "end": 35.92
+      }
+    ],
+    "start": 35.112,
+    "duration": 0.858
+  },
+  {
+    "phrase": "at ForgeGUI.com!",
+    "words": [
+      {
+        "display": "at",
+        "start": 36,
+        "end": 36.08
+      },
+      {
+        "display": "ForgeGUI.com!",
+        "start": 36.08,
+        "end": 37.52
+      }
+    ],
+    "start": 35.97,
+    "duration": 1.7
+  }
+]

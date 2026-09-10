@@ -1,0 +1,69 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+  #f12-bg { z-index: 0; background: #F5F0E8; }
+  #f12-scene { z-index: 1; }
+  .svgel { pointer-events: none; }
+  .scrim { z-index: 0; }
+
+  #f12-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="12-protein" data-width="1920" data-height="1080" data-duration="12.24">
+  <img id="f12-imgbg" class="clip" data-start="0" data-duration="12.24" data-track-index="2" src="../../assets/img/frame-12.png" alt="" />
+
+  <div id="f12-bg" class="clip" data-start="0" data-duration="12.24" data-track-index="0"></div>
+  <div id="f12-scene" class="clip" data-start="0" data-duration="12.24" data-track-index="1">
+    <div class="scrim" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(245,240,232,0.8) 0%,rgba(245,240,232,0.05) 32%,rgba(245,240,232,0.05) 68%,rgba(245,240,232,0.8) 100%);pointer-events:none;"></div>
+    <div id="f12-label" style="position:absolute;left:0px;top:110px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:140px;letter-spacing:18px;text-transform:uppercase;color:#1A1A1A;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 0 18px rgba(245,240,232,0.85),0 0 36px rgba(245,240,232,0.65),0 2px 10px rgba(245,240,232,0.9)">PROTEIN</div>
+    <div id="f12-t1" style="position:absolute;left:160px;top:480px;width:480px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:64px;letter-spacing:8px;text-transform:uppercase;color:#E85D5D;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 0 18px rgba(245,240,232,0.85),0 0 36px rgba(245,240,232,0.65),0 2px 10px rgba(245,240,232,0.9)">ENZIM</div>
+    <div id="f12-u1" style="position:absolute;left:310px;top:580px;width:180px;height:10px;background:#E85D5D;box-shadow:0 0 20px rgba(232,93,93,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f12-t2" style="position:absolute;left:720px;top:480px;width:480px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:64px;letter-spacing:8px;text-transform:uppercase;color:#E85D5D;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 0 18px rgba(245,240,232,0.85),0 0 36px rgba(245,240,232,0.65),0 2px 10px rgba(245,240,232,0.9)">ANTIBODI</div>
+    <div id="f12-u2" style="position:absolute;left:870px;top:580px;width:180px;height:10px;background:#E85D5D;box-shadow:0 0 20px rgba(232,93,93,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f12-t3" style="position:absolute;left:1280px;top:480px;width:480px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:64px;letter-spacing:8px;text-transform:uppercase;color:#E85D5D;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 0 18px rgba(245,240,232,0.85),0 0 36px rgba(245,240,232,0.65),0 2px 10px rgba(245,240,232,0.9)">OTOT</div>
+    <div id="f12-u3" style="position:absolute;left:1430px;top:580px;width:180px;height:10px;background:#E85D5D;box-shadow:0 0 20px rgba(232,93,93,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f12-sub" style="position:absolute;left:0px;top:880px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:40px;letter-spacing:8px;text-transform:uppercase;color:#1A1A1A;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 0 18px rgba(245,240,232,0.85),0 0 36px rgba(245,240,232,0.65),0 2px 10px rgba(245,240,232,0.9)">SEMUA DIBUAT OLEH SEL</div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 12.24;
+
+  tl.fromTo("#f12-label", { opacity:0, y:-30 }, { opacity:1, y:0, duration:1, ease:"power3.out" }, 0.4);
+  tl.fromTo("#f12-t1", { opacity:0, y:40 }, { opacity:1, y:0, duration:0.8, ease:"power3.out" }, 1.4);
+  tl.fromTo("#f12-u1", { opacity:0, scaleX:0 }, { opacity:1, scaleX:1, duration:0.6, ease:"power3.out" }, 1.7);
+  tl.fromTo("#f12-t2", { opacity:0, y:40 }, { opacity:1, y:0, duration:0.8, ease:"power3.out" }, 2.1);
+  tl.fromTo("#f12-u2", { opacity:0, scaleX:0 }, { opacity:1, scaleX:1, duration:0.6, ease:"power3.out" }, 2.4);
+  tl.fromTo("#f12-t3", { opacity:0, y:40 }, { opacity:0.8, y:0, duration:0.8, ease:"power3.out" }, 2.8);
+  tl.fromTo("#f12-u3", { opacity:0, scaleX:0 }, { opacity:1, scaleX:1, duration:0.6, ease:"power3.out" }, 3.1);
+  tl.fromTo("#f12-sub", { opacity:0, y:30 }, { opacity:1, y:0, duration:1, ease:"power3.out" }, 4.4);
+
+  
+  var genBg = document.getElementById("f12-imgbg");
+  var flatBg = document.getElementById("f12-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["12-protein"] = tl;
+})();
+</script>
+</template>

@@ -1,0 +1,217 @@
+// frame-defs-2.cjs — frames 10–18 (mitokondria → penutup) — v3 REDESIGN
+// Same design rules as frame-defs-1.cjs (big type, image-aware, no white boxes).
+const C = "#E85D5D", CR = "#F5F0E8", INK = "#1A1A1A", GRAY = "#6B6B6B", GRN = "#7BC47F", GOLD = "#FFD166";
+
+module.exports = [
+  // ── 10 MITOKONDRIA — image hero: title + gold ATP accent ──
+  {
+    num: "10", file: "10-mitokondria.html", compositionId: "10-mitokondria", bg: INK,
+    elements: [
+      { kind: "text", id: "f10-label", text: "MITOKONDRIA", size: 120, ls: 14, color: CR, pos: { left: 0, top: 110, width: 1920 } },
+      { kind: "shape", id: "f10-bar", x: 760, y: 300, w: 400, h: 12, bg: GOLD, glow: 40, glowColor: "rgba(255,209,102,0.5)" },
+      { kind: "shape", id: "f10-spark", x: 900, y: 460, w: 120, h: 120, round: 1, bg: GOLD, glow: 80, glowColor: "rgba(255,209,102,0.6)" },
+      { kind: "text", id: "f10-atp", text: "ATP", size: 90, ls: 12, color: GOLD, pos: { left: 0, top: 640, width: 1920 } },
+      { kind: "text", id: "f10-sub", text: "PEMBANGKIT LISTRIK SEL", size: 44, ls: 8, color: C, pos: { left: 0, top: 900, width: 1920 } },
+    ],
+    tl: [
+      { id: "f10-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f10-bar", at: 1.2, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.9, ease: "power3.out" } },
+      { id: "f10-spark", at: 2.4, from: { opacity: 0, scale: 0 }, to2: { opacity: 1, scale: 1, duration: 0.9, ease: "back.out(2)" } },
+      { id: "f10-atp", at: 3.2, from: { opacity: 0, scale: 0.8 }, to2: { opacity: 1, scale: 1, duration: 1.0, ease: "power3.out" } },
+      { id: "f10-spark", at: 4.6, to: { scale: 1.15, duration: 1.4, ease: "sine.inOut" } },
+      { id: "f10-sub", at: 5.4, from: { opacity: 0, y: 30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+    ],
+  },
+  // ── 11 RIBOSOM — line + beads, no machine ──
+  {
+    num: "11", file: "11-ribosom.html", compositionId: "11-ribosom", bg: CR,
+    elements: [
+      { kind: "text", id: "f11-label", text: "RIBOSOM", size: 130, ls: 16, color: INK, pos: { left: 0, top: 110, width: 1920 } },
+      { kind: "shape", id: "f11-mrna", x: 360, y: 560, w: 1200, h: 16, bg: GRAY, glow: 15 },
+      { kind: "shape", id: "f11-ribo", x: 850, y: 460, w: 200, h: 160, round: 1, bg: C, glow: 40 },
+      { kind: "shape", id: "f11-b1", x: 890, y: 380, w: 36, h: 36, round: 1, bg: INK },
+      { kind: "shape", id: "f11-b2", x: 930, y: 340, w: 36, h: 36, round: 1, bg: INK },
+      { kind: "shape", id: "f11-b3", x: 970, y: 300, w: 36, h: 36, round: 1, bg: INK },
+      { kind: "text", id: "f11-sub", text: "PABRIK PROTEIN", size: 44, ls: 10, color: C, pos: { left: 0, top: 880, width: 1920 } },
+    ],
+    tl: [
+      { id: "f11-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f11-mrna", at: 0.8, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 0.8, scaleX: 1, duration: 1.2, ease: "power3.out" } },
+      { id: "f11-ribo", at: 1.8, from: { opacity: 0, y: 60 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f11-b1", at: 2.8, to: { opacity: 1, duration: 0.4 } },
+      { id: "f11-b2", at: 3.1, to: { opacity: 1, duration: 0.4 } },
+      { id: "f11-b3", at: 3.4, to: { opacity: 1, duration: 0.4 } },
+      { id: "f11-sub", at: 4.6, from: { opacity: 0, y: 30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+    ],
+  },
+  // ── 12 PROTEIN — keyword row, no cards ──
+  {
+    num: "12", file: "12-protein.html", compositionId: "12-protein", bg: CR,
+    elements: [
+      { kind: "text", id: "f12-label", text: "PROTEIN", size: 140, ls: 18, color: INK, pos: { left: 0, top: 110, width: 1920 } },
+      { kind: "text", id: "f12-t1", text: "ENZIM", size: 64, ls: 8, color: C, pos: { left: 160, top: 480, width: 480 } },
+      { kind: "shape", id: "f12-u1", x: 310, y: 580, w: 180, h: 10, bg: C, glow: 20 },
+      { kind: "text", id: "f12-t2", text: "ANTIBODI", size: 64, ls: 8, color: C, pos: { left: 720, top: 480, width: 480 } },
+      { kind: "shape", id: "f12-u2", x: 870, y: 580, w: 180, h: 10, bg: C, glow: 20 },
+      { kind: "text", id: "f12-t3", text: "OTOT", size: 64, ls: 8, color: C, pos: { left: 1280, top: 480, width: 480 } },
+      { kind: "shape", id: "f12-u3", x: 1430, y: 580, w: 180, h: 10, bg: C, glow: 20 },
+      { kind: "text", id: "f12-sub", text: "SEMUA DIBUAT OLEH SEL", size: 40, ls: 8, color: INK, pos: { left: 0, top: 880, width: 1920 } },
+    ],
+    tl: [
+      { id: "f12-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f12-t1", at: 1.4, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" } },
+      { id: "f12-u1", at: 1.7, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.6, ease: "power3.out" } },
+      { id: "f12-t2", at: 2.1, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" } },
+      { id: "f12-u2", at: 2.4, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.6, ease: "power3.out" } },
+      { id: "f12-t3", at: 2.8, from: { opacity: 0, y: 40 }, to2: { opacity: 0.8, y: 0, duration: 0.8, ease: "power3.out" } },
+      { id: "f12-u3", at: 3.1, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.6, ease: "power3.out" } },
+      { id: "f12-sub", at: 4.4, from: { opacity: 0, y: 30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+    ],
+  },
+  // ── 13 TUMBUHAN — image hero: title + green accents ──
+  {
+    num: "13", file: "13-tumbuhan.html", compositionId: "13-tumbuhan", bg: CR,
+    elements: [
+      { kind: "text", id: "f13-label", text: "SEL TUMBUHAN", size: 110, ls: 12, color: INK, pos: { left: 0, top: 110, width: 1920 } },
+      { kind: "shape", id: "f13-bar", x: 760, y: 290, w: 400, h: 12, bg: GRN, glow: 30, glowColor: "rgba(123,196,127,0.5)" },
+      { kind: "shape", id: "f13-ch1", x: 880, y: 480, w: 100, h: 60, round: 1, bg: GRN, glow: 30, glowColor: "rgba(123,196,127,0.5)" },
+      { kind: "shape", id: "f13-ch2", x: 1020, y: 560, w: 100, h: 60, round: 1, bg: GRN, glow: 30, glowColor: "rgba(123,196,127,0.5)" },
+      { kind: "text", id: "f13-wall-l", text: "DINDING SEL", size: 40, ls: 6, color: GRN, pos: { left: 1160, top: 700, width: 420 } },
+      { kind: "text", id: "f13-chl", text: "KLOROPLAS", size: 40, ls: 6, color: GRN, pos: { left: 340, top: 700, width: 420 } },
+    ],
+    tl: [
+      { id: "f13-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f13-bar", at: 1.2, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.9, ease: "power3.out" } },
+      { id: "f13-ch1", at: 2.2, from: { opacity: 0, scale: 0 }, to2: { opacity: 1, scale: 1, duration: 0.8, ease: "back.out(1.7)" } },
+      { id: "f13-ch2", at: 2.6, from: { opacity: 0, scale: 0 }, to2: { opacity: 1, scale: 1, duration: 0.8, ease: "back.out(1.7)" } },
+      { id: "f13-chl", at: 3.8, to: { opacity: 1, duration: 0.6 } },
+      { id: "f13-wall-l", at: 4.6, to: { opacity: 1, duration: 0.6 } },
+    ],
+  },
+  // ── 14 FOTOSINTESIS — flow: sun → leaf → equation ──
+  {
+    num: "14", file: "14-fotosintesis.html", compositionId: "14-fotosintesis", bg: INK,
+    elements: [
+      { kind: "text", id: "f14-label", text: "FOTOSINTESIS", size: 120, ls: 12, color: CR, pos: { left: 0, top: 100, width: 1920 } },
+      { kind: "shape", id: "f14-sun", x: 280, y: 380, w: 180, h: 180, round: 1, bg: GOLD, glow: 80, glowColor: "rgba(255,209,102,0.5)" },
+      { kind: "shape", id: "f14-d1", x: 540, y: 460, w: 20, h: 20, round: 1, bg: GOLD, glow: 15, glowColor: "rgba(255,209,102,0.5)" },
+      { kind: "shape", id: "f14-d2", x: 640, y: 460, w: 20, h: 20, round: 1, bg: GOLD, glow: 15, glowColor: "rgba(255,209,102,0.5)" },
+      { kind: "shape", id: "f14-d3", x: 740, y: 460, w: 20, h: 20, round: 1, bg: GOLD, glow: 15, glowColor: "rgba(255,209,102,0.5)" },
+      { kind: "shape", id: "f14-leaf", x: 1080, y: 400, w: 400, h: 240, round: 1, bg: GRN, glow: 50, glowColor: "rgba(123,196,127,0.5)" },
+      { kind: "text", id: "f14-co2", text: "CO2 + H2O →", size: 44, ls: 4, color: CR, pos: { left: 240, top: 640, width: 600 } },
+      { kind: "text", id: "f14-o2", text: "→ GULA + O2", size: 44, ls: 4, color: GOLD, pos: { left: 1080, top: 700, width: 600 } },
+    ],
+    tl: [
+      { id: "f14-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f14-sun", at: 0.8, from: { opacity: 0, scale: 0 }, to2: { opacity: 1, scale: 1, duration: 1.0, ease: "back.out(1.7)" } },
+      { id: "f14-d1", at: 1.6, to: { opacity: 1, duration: 0.4 } },
+      { id: "f14-d2", at: 1.8, to: { opacity: 1, duration: 0.4 } },
+      { id: "f14-d3", at: 2.0, to: { opacity: 1, duration: 0.4 } },
+      { id: "f14-leaf", at: 2.6, from: { opacity: 0, scale: 0.7 }, to2: { opacity: 1, scale: 1, duration: 1.0, ease: "power3.out" } },
+      { id: "f14-co2", at: 3.8, to: { opacity: 1, duration: 0.7 } },
+      { id: "f14-o2", at: 4.8, to: { opacity: 1, duration: 0.7 } },
+    ],
+  },
+  // ── 15 MITOSIS — image hero: title + split accent ──
+  {
+    num: "15", file: "15-mitosis.html", compositionId: "15-mitosis", bg: INK,
+    elements: [
+      { kind: "text", id: "f15-label", text: "MITOSIS", size: 140, ls: 18, color: CR, pos: { left: 0, top: 120, width: 1920 } },
+      { kind: "shape", id: "f15-a", x: 860, y: 420, w: 200, h: 200, round: 1, border: `8px solid ${C}`, glow: 50 },
+      { kind: "shape", id: "f15-an", x: 925, y: 485, w: 70, h: 70, round: 1, bg: C, glow: 30 },
+      { kind: "shape", id: "f15-b", x: 460, y: 420, w: 200, h: 200, round: 1, border: `8px solid ${C}`, glow: 50 },
+      { kind: "shape", id: "f15-bn", x: 525, y: 485, w: 70, h: 70, round: 1, bg: C, glow: 30 },
+      { kind: "shape", id: "f15-c", x: 1260, y: 420, w: 200, h: 200, round: 1, border: `8px solid ${C}`, glow: 50 },
+      { kind: "shape", id: "f15-cn", x: 1325, y: 485, w: 70, h: 70, round: 1, bg: C, glow: 30 },
+      { kind: "text", id: "f15-sub", text: "1 SEL → 2 SEL ANAK", size: 48, ls: 8, color: C, pos: { left: 0, top: 880, width: 1920 } },
+    ],
+    tl: [
+      { id: "f15-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f15-a", at: 0.8, from: { opacity: 0, scale: 0.8 }, to2: { opacity: 1, scale: 1, duration: 1.0, ease: "power3.out" } },
+      { id: "f15-an", at: 1.2, from: { opacity: 0, scale: 0 }, to2: { opacity: 1, scale: 1, duration: 0.8, ease: "power3.out" } },
+      { id: "f15-a", at: 3.4, to: { opacity: 0.3, scale: 0.8, duration: 0.8 } },
+      { id: "f15-an", at: 3.4, to: { opacity: 0.3, scale: 0.8, duration: 0.8 } },
+      { id: "f15-b", at: 4.0, from: { opacity: 0, x: 250 }, to2: { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f15-bn", at: 4.3, from: { opacity: 0, x: 250 }, to2: { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f15-c", at: 4.0, from: { opacity: 0, x: -250 }, to2: { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f15-cn", at: 4.3, from: { opacity: 0, x: -250 }, to2: { opacity: 1, x: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f15-sub", at: 5.8, from: { opacity: 0, y: 30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+    ],
+  },
+  // ── 16 SPESIALISASI — image hero: title + 3 cell types ──
+  {
+    num: "16", file: "16-spesialisasi.html", compositionId: "16-spesialisasi", bg: CR,
+    elements: [
+      { kind: "text", id: "f16-label", text: "DNA SAMA, BENTUK BERBEDA", size: 100, ls: 8, color: INK, pos: { left: 0, top: 110, width: 1920 } },
+      { kind: "text", id: "f16-t1", text: "SARAF", size: 48, ls: 8, color: C, pos: { left: 240, top: 780, width: 420 } },
+      { kind: "shape", id: "f16-u1", x: 370, y: 860, w: 140, h: 10, bg: C, glow: 20 },
+      { kind: "text", id: "f16-t2", text: "DARAH", size: 48, ls: 8, color: C, pos: { left: 750, top: 780, width: 420 } },
+      { kind: "shape", id: "f16-u2", x: 880, y: 860, w: 140, h: 10, bg: C, glow: 20 },
+      { kind: "text", id: "f16-t3", text: "OTOT", size: 48, ls: 8, color: C, pos: { left: 1260, top: 780, width: 420 } },
+      { kind: "shape", id: "f16-u3", x: 1390, y: 860, w: 140, h: 10, bg: C, glow: 20 },
+    ],
+    tl: [
+      { id: "f16-label", at: 0.4, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f16-t1", at: 1.6, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" } },
+      { id: "f16-u1", at: 1.9, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.6, ease: "power3.out" } },
+      { id: "f16-t2", at: 2.6, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" } },
+      { id: "f16-u2", at: 2.9, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.6, ease: "power3.out" } },
+      { id: "f16-t3", at: 3.6, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" } },
+      { id: "f16-u3", at: 3.9, from: { opacity: 0, scaleX: 0 }, to2: { opacity: 1, scaleX: 1, duration: 0.6, ease: "power3.out" } },
+    ],
+  },
+  // ── 17 HIERARKI — sequence, bigger + glow ──
+  {
+    num: "17", file: "17-hierarki.html", compositionId: "17-hierarki", bg: INK,
+    elements: [
+      { kind: "text", id: "f17-title", text: "HIERARKI KEHIDUPAN", size: 110, ls: 12, color: CR, pos: { left: 0, top: 90, width: 1920 } },
+      { kind: "shape", id: "f17-cell", x: 180, y: 420, w: 160, h: 160, round: 1, border: `6px solid ${C}`, glow: 40 },
+      { kind: "shape", id: "f17-tis", x: 520, y: 390, w: 220, h: 220, border: `6px solid ${C}`, glow: 40 },
+      { kind: "shape", id: "f17-org", x: 880, y: 370, w: 260, h: 260, round: 1, bg: C, glow: 60 },
+      { kind: "shape", id: "f17-hum", x: 1300, y: 300, w: 180, h: 400, round: 1, border: `6px solid ${CR}`, glow: 40, glowColor: "rgba(245,240,232,0.4)" },
+      { kind: "text", id: "f17-a1", text: "→", size: 80, ls: 0, color: C, pos: { left: 370, top: 440, width: 130 } },
+      { kind: "text", id: "f17-a2", text: "→", size: 80, ls: 0, color: C, pos: { left: 770, top: 440, width: 130 } },
+      { kind: "text", id: "f17-a3", text: "→", size: 80, ls: 0, color: C, pos: { left: 1170, top: 440, width: 130 } },
+      { kind: "text", id: "f17-l1", text: "SEL", size: 36, ls: 4, color: CR, pos: { left: 180, top: 610, width: 160 } },
+      { kind: "text", id: "f17-l2", text: "JARINGAN", size: 36, ls: 4, color: CR, pos: { left: 500, top: 640, width: 260 } },
+      { kind: "text", id: "f17-l3", text: "ORGAN", size: 36, ls: 4, color: CR, pos: { left: 880, top: 660, width: 260 } },
+      { kind: "text", id: "f17-l4", text: "KAMU", size: 44, ls: 6, color: C, pos: { left: 1300, top: 740, width: 180 } },
+    ],
+    tl: [
+      { id: "f17-title", at: 0.3, from: { opacity: 0, y: -30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+      { id: "f17-cell", at: 0.5, from: { opacity: 0, scale: 0.6 }, to2: { opacity: 1, scale: 1, duration: 0.9, ease: "power3.out" } },
+      { id: "f17-l1", at: 1.1, to: { opacity: 1, duration: 0.6 } },
+      { id: "f17-a1", at: 1.6, to: { opacity: 1, duration: 0.5 } },
+      { id: "f17-tis", at: 2.1, from: { opacity: 0, scale: 0.6 }, to2: { opacity: 1, scale: 1, duration: 0.9, ease: "power3.out" } },
+      { id: "f17-l2", at: 2.7, to: { opacity: 1, duration: 0.6 } },
+      { id: "f17-a2", at: 3.2, to: { opacity: 1, duration: 0.5 } },
+      { id: "f17-org", at: 3.7, from: { opacity: 0, scale: 0.6 }, to2: { opacity: 1, scale: 1, duration: 0.9, ease: "power3.out" } },
+      { id: "f17-l3", at: 4.3, to: { opacity: 1, duration: 0.6 } },
+      { id: "f17-a3", at: 4.8, to: { opacity: 1, duration: 0.5 } },
+      { id: "f17-hum", at: 5.3, from: { opacity: 0, scale: 0.7 }, to2: { opacity: 1, scale: 1, duration: 1.1, ease: "power3.out" } },
+      { id: "f17-l4", at: 6.2, to: { opacity: 1, duration: 0.7 } },
+    ],
+  },
+  // ── 18 PENUTUP — big closing text + glowing dots ──
+  {
+    num: "18", file: "18-penutup.html", compositionId: "18-penutup", bg: INK,
+    elements: [
+      { kind: "shape", id: "f18-d1", x: 260, y: 260, w: 22, h: 22, round: 1, bg: C, glow: 30 },
+      { kind: "shape", id: "f18-d2", x: 1560, y: 220, w: 18, h: 18, round: 1, bg: CR, glow: 20, glowColor: "rgba(245,240,232,0.4)" },
+      { kind: "shape", id: "f18-d3", x: 1300, y: 720, w: 26, h: 26, round: 1, bg: C, glow: 30 },
+      { kind: "shape", id: "f18-d4", x: 420, y: 760, w: 18, h: 18, round: 1, bg: CR, glow: 20, glowColor: "rgba(245,240,232,0.4)" },
+      { kind: "text", id: "f18-p1", text: "KAMU ADALAH", size: 90, ls: 14, color: CR, pos: { left: 0, top: 380, width: 1920 } },
+      { kind: "text", id: "f18-p2", text: "KOMUNITAS RAKSASA", size: 120, ls: 8, color: C, pos: { left: 0, top: 520, width: 1920 } },
+      { kind: "text", id: "f18-p3", text: "DARI 37 TRILIUN SEL", size: 44, ls: 10, color: CR, pos: { left: 0, top: 880, width: 1920 } },
+    ],
+    tl: [
+      { id: "f18-d1", at: 0.4, to: { opacity: 1, duration: 0.5 } },
+      { id: "f18-d2", at: 0.7, to: { opacity: 1, duration: 0.5 } },
+      { id: "f18-d3", at: 1.0, to: { opacity: 1, duration: 0.5 } },
+      { id: "f18-d4", at: 1.3, to: { opacity: 1, duration: 0.5 } },
+      { id: "f18-p1", at: 2.0, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 1.1, ease: "power3.out" } },
+      { id: "f18-p2", at: 3.0, from: { opacity: 0, y: 40 }, to2: { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" } },
+      { id: "f18-p3", at: 4.6, from: { opacity: 0, y: 30 }, to2: { opacity: 1, y: 0, duration: 1.0, ease: "power3.out" } },
+    ],
+  },
+];

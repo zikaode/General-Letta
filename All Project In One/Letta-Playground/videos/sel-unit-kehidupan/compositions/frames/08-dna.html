@@ -1,0 +1,61 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+  #f08-bg { z-index: 0; background: #1A1A1A; }
+  #f08-scene { z-index: 1; }
+  .svgel { pointer-events: none; }
+  .scrim { z-index: 0; }
+
+  #f08-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="08-dna" data-width="1920" data-height="1080" data-duration="12.88">
+  <img id="f08-imgbg" class="clip" data-start="0" data-duration="12.88" data-track-index="2" src="../../assets/img/frame-08.png" alt="" />
+
+  <div id="f08-bg" class="clip" data-start="0" data-duration="12.88" data-track-index="0"></div>
+  <div id="f08-scene" class="clip" data-start="0" data-duration="12.88" data-track-index="1">
+    <div class="scrim" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,26,26,0.85) 0%,rgba(26,26,26,0.15) 28%,rgba(26,26,26,0.15) 72%,rgba(26,26,26,0.85) 100%);pointer-events:none;"></div>
+    <div id="f08-label" style="position:absolute;left:0px;top:110px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:150px;letter-spacing:24px;text-transform:uppercase;color:#E85D5D;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">DNA</div>
+    <svg id="f08-helix" class="svgel" viewBox="0 0 400 400" style="position:absolute;left:760px;top:330px;width:400px;height:400px;will-change:opacity,transform;opacity:0;"><path d="M100 20 Q 300 100 100 180 Q 100 260 300 340" fill="none" stroke="#E85D5D" stroke-width="10"/><path d="M300 20 Q 100 100 300 180 Q 300 260 100 340" fill="none" stroke="#F5F0E8" stroke-width="10"/><line x1="150" y1="60" x2="250" y2="60" stroke="#6B6B6B" stroke-width="6"/><line x1="130" y1="120" x2="270" y2="120" stroke="#6B6B6B" stroke-width="6"/><line x1="140" y1="240" x2="260" y2="240" stroke="#6B6B6B" stroke-width="6"/><line x1="160" y1="300" x2="240" y2="300" stroke="#6B6B6B" stroke-width="6"/></svg>
+    <div id="f08-num" style="position:absolute;left:0px;top:780px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:130px;letter-spacing:8px;text-transform:uppercase;color:#F5F0E8;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">2 METER</div>
+    <div id="f08-numlabel" style="position:absolute;left:0px;top:930px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:40px;letter-spacing:8px;text-transform:uppercase;color:#E85D5D;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">DARI SATU SEL SAJA</div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 12.88;
+
+  tl.fromTo("#f08-label", { opacity:0, y:-40 }, { opacity:1, y:0, duration:1.1, ease:"power3.out" }, 0.4);
+  tl.fromTo("#f08-helix", { opacity:0, scale:0.8 }, { opacity:1, scale:1, duration:1.4, ease:"power3.out" }, 1);
+  tl.fromTo("#f08-num", { opacity:0, scale:0.9 }, { opacity:1, scale:1, duration:1.2, ease:"power3.out" }, 3.6);
+  tl.fromTo("#f08-numlabel", { opacity:0, y:30 }, { opacity:1, y:0, duration:1, ease:"power3.out" }, 4.8);
+
+  
+  var genBg = document.getElementById("f08-imgbg");
+  var flatBg = document.getElementById("f08-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["08-dna"] = tl;
+})();
+</script>
+</template>

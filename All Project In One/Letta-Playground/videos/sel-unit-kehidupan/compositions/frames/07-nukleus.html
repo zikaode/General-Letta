@@ -1,0 +1,62 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+  #f07-bg { z-index: 0; background: #1A1A1A; }
+  #f07-scene { z-index: 1; }
+  .svgel { pointer-events: none; }
+  .scrim { z-index: 0; }
+
+  #f07-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="07-nukleus" data-width="1920" data-height="1080" data-duration="12.32">
+  <img id="f07-imgbg" class="clip" data-start="0" data-duration="12.32" data-track-index="2" src="../../assets/img/frame-07.png" alt="" />
+
+  <div id="f07-bg" class="clip" data-start="0" data-duration="12.32" data-track-index="0"></div>
+  <div id="f07-scene" class="clip" data-start="0" data-duration="12.32" data-track-index="1">
+    <div class="scrim" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,26,26,0.85) 0%,rgba(26,26,26,0.15) 28%,rgba(26,26,26,0.15) 72%,rgba(26,26,26,0.85) 100%);pointer-events:none;"></div>
+    <div id="f07-label" style="position:absolute;left:0px;top:120px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:140px;letter-spacing:18px;text-transform:uppercase;color:#F5F0E8;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">NUKLEUS</div>
+    <div id="f07-bar" style="position:absolute;left:760px;top:320px;width:400px;height:12px;background:#E85D5D;box-shadow:0 0 30px rgba(232,93,93,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f07-nuc" style="position:absolute;left:880px;top:460px;width:160px;height:160px;border-radius:50%;background:#E85D5D;box-shadow:0 0 80px rgba(232,93,93,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f07-sub" style="position:absolute;left:0px;top:880px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:48px;letter-spacing:10px;text-transform:uppercase;color:#E85D5D;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">KANTOR PUSAT SEL</div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 12.32;
+
+  tl.fromTo("#f07-label", { opacity:0, y:-40 }, { opacity:1, y:0, duration:1.1, ease:"power3.out" }, 0.4);
+  tl.fromTo("#f07-bar", { opacity:0, scaleX:0 }, { opacity:1, scaleX:1, duration:0.9, ease:"power3.out" }, 1.2);
+  tl.fromTo("#f07-nuc", { opacity:0, scale:0 }, { opacity:1, scale:1, duration:1.2, ease:"power3.out" }, 2.2);
+  tl.to("#f07-nuc", { scale:1.12, duration:1.6, ease:"sine.inOut" }, 4);
+  tl.fromTo("#f07-sub", { opacity:0, y:30 }, { opacity:1, y:0, duration:1, ease:"power3.out" }, 5.2);
+
+  
+  var genBg = document.getElementById("f07-imgbg");
+  var flatBg = document.getElementById("f07-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["07-nukleus"] = tl;
+})();
+</script>
+</template>

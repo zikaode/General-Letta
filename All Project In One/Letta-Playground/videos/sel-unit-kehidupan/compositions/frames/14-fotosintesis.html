@@ -1,0 +1,69 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+  #f14-bg { z-index: 0; background: #1A1A1A; }
+  #f14-scene { z-index: 1; }
+  .svgel { pointer-events: none; }
+  .scrim { z-index: 0; }
+
+  #f14-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="14-fotosintesis" data-width="1920" data-height="1080" data-duration="13.36">
+  <img id="f14-imgbg" class="clip" data-start="0" data-duration="13.36" data-track-index="2" src="../../assets/img/frame-14.png" alt="" />
+
+  <div id="f14-bg" class="clip" data-start="0" data-duration="13.36" data-track-index="0"></div>
+  <div id="f14-scene" class="clip" data-start="0" data-duration="13.36" data-track-index="1">
+    <div class="scrim" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,26,26,0.85) 0%,rgba(26,26,26,0.15) 28%,rgba(26,26,26,0.15) 72%,rgba(26,26,26,0.85) 100%);pointer-events:none;"></div>
+    <div id="f14-label" style="position:absolute;left:0px;top:100px;width:1920px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:120px;letter-spacing:12px;text-transform:uppercase;color:#F5F0E8;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">FOTOSINTESIS</div>
+    <div id="f14-sun" style="position:absolute;left:280px;top:380px;width:180px;height:180px;border-radius:50%;background:#FFD166;box-shadow:0 0 80px rgba(255,209,102,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f14-d1" style="position:absolute;left:540px;top:460px;width:20px;height:20px;border-radius:50%;background:#FFD166;box-shadow:0 0 15px rgba(255,209,102,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f14-d2" style="position:absolute;left:640px;top:460px;width:20px;height:20px;border-radius:50%;background:#FFD166;box-shadow:0 0 15px rgba(255,209,102,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f14-d3" style="position:absolute;left:740px;top:460px;width:20px;height:20px;border-radius:50%;background:#FFD166;box-shadow:0 0 15px rgba(255,209,102,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f14-leaf" style="position:absolute;left:1080px;top:400px;width:400px;height:240px;border-radius:50%;background:#7BC47F;box-shadow:0 0 50px rgba(123,196,127,0.5);will-change:opacity,transform;opacity:0"></div>
+    <div id="f14-co2" style="position:absolute;left:240px;top:640px;width:600px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:44px;letter-spacing:4px;text-transform:uppercase;color:#F5F0E8;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">CO2 + H2O →</div>
+    <div id="f14-o2" style="position:absolute;left:1080px;top:700px;width:600px;text-align:center;font-family:Bebas Neue,sans-serif;font-weight:400;font-size:44px;letter-spacing:4px;text-transform:uppercase;color:#FFD166;line-height:1.1;will-change:opacity,transform;opacity:0;text-shadow:0 4px 22px rgba(0,0,0,0.75),0 0 48px rgba(0,0,0,0.45)">→ GULA + O2</div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 13.36;
+
+  tl.fromTo("#f14-label", { opacity:0, y:-30 }, { opacity:1, y:0, duration:1, ease:"power3.out" }, 0.4);
+  tl.fromTo("#f14-sun", { opacity:0, scale:0 }, { opacity:1, scale:1, duration:1, ease:"back.out(1.7)" }, 0.8);
+  tl.to("#f14-d1", { opacity:1, duration:0.4 }, 1.6);
+  tl.to("#f14-d2", { opacity:1, duration:0.4 }, 1.8);
+  tl.to("#f14-d3", { opacity:1, duration:0.4 }, 2);
+  tl.fromTo("#f14-leaf", { opacity:0, scale:0.7 }, { opacity:1, scale:1, duration:1, ease:"power3.out" }, 2.6);
+  tl.to("#f14-co2", { opacity:1, duration:0.7 }, 3.8);
+  tl.to("#f14-o2", { opacity:1, duration:0.7 }, 4.8);
+
+  
+  var genBg = document.getElementById("f14-imgbg");
+  var flatBg = document.getElementById("f14-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["14-fotosintesis"] = tl;
+})();
+</script>
+</template>

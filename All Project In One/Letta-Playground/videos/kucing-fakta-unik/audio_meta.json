@@ -1,0 +1,2005 @@
+{
+  "bgm": null,
+  "bgm_pending": false,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/voice/01.wav",
+      "duration_s": 6.96,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Pernah",
+          "start": 0.06,
+          "end": 0.42
+        },
+        {
+          "id": "w1",
+          "text": " lihat",
+          "start": 0.42,
+          "end": 0.68
+        },
+        {
+          "id": "w2",
+          "text": " kucing",
+          "start": 0.68,
+          "end": 1.06
+        },
+        {
+          "id": "w3",
+          "text": " tiba",
+          "start": 1.06,
+          "end": 1.54
+        },
+        {
+          "id": "w4",
+          "text": "-tiba",
+          "start": 1.54,
+          "end": 2
+        },
+        {
+          "id": "w5",
+          "text": " kesenangan",
+          "start": 2,
+          "end": 2.5
+        },
+        {
+          "id": "w6",
+          "text": " sendiri?",
+          "start": 2.5,
+          "end": 3.34
+        },
+        {
+          "id": "w7",
+          "text": " Guling",
+          "start": 3.34,
+          "end": 3.82
+        },
+        {
+          "id": "w8",
+          "text": "-guling,",
+          "start": 3.82,
+          "end": 4.64
+        },
+        {
+          "id": "w9",
+          "text": " matanya",
+          "start": 4.64,
+          "end": 5.02
+        },
+        {
+          "id": "w10",
+          "text": " sayu",
+          "start": 5.02,
+          "end": 5.48
+        },
+        {
+          "id": "w11",
+          "text": " kayak",
+          "start": 5.48,
+          "end": 5.98
+        },
+        {
+          "id": "w12",
+          "text": " lagi",
+          "start": 5.98,
+          "end": 5.98
+        },
+        {
+          "id": "w13",
+          "text": " mabuk.",
+          "start": 5.98,
+          "end": 5.98
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/voice/02.wav",
+      "duration_s": 2.16,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Nah,",
+          "start": 0.08,
+          "end": 0.62
+        },
+        {
+          "id": "w1",
+          "text": " itu",
+          "start": 0.62,
+          "end": 1.02
+        },
+        {
+          "id": "w2",
+          "text": " bukan",
+          "start": 1.02,
+          "end": 1.32
+        },
+        {
+          "id": "w3",
+          "text": " kebetulan.",
+          "start": 1.32,
+          "end": 1.98
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/voice/03.wav",
+      "duration_s": 5.04,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Biasanya",
+          "start": 0.06,
+          "end": 0.76
+        },
+        {
+          "id": "w1",
+          "text": " itu",
+          "start": 0.76,
+          "end": 1.3
+        },
+        {
+          "id": "w2",
+          "text": " gara",
+          "start": 1.3,
+          "end": 1.64
+        },
+        {
+          "id": "w3",
+          "text": "-gara",
+          "start": 1.64,
+          "end": 1.96
+        },
+        {
+          "id": "w4",
+          "text": " satu",
+          "start": 1.96,
+          "end": 2.34
+        },
+        {
+          "id": "w5",
+          "text": " tanaman",
+          "start": 2.34,
+          "end": 2.78
+        },
+        {
+          "id": "w6",
+          "text": " kecil",
+          "start": 2.78,
+          "end": 3.3
+        },
+        {
+          "id": "w7",
+          "text": " bernama",
+          "start": 3.3,
+          "end": 4.12
+        },
+        {
+          "id": "w8",
+          "text": " chatnip.",
+          "start": 4.12,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/voice/04.wav",
+      "duration_s": 4.4,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Dan",
+          "start": 0.08,
+          "end": 0.28
+        },
+        {
+          "id": "w1",
+          "text": " tanpa",
+          "start": 0.28,
+          "end": 0.62
+        },
+        {
+          "id": "w2",
+          "text": " sadar,",
+          "start": 0.62,
+          "end": 1.48
+        },
+        {
+          "id": "w3",
+          "text": " catnip",
+          "start": 1.48,
+          "end": 1.84
+        },
+        {
+          "id": "w4",
+          "text": " ini",
+          "start": 1.84,
+          "end": 2.04
+        },
+        {
+          "id": "w5",
+          "text": " sering",
+          "start": 2.04,
+          "end": 2.42
+        },
+        {
+          "id": "w6",
+          "text": " diselipkan",
+          "start": 2.42,
+          "end": 3
+        },
+        {
+          "id": "w7",
+          "text": " ke",
+          "start": 3,
+          "end": 3.12
+        },
+        {
+          "id": "w8",
+          "text": " dalam",
+          "start": 3.12,
+          "end": 3.34
+        },
+        {
+          "id": "w9",
+          "text": " mainan",
+          "start": 3.34,
+          "end": 3.78
+        },
+        {
+          "id": "w10",
+          "text": " kucing.",
+          "start": 3.78,
+          "end": 3.98
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/voice/05.wav",
+      "duration_s": 5.52,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Kamu",
+          "start": 0.02,
+          "end": 0.38
+        },
+        {
+          "id": "w1",
+          "text": " pikir",
+          "start": 0.38,
+          "end": 0.7
+        },
+        {
+          "id": "w2",
+          "text": " cuma",
+          "start": 0.7,
+          "end": 0.94
+        },
+        {
+          "id": "w3",
+          "text": " itu?",
+          "start": 0.94,
+          "end": 1.64
+        },
+        {
+          "id": "w4",
+          "text": " Masih",
+          "start": 1.64,
+          "end": 2.22
+        },
+        {
+          "id": "w5",
+          "text": " ada",
+          "start": 2.22,
+          "end": 2.46
+        },
+        {
+          "id": "w6",
+          "text": " 10",
+          "start": 2.46,
+          "end": 2.86
+        },
+        {
+          "id": "w7",
+          "text": " fakta",
+          "start": 2.86,
+          "end": 3.38
+        },
+        {
+          "id": "w8",
+          "text": " lain",
+          "start": 3.38,
+          "end": 3.66
+        },
+        {
+          "id": "w9",
+          "text": " yang",
+          "start": 3.66,
+          "end": 3.86
+        },
+        {
+          "id": "w10",
+          "text": " bakal",
+          "start": 3.86,
+          "end": 4.18
+        },
+        {
+          "id": "w11",
+          "text": " bikin",
+          "start": 4.18,
+          "end": 4.46
+        },
+        {
+          "id": "w12",
+          "text": " kamu",
+          "start": 4.46,
+          "end": 4.72
+        },
+        {
+          "id": "w13",
+          "text": " melongo.",
+          "start": 4.72,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/voice/06.wav",
+      "duration_s": 7.28,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Di",
+          "start": 0.04,
+          "end": 0.22
+        },
+        {
+          "id": "w1",
+          "text": " video",
+          "start": 0.22,
+          "end": 0.52
+        },
+        {
+          "id": "w2",
+          "text": " ini,",
+          "start": 0.52,
+          "end": 1.08
+        },
+        {
+          "id": "w3",
+          "text": " kita",
+          "start": 1.08,
+          "end": 1.46
+        },
+        {
+          "id": "w4",
+          "text": " bongkar",
+          "start": 1.46,
+          "end": 2.04
+        },
+        {
+          "id": "w5",
+          "text": " satu",
+          "start": 2.04,
+          "end": 2.46
+        },
+        {
+          "id": "w6",
+          "text": " persatu",
+          "start": 2.46,
+          "end": 3.1
+        },
+        {
+          "id": "w7",
+          "text": " dari",
+          "start": 3.1,
+          "end": 3.68
+        },
+        {
+          "id": "w8",
+          "text": " catnip",
+          "start": 3.68,
+          "end": 4.32
+        },
+        {
+          "id": "w9",
+          "text": " sampai",
+          "start": 4.32,
+          "end": 5.04
+        },
+        {
+          "id": "w10",
+          "text": " alasan",
+          "start": 5.04,
+          "end": 5.52
+        },
+        {
+          "id": "w11",
+          "text": " kucing",
+          "start": 5.52,
+          "end": 6.02
+        },
+        {
+          "id": "w12",
+          "text": " nggak",
+          "start": 6.02,
+          "end": 6.24
+        },
+        {
+          "id": "w13",
+          "text": " doyan",
+          "start": 6.24,
+          "end": 6.62
+        },
+        {
+          "id": "w14",
+          "text": " manis.",
+          "start": 6.62,
+          "end": 6.98
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/voice/07.wav",
+      "duration_s": 3.6,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Jadi",
+          "start": 0.04,
+          "end": 0.42
+        },
+        {
+          "id": "w1",
+          "text": " santai",
+          "start": 0.42,
+          "end": 0.94
+        },
+        {
+          "id": "w2",
+          "text": " aja",
+          "start": 0.94,
+          "end": 1.36
+        },
+        {
+          "id": "w3",
+          "text": " dan",
+          "start": 1.36,
+          "end": 1.92
+        },
+        {
+          "id": "w4",
+          "text": " siap",
+          "start": 1.92,
+          "end": 2.5
+        },
+        {
+          "id": "w5",
+          "text": "-siap",
+          "start": 2.5,
+          "end": 2.92
+        },
+        {
+          "id": "w6",
+          "text": " kaget.",
+          "start": 2.92,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/voice/08.wav",
+      "duration_s": 2.88,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Fakta",
+          "start": 0.08,
+          "end": 0.48
+        },
+        {
+          "id": "w1",
+          "text": " pertama,",
+          "start": 0.48,
+          "end": 1.44
+        },
+        {
+          "id": "w2",
+          "text": " ya",
+          "start": 1.44,
+          "end": 1.54
+        },
+        {
+          "id": "w3",
+          "text": " soal",
+          "start": 1.54,
+          "end": 1.94
+        },
+        {
+          "id": "w4",
+          "text": " chatnip",
+          "start": 1.94,
+          "end": 1.98
+        },
+        {
+          "id": "w5",
+          "text": " ini.",
+          "start": 1.98,
+          "end": 1.98
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/voice/09.wav",
+      "duration_s": 5.6,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Catnip",
+          "start": 0.08,
+          "end": 0.54
+        },
+        {
+          "id": "w1",
+          "text": " itu",
+          "start": 0.54,
+          "end": 0.84
+        },
+        {
+          "id": "w2",
+          "text": " masih",
+          "start": 0.84,
+          "end": 1.22
+        },
+        {
+          "id": "w3",
+          "text": " saudara",
+          "start": 1.22,
+          "end": 1.78
+        },
+        {
+          "id": "w4",
+          "text": " dengan",
+          "start": 1.78,
+          "end": 2.04
+        },
+        {
+          "id": "w5",
+          "text": " daun",
+          "start": 2.04,
+          "end": 2.44
+        },
+        {
+          "id": "w6",
+          "text": " min,",
+          "start": 2.44,
+          "end": 3.02
+        },
+        {
+          "id": "w7",
+          "text": " nama",
+          "start": 3.02,
+          "end": 3.56
+        },
+        {
+          "id": "w8",
+          "text": " ilmiahnya",
+          "start": 3.56,
+          "end": 4.24
+        },
+        {
+          "id": "w9",
+          "text": " Nepeta",
+          "start": 4.24,
+          "end": 4.74
+        },
+        {
+          "id": "w10",
+          "text": " Cataria.",
+          "start": 4.74,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/voice/10.wav",
+      "duration_s": 4.24,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Di",
+          "start": 0.08,
+          "end": 0.24
+        },
+        {
+          "id": "w1",
+          "text": " dalam",
+          "start": 0.24,
+          "end": 0.5
+        },
+        {
+          "id": "w2",
+          "text": " daunnya",
+          "start": 0.5,
+          "end": 1.06
+        },
+        {
+          "id": "w3",
+          "text": " ada",
+          "start": 1.06,
+          "end": 1.64
+        },
+        {
+          "id": "w4",
+          "text": " zat",
+          "start": 1.64,
+          "end": 1.96
+        },
+        {
+          "id": "w5",
+          "text": " aktif",
+          "start": 1.96,
+          "end": 2.44
+        },
+        {
+          "id": "w6",
+          "text": " bernama",
+          "start": 2.44,
+          "end": 2.92
+        },
+        {
+          "id": "w7",
+          "text": " nepetalakton.",
+          "start": 2.92,
+          "end": 3.98
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "path": "assets/voice/11.wav",
+      "duration_s": 5.76,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Begitu",
+          "start": 0.08,
+          "end": 0.48
+        },
+        {
+          "id": "w1",
+          "text": " kucing",
+          "start": 0.48,
+          "end": 0.82
+        },
+        {
+          "id": "w2",
+          "text": " mencium",
+          "start": 0.82,
+          "end": 1.18
+        },
+        {
+          "id": "w3",
+          "text": " baunya,",
+          "start": 1.18,
+          "end": 2.24
+        },
+        {
+          "id": "w4",
+          "text": " zat",
+          "start": 2.24,
+          "end": 2.46
+        },
+        {
+          "id": "w5",
+          "text": " ini",
+          "start": 2.46,
+          "end": 2.78
+        },
+        {
+          "id": "w6",
+          "text": " langsung",
+          "start": 2.78,
+          "end": 3.26
+        },
+        {
+          "id": "w7",
+          "text": " menempel",
+          "start": 3.26,
+          "end": 3.88
+        },
+        {
+          "id": "w8",
+          "text": " di",
+          "start": 3.88,
+          "end": 4.04
+        },
+        {
+          "id": "w9",
+          "text": " reseptor",
+          "start": 4.04,
+          "end": 4.58
+        },
+        {
+          "id": "w10",
+          "text": " penciumannya.",
+          "start": 4.58,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "path": "assets/voice/12.wav",
+      "duration_s": 4.08,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Sinyalnya",
+          "start": 0.14,
+          "end": 0.78
+        },
+        {
+          "id": "w1",
+          "text": " diteruskan",
+          "start": 0.78,
+          "end": 1.54
+        },
+        {
+          "id": "w2",
+          "text": " ke",
+          "start": 1.54,
+          "end": 1.68
+        },
+        {
+          "id": "w3",
+          "text": " bagian",
+          "start": 1.68,
+          "end": 2.04
+        },
+        {
+          "id": "w4",
+          "text": " otak",
+          "start": 2.04,
+          "end": 2.46
+        },
+        {
+          "id": "w5",
+          "text": " yang",
+          "start": 2.46,
+          "end": 2.64
+        },
+        {
+          "id": "w6",
+          "text": " mengatur",
+          "start": 2.64,
+          "end": 3.16
+        },
+        {
+          "id": "w7",
+          "text": " emosi.",
+          "start": 3.16,
+          "end": 3.98
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "path": "assets/voice/13.wav",
+      "duration_s": 5.92,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Hasilnya,",
+          "start": 0.04,
+          "end": 0.8
+        },
+        {
+          "id": "w1",
+          "text": " kucing",
+          "start": 0.8,
+          "end": 1.36
+        },
+        {
+          "id": "w2",
+          "text": " bisa",
+          "start": 1.36,
+          "end": 1.58
+        },
+        {
+          "id": "w3",
+          "text": " kegirangan,",
+          "start": 1.58,
+          "end": 2.68
+        },
+        {
+          "id": "w4",
+          "text": " guling",
+          "start": 2.68,
+          "end": 2.96
+        },
+        {
+          "id": "w5",
+          "text": "-guling,",
+          "start": 2.96,
+          "end": 3.74
+        },
+        {
+          "id": "w6",
+          "text": " mengeong,",
+          "start": 3.74,
+          "end": 4.4
+        },
+        {
+          "id": "w7",
+          "text": " sampai",
+          "start": 4.4,
+          "end": 4.88
+        },
+        {
+          "id": "w8",
+          "text": " lompat",
+          "start": 4.88,
+          "end": 4.98
+        },
+        {
+          "id": "w9",
+          "text": "-lompat.",
+          "start": 4.98,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "path": "assets/voice/14.wav",
+      "duration_s": 3.84,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Tapi",
+          "start": 0.04,
+          "end": 0.36
+        },
+        {
+          "id": "w1",
+          "text": " efeknya",
+          "start": 0.36,
+          "end": 0.88
+        },
+        {
+          "id": "w2",
+          "text": " singkat,",
+          "start": 0.88,
+          "end": 1.58
+        },
+        {
+          "id": "w3",
+          "text": " cuma",
+          "start": 1.58,
+          "end": 1.92
+        },
+        {
+          "id": "w4",
+          "text": " 10",
+          "start": 1.92,
+          "end": 2.4
+        },
+        {
+          "id": "w5",
+          "text": " sampai",
+          "start": 2.4,
+          "end": 2.88
+        },
+        {
+          "id": "w6",
+          "text": " 15",
+          "start": 2.88,
+          "end": 2.98
+        },
+        {
+          "id": "w7",
+          "text": " menit.",
+          "start": 2.98,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "path": "assets/voice/15.wav",
+      "duration_s": 5.44,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Setelah",
+          "start": 0.04,
+          "end": 0.52
+        },
+        {
+          "id": "w1",
+          "text": " itu,",
+          "start": 0.52,
+          "end": 1.12
+        },
+        {
+          "id": "w2",
+          "text": " dia",
+          "start": 1.12,
+          "end": 1.52
+        },
+        {
+          "id": "w3",
+          "text": " kembali",
+          "start": 1.52,
+          "end": 1.98
+        },
+        {
+          "id": "w4",
+          "text": " normal,",
+          "start": 1.98,
+          "end": 2.74
+        },
+        {
+          "id": "w5",
+          "text": " seolah",
+          "start": 2.74,
+          "end": 3.36
+        },
+        {
+          "id": "w6",
+          "text": " tidak",
+          "start": 3.36,
+          "end": 3.68
+        },
+        {
+          "id": "w7",
+          "text": " terjadi",
+          "start": 3.68,
+          "end": 4.28
+        },
+        {
+          "id": "w8",
+          "text": " apa",
+          "start": 4.28,
+          "end": 4.76
+        },
+        {
+          "id": "w9",
+          "text": "-apa.",
+          "start": 4.76,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "path": "assets/voice/16.wav",
+      "duration_s": 5.84,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Dan",
+          "start": 0.08,
+          "end": 0.3
+        },
+        {
+          "id": "w1",
+          "text": " dia",
+          "start": 0.3,
+          "end": 0.62
+        },
+        {
+          "id": "w2",
+          "text": " butuh",
+          "start": 0.62,
+          "end": 1
+        },
+        {
+          "id": "w3",
+          "text": " jeda",
+          "start": 1,
+          "end": 1.32
+        },
+        {
+          "id": "w4",
+          "text": " setengah",
+          "start": 1.32,
+          "end": 1.84
+        },
+        {
+          "id": "w5",
+          "text": " jam",
+          "start": 1.84,
+          "end": 2.16
+        },
+        {
+          "id": "w6",
+          "text": " sampai",
+          "start": 2.16,
+          "end": 2.58
+        },
+        {
+          "id": "w7",
+          "text": " dua",
+          "start": 2.58,
+          "end": 2.84
+        },
+        {
+          "id": "w8",
+          "text": " jam",
+          "start": 2.84,
+          "end": 3.28
+        },
+        {
+          "id": "w9",
+          "text": " sebelum",
+          "start": 3.28,
+          "end": 4.02
+        },
+        {
+          "id": "w10",
+          "text": " bisa",
+          "start": 4.02,
+          "end": 4.28
+        },
+        {
+          "id": "w11",
+          "text": " kena",
+          "start": 4.28,
+          "end": 4.64
+        },
+        {
+          "id": "w12",
+          "text": " efeknya",
+          "start": 4.64,
+          "end": 4.98
+        },
+        {
+          "id": "w13",
+          "text": " lagi.",
+          "start": 4.98,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "path": "assets/voice/17.wav",
+      "duration_s": 2.96,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Uniknya,",
+          "start": 0.08,
+          "end": 1.12
+        },
+        {
+          "id": "w1",
+          "text": " tidak",
+          "start": 1.12,
+          "end": 1.24
+        },
+        {
+          "id": "w2",
+          "text": " semua",
+          "start": 1.24,
+          "end": 1.62
+        },
+        {
+          "id": "w3",
+          "text": " kucing",
+          "start": 1.62,
+          "end": 1.98
+        },
+        {
+          "id": "w4",
+          "text": " bereaksi.",
+          "start": 1.98,
+          "end": 1.98
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "path": "assets/voice/18.wav",
+      "duration_s": 5.44,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Hanya",
+          "start": 0.06,
+          "end": 0.4
+        },
+        {
+          "id": "w1",
+          "text": " sekitar",
+          "start": 0.4,
+          "end": 0.9
+        },
+        {
+          "id": "w2",
+          "text": " 50",
+          "start": 0.9,
+          "end": 1.46
+        },
+        {
+          "id": "w3",
+          "text": "-70",
+          "start": 1.46,
+          "end": 2.52
+        },
+        {
+          "id": "w4",
+          "text": "%",
+          "start": 2.52,
+          "end": 2.92
+        },
+        {
+          "id": "w5",
+          "text": " yang",
+          "start": 2.92,
+          "end": 3.52
+        },
+        {
+          "id": "w6",
+          "text": " punya",
+          "start": 3.52,
+          "end": 3.9
+        },
+        {
+          "id": "w7",
+          "text": " gen",
+          "start": 3.9,
+          "end": 4.24
+        },
+        {
+          "id": "w8",
+          "text": " sensitif",
+          "start": 4.24,
+          "end": 4.86
+        },
+        {
+          "id": "w9",
+          "text": " catnip.",
+          "start": 4.86,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "path": "assets/voice/19.wav",
+      "duration_s": 4.88,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Anak",
+          "start": 0.06,
+          "end": 0.4
+        },
+        {
+          "id": "w1",
+          "text": " kucing",
+          "start": 0.4,
+          "end": 0.74
+        },
+        {
+          "id": "w2",
+          "text": " di",
+          "start": 0.74,
+          "end": 0.86
+        },
+        {
+          "id": "w3",
+          "text": " bawah",
+          "start": 0.86,
+          "end": 1.1
+        },
+        {
+          "id": "w4",
+          "text": " 3",
+          "start": 1.1,
+          "end": 1.28
+        },
+        {
+          "id": "w5",
+          "text": " bulan",
+          "start": 1.28,
+          "end": 1.8
+        },
+        {
+          "id": "w6",
+          "text": " malah",
+          "start": 1.8,
+          "end": 2.42
+        },
+        {
+          "id": "w7",
+          "text": " biasanya",
+          "start": 2.42,
+          "end": 2.96
+        },
+        {
+          "id": "w8",
+          "text": " belum",
+          "start": 2.96,
+          "end": 3.2
+        },
+        {
+          "id": "w9",
+          "text": " merespon",
+          "start": 3.2,
+          "end": 3.8
+        },
+        {
+          "id": "w10",
+          "text": " sama",
+          "start": 3.8,
+          "end": 3.98
+        },
+        {
+          "id": "w11",
+          "text": " sekali.",
+          "start": 3.98,
+          "end": 3.98
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "path": "assets/voice/20.wav",
+      "duration_s": 3.12,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Yang",
+          "start": 0.06,
+          "end": 0.26
+        },
+        {
+          "id": "w1",
+          "text": " lebih",
+          "start": 0.26,
+          "end": 0.48
+        },
+        {
+          "id": "w2",
+          "text": " menarik",
+          "start": 0.48,
+          "end": 1.06
+        },
+        {
+          "id": "w3",
+          "text": " bukan",
+          "start": 1.06,
+          "end": 1.54
+        },
+        {
+          "id": "w4",
+          "text": " cuma",
+          "start": 1.54,
+          "end": 1.86
+        },
+        {
+          "id": "w5",
+          "text": " kucing",
+          "start": 1.86,
+          "end": 2.32
+        },
+        {
+          "id": "w6",
+          "text": " rumahan.",
+          "start": 2.32,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "path": "assets/voice/21.wav",
+      "duration_s": 5.68,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Harimau,",
+          "start": 0.1,
+          "end": 1.14
+        },
+        {
+          "id": "w1",
+          "text": " singa,",
+          "start": 1.14,
+          "end": 1.84
+        },
+        {
+          "id": "w2",
+          "text": " bahkan",
+          "start": 1.84,
+          "end": 2.22
+        },
+        {
+          "id": "w3",
+          "text": " macan",
+          "start": 2.22,
+          "end": 2.66
+        },
+        {
+          "id": "w4",
+          "text": " tutul",
+          "start": 2.66,
+          "end": 3.1
+        },
+        {
+          "id": "w5",
+          "text": " bisa",
+          "start": 3.1,
+          "end": 3.72
+        },
+        {
+          "id": "w6",
+          "text": " kena",
+          "start": 3.72,
+          "end": 4
+        },
+        {
+          "id": "w7",
+          "text": " efek",
+          "start": 4,
+          "end": 4.36
+        },
+        {
+          "id": "w8",
+          "text": " yang",
+          "start": 4.36,
+          "end": 4.5
+        },
+        {
+          "id": "w9",
+          "text": " sama",
+          "start": 4.5,
+          "end": 4.9
+        },
+        {
+          "id": "w10",
+          "text": " persis.",
+          "start": 4.9,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "path": "assets/voice/22.wav",
+      "duration_s": 9.68,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Bayangkan,",
+          "start": 0.08,
+          "end": 0.98
+        },
+        {
+          "id": "w1",
+          "text": " ada",
+          "start": 0.98,
+          "end": 1.46
+        },
+        {
+          "id": "w2",
+          "text": " satu",
+          "start": 1.46,
+          "end": 1.82
+        },
+        {
+          "id": "w3",
+          "text": " bau",
+          "start": 1.82,
+          "end": 2.26
+        },
+        {
+          "id": "w4",
+          "text": " yang",
+          "start": 2.26,
+          "end": 2.8
+        },
+        {
+          "id": "w5",
+          "text": " membuatmu",
+          "start": 2.8,
+          "end": 3.5
+        },
+        {
+          "id": "w6",
+          "text": " ingin",
+          "start": 3.5,
+          "end": 3.9
+        },
+        {
+          "id": "w7",
+          "text": " guling",
+          "start": 3.9,
+          "end": 4.34
+        },
+        {
+          "id": "w8",
+          "text": "-guling",
+          "start": 4.34,
+          "end": 4.8
+        },
+        {
+          "id": "w9",
+          "text": " setiap",
+          "start": 4.8,
+          "end": 5.32
+        },
+        {
+          "id": "w10",
+          "text": " menciumnya.",
+          "start": 5.32,
+          "end": 6.26
+        },
+        {
+          "id": "w11",
+          "text": " Kurang",
+          "start": 6.26,
+          "end": 6.82
+        },
+        {
+          "id": "w12",
+          "text": " lebih,",
+          "start": 6.82,
+          "end": 7.6
+        },
+        {
+          "id": "w13",
+          "text": " begitulah",
+          "start": 7.6,
+          "end": 8.16
+        },
+        {
+          "id": "w14",
+          "text": " rasanya",
+          "start": 8.16,
+          "end": 8.68
+        },
+        {
+          "id": "w15",
+          "text": " jadi",
+          "start": 8.68,
+          "end": 8.98
+        },
+        {
+          "id": "w16",
+          "text": " kucing.",
+          "start": 8.98,
+          "end": 8.98
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "path": "assets/voice/23.wav",
+      "duration_s": 2.8,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Fakta",
+          "start": 0.1,
+          "end": 0.52
+        },
+        {
+          "id": "w1",
+          "text": " kedua,",
+          "start": 0.52,
+          "end": 1.46
+        },
+        {
+          "id": "w2",
+          "text": " soal",
+          "start": 1.46,
+          "end": 1.76
+        },
+        {
+          "id": "w3",
+          "text": " jam",
+          "start": 1.76,
+          "end": 1.98
+        },
+        {
+          "id": "w4",
+          "text": " tidurnya.",
+          "start": 1.98,
+          "end": 1.98
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "path": "assets/voice/24.wav",
+      "duration_s": 5.6,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Coba",
+          "start": 0.02,
+          "end": 0.4
+        },
+        {
+          "id": "w1",
+          "text": " ingat,",
+          "start": 0.4,
+          "end": 0.96
+        },
+        {
+          "id": "w2",
+          "text": " ingat.",
+          "start": 0.96,
+          "end": 1.48
+        },
+        {
+          "id": "w3",
+          "text": " Terakhir",
+          "start": 1.48,
+          "end": 2.08
+        },
+        {
+          "id": "w4",
+          "text": " kali",
+          "start": 2.08,
+          "end": 2.46
+        },
+        {
+          "id": "w5",
+          "text": " kamu",
+          "start": 2.46,
+          "end": 2.86
+        },
+        {
+          "id": "w6",
+          "text": " melihat",
+          "start": 2.86,
+          "end": 3.24
+        },
+        {
+          "id": "w7",
+          "text": " kucingmu.",
+          "start": 3.24,
+          "end": 4.04
+        },
+        {
+          "id": "w8",
+          "text": " Dia",
+          "start": 4.04,
+          "end": 4.52
+        },
+        {
+          "id": "w9",
+          "text": " sedang",
+          "start": 4.52,
+          "end": 4.86
+        },
+        {
+          "id": "w10",
+          "text": " apa?",
+          "start": 4.86,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "path": "assets/voice/25.wav",
+      "duration_s": 3.76,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Besar",
+          "start": 0.1,
+          "end": 0.54
+        },
+        {
+          "id": "w1",
+          "text": " kemungkinan,",
+          "start": 0.54,
+          "end": 1.54
+        },
+        {
+          "id": "w2",
+          "text": " jawabannya",
+          "start": 1.54,
+          "end": 2.18
+        },
+        {
+          "id": "w3",
+          "text": " 1.",
+          "start": 2.18,
+          "end": 2.92
+        },
+        {
+          "id": "w4",
+          "text": " Tidur.",
+          "start": 2.92,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "path": "assets/voice/26.wav",
+      "duration_s": 3.44,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Kucing",
+          "start": 0.04,
+          "end": 0.46
+        },
+        {
+          "id": "w1",
+          "text": " bisa",
+          "start": 0.46,
+          "end": 0.7
+        },
+        {
+          "id": "w2",
+          "text": " tidur",
+          "start": 0.7,
+          "end": 1.02
+        },
+        {
+          "id": "w3",
+          "text": " 12",
+          "start": 1.02,
+          "end": 1.42
+        },
+        {
+          "id": "w4",
+          "text": " sampai",
+          "start": 1.42,
+          "end": 1.88
+        },
+        {
+          "id": "w5",
+          "text": " 16",
+          "start": 1.88,
+          "end": 2.4
+        },
+        {
+          "id": "w6",
+          "text": " jam",
+          "start": 2.4,
+          "end": 2.72
+        },
+        {
+          "id": "w7",
+          "text": " sehari.",
+          "start": 2.72,
+          "end": 2.98
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "path": "assets/voice/27.wav",
+      "duration_s": 4.96,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Yang",
+          "start": 0.04,
+          "end": 0.28
+        },
+        {
+          "id": "w1",
+          "text": " masih",
+          "start": 0.28,
+          "end": 0.58
+        },
+        {
+          "id": "w2",
+          "text": " kecil",
+          "start": 0.58,
+          "end": 1.08
+        },
+        {
+          "id": "w3",
+          "text": " atau",
+          "start": 1.08,
+          "end": 1.44
+        },
+        {
+          "id": "w4",
+          "text": " sudah",
+          "start": 1.44,
+          "end": 1.72
+        },
+        {
+          "id": "w5",
+          "text": " tua,",
+          "start": 1.72,
+          "end": 2.52
+        },
+        {
+          "id": "w6",
+          "text": " bahkan",
+          "start": 2.52,
+          "end": 3
+        },
+        {
+          "id": "w7",
+          "text": " bisa",
+          "start": 3,
+          "end": 3.42
+        },
+        {
+          "id": "w8",
+          "text": " sampai",
+          "start": 3.42,
+          "end": 3.88
+        },
+        {
+          "id": "w9",
+          "text": " 20",
+          "start": 3.88,
+          "end": 3.98
+        },
+        {
+          "id": "w10",
+          "text": " jam.",
+          "start": 3.98,
+          "end": 3.98
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "path": "assets/voice/28.wav",
+      "duration_s": 2.24,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Tapi",
+          "start": 0.02,
+          "end": 0.42
+        },
+        {
+          "id": "w1",
+          "text": " ini",
+          "start": 0.42,
+          "end": 0.72
+        },
+        {
+          "id": "w2",
+          "text": " bukan",
+          "start": 0.72,
+          "end": 1.04
+        },
+        {
+          "id": "w3",
+          "text": " soal",
+          "start": 1.04,
+          "end": 1.48
+        },
+        {
+          "id": "w4",
+          "text": " malas.",
+          "start": 1.48,
+          "end": 1.98
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "path": "assets/voice/29.wav",
+      "duration_s": 6,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Ini",
+          "start": 0,
+          "end": 0.32
+        },
+        {
+          "id": "w1",
+          "text": " warisan",
+          "start": 0.32,
+          "end": 0.86
+        },
+        {
+          "id": "w2",
+          "text": " dari",
+          "start": 0.86,
+          "end": 1.14
+        },
+        {
+          "id": "w3",
+          "text": " nenek",
+          "start": 1.14,
+          "end": 1.52
+        },
+        {
+          "id": "w4",
+          "text": " moyang",
+          "start": 1.52,
+          "end": 1.82
+        },
+        {
+          "id": "w5",
+          "text": " mereka,",
+          "start": 1.82,
+          "end": 2.52
+        },
+        {
+          "id": "w6",
+          "text": " yang",
+          "start": 2.52,
+          "end": 2.62
+        },
+        {
+          "id": "w7",
+          "text": " predator,",
+          "start": 2.62,
+          "end": 3.58
+        },
+        {
+          "id": "w8",
+          "text": " yang",
+          "start": 3.58,
+          "end": 3.84
+        },
+        {
+          "id": "w9",
+          "text": " menyimpan",
+          "start": 3.84,
+          "end": 4.38
+        },
+        {
+          "id": "w10",
+          "text": " energi",
+          "start": 4.38,
+          "end": 4.86
+        },
+        {
+          "id": "w11",
+          "text": " untuk",
+          "start": 4.86,
+          "end": 5.08
+        },
+        {
+          "id": "w12",
+          "text": " berburu.",
+          "start": 5.08,
+          "end": 5.98
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "path": "assets/voice/30.wav",
+      "duration_s": 9.2,
+      "words": [
+        {
+          "id": "w0",
+          "text": " Makanya",
+          "start": 0.08,
+          "end": 0.64
+        },
+        {
+          "id": "w1",
+          "text": " jangan",
+          "start": 0.64,
+          "end": 0.92
+        },
+        {
+          "id": "w2",
+          "text": " heran,",
+          "start": 0.92,
+          "end": 2.14
+        },
+        {
+          "id": "w3",
+          "text": " siang",
+          "start": 2.14,
+          "end": 2.42
+        },
+        {
+          "id": "w4",
+          "text": " dia",
+          "start": 2.42,
+          "end": 2.66
+        },
+        {
+          "id": "w5",
+          "text": " tidur",
+          "start": 2.66,
+          "end": 3.04
+        },
+        {
+          "id": "w6",
+          "text": " terus,",
+          "start": 3.04,
+          "end": 3.66
+        },
+        {
+          "id": "w7",
+          "text": " tapi",
+          "start": 3.66,
+          "end": 4.12
+        },
+        {
+          "id": "w8",
+          "text": " begitu",
+          "start": 4.12,
+          "end": 4.48
+        },
+        {
+          "id": "w9",
+          "text": " malam,",
+          "start": 4.48,
+          "end": 5.28
+        },
+        {
+          "id": "w10",
+          "text": " tiba",
+          "start": 5.28,
+          "end": 5.74
+        },
+        {
+          "id": "w11",
+          "text": "-tiba",
+          "start": 5.74,
+          "end": 6.08
+        },
+        {
+          "id": "w12",
+          "text": " lincah,",
+          "start": 6.08,
+          "end": 6.76
+        },
+        {
+          "id": "w13",
+          "text": " seperti",
+          "start": 6.76,
+          "end": 7.24
+        },
+        {
+          "id": "w14",
+          "text": " habis",
+          "start": 7.24,
+          "end": 7.8
+        },
+        {
+          "id": "w15",
+          "text": " minum",
+          "start": 7.8,
+          "end": 8.14
+        },
+        {
+          "id": "w16",
+          "text": " energy",
+          "start": 8.14,
+          "end": 8.54
+        },
+        {
+          "id": "w17",
+          "text": " drink.",
+          "start": 8.54,
+          "end": 8.98
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

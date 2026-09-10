@@ -1,0 +1,925 @@
+{
+  "totalDuration": 24.5,
+  "segments": [
+    {
+      "id": "vo_1",
+      "start": 0.1,
+      "transcript": "What if you could build an entire Roblox game just by typing? Fill the baseplate with wheat... and BOOM! Instant world created.",
+      "duration": 7.6,
+      "wavPath": "assets/audio/vo_1.wav",
+      "sttText": "What if you could build an entire Roblox game just by typing? Fill the base plate with wheat, and boom! Instant world created.",
+      "words": [
+        {
+          "word": "What",
+          "localStart": 0,
+          "localEnd": 0.22,
+          "globalStart": 0.1,
+          "globalEnd": 0.32
+        },
+        {
+          "word": "if",
+          "localStart": 0.22,
+          "localEnd": 0.34,
+          "globalStart": 0.32,
+          "globalEnd": 0.44
+        },
+        {
+          "word": "you",
+          "localStart": 0.34,
+          "localEnd": 0.44,
+          "globalStart": 0.44,
+          "globalEnd": 0.54
+        },
+        {
+          "word": "could",
+          "localStart": 0.44,
+          "localEnd": 0.6,
+          "globalStart": 0.54,
+          "globalEnd": 0.7
+        },
+        {
+          "word": "build",
+          "localStart": 0.6,
+          "localEnd": 0.84,
+          "globalStart": 0.7,
+          "globalEnd": 0.94
+        },
+        {
+          "word": "an",
+          "localStart": 0.84,
+          "localEnd": 1,
+          "globalStart": 0.94,
+          "globalEnd": 1.1
+        },
+        {
+          "word": "entire",
+          "localStart": 1,
+          "localEnd": 1.52,
+          "globalStart": 1.1,
+          "globalEnd": 1.62
+        },
+        {
+          "word": "Roblox",
+          "localStart": 1.52,
+          "localEnd": 2.18,
+          "globalStart": 1.62,
+          "globalEnd": 2.28
+        },
+        {
+          "word": "game",
+          "localStart": 2.18,
+          "localEnd": 2.42,
+          "globalStart": 2.28,
+          "globalEnd": 2.52
+        },
+        {
+          "word": "just",
+          "localStart": 2.42,
+          "localEnd": 2.64,
+          "globalStart": 2.52,
+          "globalEnd": 2.74
+        },
+        {
+          "word": "by",
+          "localStart": 2.64,
+          "localEnd": 2.8,
+          "globalStart": 2.74,
+          "globalEnd": 2.9
+        },
+        {
+          "word": "typing?",
+          "localStart": 2.8,
+          "localEnd": 3.5,
+          "globalStart": 2.9,
+          "globalEnd": 3.6
+        },
+        {
+          "word": "Fill",
+          "localStart": 3.5,
+          "localEnd": 3.94,
+          "globalStart": 3.6,
+          "globalEnd": 4.04
+        },
+        {
+          "word": "the",
+          "localStart": 3.94,
+          "localEnd": 4.06,
+          "globalStart": 4.04,
+          "globalEnd": 4.16
+        },
+        {
+          "word": "base",
+          "localStart": 4.06,
+          "localEnd": 4.28,
+          "globalStart": 4.16,
+          "globalEnd": 4.38
+        },
+        {
+          "word": "plate",
+          "localStart": 4.28,
+          "localEnd": 4.48,
+          "globalStart": 4.38,
+          "globalEnd": 4.58
+        },
+        {
+          "word": "with",
+          "localStart": 4.48,
+          "localEnd": 4.66,
+          "globalStart": 4.58,
+          "globalEnd": 4.76
+        },
+        {
+          "word": "wheat,",
+          "localStart": 4.66,
+          "localEnd": 5.16,
+          "globalStart": 4.76,
+          "globalEnd": 5.26
+        },
+        {
+          "word": "and",
+          "localStart": 5.16,
+          "localEnd": 5.42,
+          "globalStart": 5.26,
+          "globalEnd": 5.52
+        },
+        {
+          "word": "boom!",
+          "localStart": 5.42,
+          "localEnd": 6.02,
+          "globalStart": 5.52,
+          "globalEnd": 6.12
+        },
+        {
+          "word": "Instant",
+          "localStart": 6.02,
+          "localEnd": 6.48,
+          "globalStart": 6.12,
+          "globalEnd": 6.58
+        },
+        {
+          "word": "world",
+          "localStart": 6.48,
+          "localEnd": 6.76,
+          "globalStart": 6.58,
+          "globalEnd": 6.86
+        },
+        {
+          "word": "created.",
+          "localStart": 6.76,
+          "localEnd": 6.98,
+          "globalStart": 6.86,
+          "globalEnd": 7.08
+        }
+      ]
+    },
+    {
+      "id": "vo_2",
+      "start": 8,
+      "transcript": "Randomize height and add a respawn system. Just like that, procedural logic is live.",
+      "duration": 5.04,
+      "wavPath": "assets/audio/vo_2.wav",
+      "sttText": "Randomize height and add a respawn system. Just like that, procedural logic is live.",
+      "words": [
+        {
+          "word": "Randomize",
+          "localStart": 0.1,
+          "localEnd": 0.62,
+          "globalStart": 8.1,
+          "globalEnd": 8.62
+        },
+        {
+          "word": "height",
+          "localStart": 0.62,
+          "localEnd": 0.88,
+          "globalStart": 8.62,
+          "globalEnd": 8.88
+        },
+        {
+          "word": "and",
+          "localStart": 0.88,
+          "localEnd": 1.08,
+          "globalStart": 8.88,
+          "globalEnd": 9.08
+        },
+        {
+          "word": "add",
+          "localStart": 1.08,
+          "localEnd": 1.22,
+          "globalStart": 9.08,
+          "globalEnd": 9.22
+        },
+        {
+          "word": "a",
+          "localStart": 1.22,
+          "localEnd": 1.34,
+          "globalStart": 9.22,
+          "globalEnd": 9.34
+        },
+        {
+          "word": "respawn",
+          "localStart": 1.34,
+          "localEnd": 1.76,
+          "globalStart": 9.34,
+          "globalEnd": 9.76
+        },
+        {
+          "word": "system.",
+          "localStart": 1.76,
+          "localEnd": 2.56,
+          "globalStart": 9.76,
+          "globalEnd": 10.56
+        },
+        {
+          "word": "Just",
+          "localStart": 2.56,
+          "localEnd": 2.66,
+          "globalStart": 10.56,
+          "globalEnd": 10.66
+        },
+        {
+          "word": "like",
+          "localStart": 2.66,
+          "localEnd": 2.84,
+          "globalStart": 10.66,
+          "globalEnd": 10.84
+        },
+        {
+          "word": "that,",
+          "localStart": 2.84,
+          "localEnd": 3.32,
+          "globalStart": 10.84,
+          "globalEnd": 11.32
+        },
+        {
+          "word": "procedural",
+          "localStart": 3.32,
+          "localEnd": 3.78,
+          "globalStart": 11.32,
+          "globalEnd": 11.78
+        },
+        {
+          "word": "logic",
+          "localStart": 3.78,
+          "localEnd": 4.16,
+          "globalStart": 11.78,
+          "globalEnd": 12.16
+        },
+        {
+          "word": "is",
+          "localStart": 4.16,
+          "localEnd": 4.4,
+          "globalStart": 12.16,
+          "globalEnd": 12.4
+        },
+        {
+          "word": "live.",
+          "localStart": 4.4,
+          "localEnd": 4.98,
+          "globalStart": 12.4,
+          "globalEnd": 12.98
+        }
+      ]
+    },
+    {
+      "id": "vo_3",
+      "start": 13.3,
+      "transcript": "Add a wheat counter and harvest effects. That simple.",
+      "duration": 3.36,
+      "wavPath": "assets/audio/vo_3.wav",
+      "sttText": "Add a wheat counter and harvest effects. That simple.",
+      "words": [
+        {
+          "word": "Add",
+          "localStart": 0.04,
+          "localEnd": 0.28,
+          "globalStart": 13.34,
+          "globalEnd": 13.58
+        },
+        {
+          "word": "a",
+          "localStart": 0.28,
+          "localEnd": 0.44,
+          "globalStart": 13.58,
+          "globalEnd": 13.74
+        },
+        {
+          "word": "wheat",
+          "localStart": 0.44,
+          "localEnd": 0.58,
+          "globalStart": 13.74,
+          "globalEnd": 13.88
+        },
+        {
+          "word": "counter",
+          "localStart": 0.58,
+          "localEnd": 0.96,
+          "globalStart": 13.88,
+          "globalEnd": 14.26
+        },
+        {
+          "word": "and",
+          "localStart": 0.96,
+          "localEnd": 1.26,
+          "globalStart": 14.26,
+          "globalEnd": 14.56
+        },
+        {
+          "word": "harvest",
+          "localStart": 1.26,
+          "localEnd": 1.62,
+          "globalStart": 14.56,
+          "globalEnd": 14.92
+        },
+        {
+          "word": "effects.",
+          "localStart": 1.62,
+          "localEnd": 2.34,
+          "globalStart": 14.92,
+          "globalEnd": 15.64
+        },
+        {
+          "word": "That",
+          "localStart": 2.34,
+          "localEnd": 2.64,
+          "globalStart": 15.64,
+          "globalEnd": 15.94
+        },
+        {
+          "word": "simple.",
+          "localStart": 2.64,
+          "localEnd": 2.98,
+          "globalStart": 15.94,
+          "globalEnd": 16.28
+        }
+      ]
+    },
+    {
+      "id": "vo_4",
+      "start": 17,
+      "transcript": "A fully playable simulator game built in seconds, right inside Roblox.",
+      "duration": 4.72,
+      "wavPath": "assets/audio/vo_4.wav",
+      "sttText": "a fully playable simulator game built in seconds right inside Roblox.",
+      "words": [
+        {
+          "word": "a",
+          "localStart": 0,
+          "localEnd": 0.18,
+          "globalStart": 17,
+          "globalEnd": 17.18
+        },
+        {
+          "word": "fully",
+          "localStart": 0.18,
+          "localEnd": 0.5,
+          "globalStart": 17.18,
+          "globalEnd": 17.5
+        },
+        {
+          "word": "playable",
+          "localStart": 0.5,
+          "localEnd": 0.94,
+          "globalStart": 17.5,
+          "globalEnd": 17.94
+        },
+        {
+          "word": "simulator",
+          "localStart": 0.94,
+          "localEnd": 1.44,
+          "globalStart": 17.94,
+          "globalEnd": 18.44
+        },
+        {
+          "word": "game",
+          "localStart": 1.44,
+          "localEnd": 1.88,
+          "globalStart": 18.44,
+          "globalEnd": 18.88
+        },
+        {
+          "word": "built",
+          "localStart": 1.88,
+          "localEnd": 2.18,
+          "globalStart": 18.88,
+          "globalEnd": 19.18
+        },
+        {
+          "word": "in",
+          "localStart": 2.18,
+          "localEnd": 2.36,
+          "globalStart": 19.18,
+          "globalEnd": 19.36
+        },
+        {
+          "word": "seconds",
+          "localStart": 2.36,
+          "localEnd": 2.9,
+          "globalStart": 19.36,
+          "globalEnd": 19.9
+        },
+        {
+          "word": "right",
+          "localStart": 2.9,
+          "localEnd": 3.46,
+          "globalStart": 19.9,
+          "globalEnd": 20.46
+        },
+        {
+          "word": "inside",
+          "localStart": 3.46,
+          "localEnd": 3.86,
+          "globalStart": 20.46,
+          "globalEnd": 20.86
+        },
+        {
+          "word": "Roblox.",
+          "localStart": 3.86,
+          "localEnd": 3.98,
+          "globalStart": 20.86,
+          "globalEnd": 20.98
+        }
+      ]
+    },
+    {
+      "id": "vo_5",
+      "start": 22.1,
+      "transcript": "Build faster with ForgeGUI.",
+      "duration": 1.84,
+      "wavPath": "assets/audio/vo_5.wav",
+      "sttText": "Build faster with Forge GUI.",
+      "words": [
+        {
+          "word": "Build",
+          "localStart": 0.04,
+          "localEnd": 0.3,
+          "globalStart": 22.14,
+          "globalEnd": 22.4
+        },
+        {
+          "word": "faster",
+          "localStart": 0.3,
+          "localEnd": 0.74,
+          "globalStart": 22.4,
+          "globalEnd": 22.84
+        },
+        {
+          "word": "with",
+          "localStart": 0.74,
+          "localEnd": 0.94,
+          "globalStart": 22.84,
+          "globalEnd": 23.04
+        },
+        {
+          "word": "Forge",
+          "localStart": 0.94,
+          "localEnd": 0.98,
+          "globalStart": 23.04,
+          "globalEnd": 23.08
+        },
+        {
+          "word": "GUI.",
+          "localStart": 0.98,
+          "localEnd": 0.98,
+          "globalStart": 23.08,
+          "globalEnd": 23.08
+        }
+      ]
+    }
+  ],
+  "allWords": [
+    {
+      "word": "What",
+      "localStart": 0,
+      "localEnd": 0.22,
+      "globalStart": 0.1,
+      "globalEnd": 0.32
+    },
+    {
+      "word": "if",
+      "localStart": 0.22,
+      "localEnd": 0.34,
+      "globalStart": 0.32,
+      "globalEnd": 0.44
+    },
+    {
+      "word": "you",
+      "localStart": 0.34,
+      "localEnd": 0.44,
+      "globalStart": 0.44,
+      "globalEnd": 0.54
+    },
+    {
+      "word": "could",
+      "localStart": 0.44,
+      "localEnd": 0.6,
+      "globalStart": 0.54,
+      "globalEnd": 0.7
+    },
+    {
+      "word": "build",
+      "localStart": 0.6,
+      "localEnd": 0.84,
+      "globalStart": 0.7,
+      "globalEnd": 0.94
+    },
+    {
+      "word": "an",
+      "localStart": 0.84,
+      "localEnd": 1,
+      "globalStart": 0.94,
+      "globalEnd": 1.1
+    },
+    {
+      "word": "entire",
+      "localStart": 1,
+      "localEnd": 1.52,
+      "globalStart": 1.1,
+      "globalEnd": 1.62
+    },
+    {
+      "word": "Roblox",
+      "localStart": 1.52,
+      "localEnd": 2.18,
+      "globalStart": 1.62,
+      "globalEnd": 2.28
+    },
+    {
+      "word": "game",
+      "localStart": 2.18,
+      "localEnd": 2.42,
+      "globalStart": 2.28,
+      "globalEnd": 2.52
+    },
+    {
+      "word": "just",
+      "localStart": 2.42,
+      "localEnd": 2.64,
+      "globalStart": 2.52,
+      "globalEnd": 2.74
+    },
+    {
+      "word": "by",
+      "localStart": 2.64,
+      "localEnd": 2.8,
+      "globalStart": 2.74,
+      "globalEnd": 2.9
+    },
+    {
+      "word": "typing?",
+      "localStart": 2.8,
+      "localEnd": 3.5,
+      "globalStart": 2.9,
+      "globalEnd": 3.6
+    },
+    {
+      "word": "Fill",
+      "localStart": 3.5,
+      "localEnd": 3.94,
+      "globalStart": 3.6,
+      "globalEnd": 4.04
+    },
+    {
+      "word": "the",
+      "localStart": 3.94,
+      "localEnd": 4.06,
+      "globalStart": 4.04,
+      "globalEnd": 4.16
+    },
+    {
+      "word": "base",
+      "localStart": 4.06,
+      "localEnd": 4.28,
+      "globalStart": 4.16,
+      "globalEnd": 4.38
+    },
+    {
+      "word": "plate",
+      "localStart": 4.28,
+      "localEnd": 4.48,
+      "globalStart": 4.38,
+      "globalEnd": 4.58
+    },
+    {
+      "word": "with",
+      "localStart": 4.48,
+      "localEnd": 4.66,
+      "globalStart": 4.58,
+      "globalEnd": 4.76
+    },
+    {
+      "word": "wheat,",
+      "localStart": 4.66,
+      "localEnd": 5.16,
+      "globalStart": 4.76,
+      "globalEnd": 5.26
+    },
+    {
+      "word": "and",
+      "localStart": 5.16,
+      "localEnd": 5.42,
+      "globalStart": 5.26,
+      "globalEnd": 5.52
+    },
+    {
+      "word": "boom!",
+      "localStart": 5.42,
+      "localEnd": 6.02,
+      "globalStart": 5.52,
+      "globalEnd": 6.12
+    },
+    {
+      "word": "Instant",
+      "localStart": 6.02,
+      "localEnd": 6.48,
+      "globalStart": 6.12,
+      "globalEnd": 6.58
+    },
+    {
+      "word": "world",
+      "localStart": 6.48,
+      "localEnd": 6.76,
+      "globalStart": 6.58,
+      "globalEnd": 6.86
+    },
+    {
+      "word": "created.",
+      "localStart": 6.76,
+      "localEnd": 6.98,
+      "globalStart": 6.86,
+      "globalEnd": 7.08
+    },
+    {
+      "word": "Randomize",
+      "localStart": 0.1,
+      "localEnd": 0.62,
+      "globalStart": 8.1,
+      "globalEnd": 8.62
+    },
+    {
+      "word": "height",
+      "localStart": 0.62,
+      "localEnd": 0.88,
+      "globalStart": 8.62,
+      "globalEnd": 8.88
+    },
+    {
+      "word": "and",
+      "localStart": 0.88,
+      "localEnd": 1.08,
+      "globalStart": 8.88,
+      "globalEnd": 9.08
+    },
+    {
+      "word": "add",
+      "localStart": 1.08,
+      "localEnd": 1.22,
+      "globalStart": 9.08,
+      "globalEnd": 9.22
+    },
+    {
+      "word": "a",
+      "localStart": 1.22,
+      "localEnd": 1.34,
+      "globalStart": 9.22,
+      "globalEnd": 9.34
+    },
+    {
+      "word": "respawn",
+      "localStart": 1.34,
+      "localEnd": 1.76,
+      "globalStart": 9.34,
+      "globalEnd": 9.76
+    },
+    {
+      "word": "system.",
+      "localStart": 1.76,
+      "localEnd": 2.56,
+      "globalStart": 9.76,
+      "globalEnd": 10.56
+    },
+    {
+      "word": "Just",
+      "localStart": 2.56,
+      "localEnd": 2.66,
+      "globalStart": 10.56,
+      "globalEnd": 10.66
+    },
+    {
+      "word": "like",
+      "localStart": 2.66,
+      "localEnd": 2.84,
+      "globalStart": 10.66,
+      "globalEnd": 10.84
+    },
+    {
+      "word": "that,",
+      "localStart": 2.84,
+      "localEnd": 3.32,
+      "globalStart": 10.84,
+      "globalEnd": 11.32
+    },
+    {
+      "word": "procedural",
+      "localStart": 3.32,
+      "localEnd": 3.78,
+      "globalStart": 11.32,
+      "globalEnd": 11.78
+    },
+    {
+      "word": "logic",
+      "localStart": 3.78,
+      "localEnd": 4.16,
+      "globalStart": 11.78,
+      "globalEnd": 12.16
+    },
+    {
+      "word": "is",
+      "localStart": 4.16,
+      "localEnd": 4.4,
+      "globalStart": 12.16,
+      "globalEnd": 12.4
+    },
+    {
+      "word": "live.",
+      "localStart": 4.4,
+      "localEnd": 4.98,
+      "globalStart": 12.4,
+      "globalEnd": 12.98
+    },
+    {
+      "word": "Add",
+      "localStart": 0.04,
+      "localEnd": 0.28,
+      "globalStart": 13.34,
+      "globalEnd": 13.58
+    },
+    {
+      "word": "a",
+      "localStart": 0.28,
+      "localEnd": 0.44,
+      "globalStart": 13.58,
+      "globalEnd": 13.74
+    },
+    {
+      "word": "wheat",
+      "localStart": 0.44,
+      "localEnd": 0.58,
+      "globalStart": 13.74,
+      "globalEnd": 13.88
+    },
+    {
+      "word": "counter",
+      "localStart": 0.58,
+      "localEnd": 0.96,
+      "globalStart": 13.88,
+      "globalEnd": 14.26
+    },
+    {
+      "word": "and",
+      "localStart": 0.96,
+      "localEnd": 1.26,
+      "globalStart": 14.26,
+      "globalEnd": 14.56
+    },
+    {
+      "word": "harvest",
+      "localStart": 1.26,
+      "localEnd": 1.62,
+      "globalStart": 14.56,
+      "globalEnd": 14.92
+    },
+    {
+      "word": "effects.",
+      "localStart": 1.62,
+      "localEnd": 2.34,
+      "globalStart": 14.92,
+      "globalEnd": 15.64
+    },
+    {
+      "word": "That",
+      "localStart": 2.34,
+      "localEnd": 2.64,
+      "globalStart": 15.64,
+      "globalEnd": 15.94
+    },
+    {
+      "word": "simple.",
+      "localStart": 2.64,
+      "localEnd": 2.98,
+      "globalStart": 15.94,
+      "globalEnd": 16.28
+    },
+    {
+      "word": "a",
+      "localStart": 0,
+      "localEnd": 0.18,
+      "globalStart": 17,
+      "globalEnd": 17.18
+    },
+    {
+      "word": "fully",
+      "localStart": 0.18,
+      "localEnd": 0.5,
+      "globalStart": 17.18,
+      "globalEnd": 17.5
+    },
+    {
+      "word": "playable",
+      "localStart": 0.5,
+      "localEnd": 0.94,
+      "globalStart": 17.5,
+      "globalEnd": 17.94
+    },
+    {
+      "word": "simulator",
+      "localStart": 0.94,
+      "localEnd": 1.44,
+      "globalStart": 17.94,
+      "globalEnd": 18.44
+    },
+    {
+      "word": "game",
+      "localStart": 1.44,
+      "localEnd": 1.88,
+      "globalStart": 18.44,
+      "globalEnd": 18.88
+    },
+    {
+      "word": "built",
+      "localStart": 1.88,
+      "localEnd": 2.18,
+      "globalStart": 18.88,
+      "globalEnd": 19.18
+    },
+    {
+      "word": "in",
+      "localStart": 2.18,
+      "localEnd": 2.36,
+      "globalStart": 19.18,
+      "globalEnd": 19.36
+    },
+    {
+      "word": "seconds",
+      "localStart": 2.36,
+      "localEnd": 2.9,
+      "globalStart": 19.36,
+      "globalEnd": 19.9
+    },
+    {
+      "word": "right",
+      "localStart": 2.9,
+      "localEnd": 3.46,
+      "globalStart": 19.9,
+      "globalEnd": 20.46
+    },
+    {
+      "word": "inside",
+      "localStart": 3.46,
+      "localEnd": 3.86,
+      "globalStart": 20.46,
+      "globalEnd": 20.86
+    },
+    {
+      "word": "Roblox.",
+      "localStart": 3.86,
+      "localEnd": 3.98,
+      "globalStart": 20.86,
+      "globalEnd": 20.98
+    },
+    {
+      "word": "Build",
+      "localStart": 0.04,
+      "localEnd": 0.3,
+      "globalStart": 22.14,
+      "globalEnd": 22.4
+    },
+    {
+      "word": "faster",
+      "localStart": 0.3,
+      "localEnd": 0.74,
+      "globalStart": 22.4,
+      "globalEnd": 22.84
+    },
+    {
+      "word": "with",
+      "localStart": 0.74,
+      "localEnd": 0.94,
+      "globalStart": 22.84,
+      "globalEnd": 23.04
+    },
+    {
+      "word": "Forge",
+      "localStart": 0.94,
+      "localEnd": 0.98,
+      "globalStart": 23.04,
+      "globalEnd": 23.08
+    },
+    {
+      "word": "GUI.",
+      "localStart": 0.98,
+      "localEnd": 0.98,
+      "globalStart": 23.08,
+      "globalEnd": 23.08
+    }
+  ]
+}

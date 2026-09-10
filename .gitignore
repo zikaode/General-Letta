@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Local tooling & agent state (contains session secrets / machine-local config)
+.letta/
+.kilo/
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+
+# Heavy binary media — regenerable outputs, not source
+*.wav
+*.mp4
+*.webm
+*.bin
+*.zip
+
+# Build / render outputs & staging
+renders/
+scratch/
+gen-staging/
+backup-v1/
+.thumbnails/
+.waveform-cache/
+
+# Logs
+*.log

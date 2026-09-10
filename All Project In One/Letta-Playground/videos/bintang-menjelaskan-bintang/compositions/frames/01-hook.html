@@ -1,0 +1,164 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+
+  #f01-hook-bg { z-index: 0; background: #1A1A1A; }
+
+  #f01-hook-glow {
+    z-index: 1; border-radius: 50%;
+    background: radial-gradient(circle, rgba(232,93,93,0.45) 0%, rgba(232,93,93,0.18) 40%, transparent 70%);
+    width: 700px; height: 700px; left: 610px; top: 230px;
+    will-change: transform, opacity; opacity: 0;
+  }
+
+  .f01-hook-star {
+    position: absolute; border-radius: 50%; background: #E85D5D;
+    will-change: transform, opacity;
+  }
+  #f01-hook-star-core { width: 26px; height: 26px; left: 947px; top: 454px; }
+  #f01-hook-pulse-ring {
+    position: absolute; width: 120px; height: 120px; left: 900px; top: 407px;
+    border: 3px solid #E85D5D; border-radius: 50%;
+    will-change: transform, opacity; opacity: 0;
+  }
+
+  #f01-hook-text { z-index: 5; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+  .f01-hook-beat {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+    will-change: transform, opacity;
+  }
+  #f01-hook-beat1 {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 60px; line-height: 1.0; letter-spacing: 3px; color: #F5F0E8;
+    margin-top: 120px;
+  }
+  #f01-hook-beat2 {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 100px; line-height: 0.9; letter-spacing: 4px; color: #E85D5D;
+  }
+  #f01-hook-beat3 {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 125px; line-height: 0.9; letter-spacing: 4px; color: #F5F0E8;
+    text-align: center;
+  }
+  #f01-hook-beat3 .f01-hook-b3-line { display: block; will-change: transform, opacity; }
+  /* readability scrim at the very bottom so captions stay legible */
+  /* readability scrim at the very bottom so captions stay legible */
+
+  #f01-hook-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="01-hook" data-width="1920" data-height="1080" data-duration="10.1">
+  <img id="f01-hook-imgbg" class="clip" data-start="0" data-duration="10.1" data-track-index="4" src="assets/img/frame-01.png" alt="" />
+
+
+
+
+
+
+  <div id="f01-hook-bg" class="clip" data-start="0" data-duration="10.6" data-track-index="0"></div>
+  <div id="f01-hook-glow" class="clip" data-start="0" data-duration="10.6" data-track-index="1"></div>
+
+  <div id="f01-hook-text" class="clip" data-start="0" data-duration="10.6" data-track-index="2">
+    <!-- Beat 1: TITIK CAHAYA (small, cream) -->
+    <div class="f01-hook-beat" id="f01-hook-beat1-wrap">
+      <div id="f01-hook-beat1">TITIK CAHAYA</div>
+    </div>
+    <!-- Beat 2: BOLA API (80% scale, coral) -->
+    <div class="f01-hook-beat" id="f01-hook-beat2-wrap">
+      <div id="f01-hook-beat2">BOLA API</div>
+    </div>
+    <!-- Beat 3: BOLA API RAKSASA (hero-title, cream) -->
+    <div class="f01-hook-beat" id="f01-hook-beat3-wrap">
+      <div id="f01-hook-beat3">
+        <span class="f01-hook-b3-line">BOLA API</span>
+        <span class="f01-hook-b3-line">RAKSASA</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Star core + pulse ring (above text z-wise but positioned center) -->
+  <div class="clip" data-start="0" data-duration="10.6" data-track-index="3">
+    <div id="f01-hook-star-core" class="f01-hook-star"></div>
+    <div id="f01-hook-pulse-ring"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 9.60;
+
+  var beat1 = document.getElementById("f01-hook-beat1-wrap");
+  var beat2 = document.getElementById("f01-hook-beat2-wrap");
+  var beat3 = document.getElementById("f01-hook-beat3-wrap");
+  var star = document.getElementById("f01-hook-star-core");
+  var ring = document.getElementById("f01-hook-pulse-ring");
+  var glow = document.getElementById("f01-hook-glow");
+  var b3lines = document.querySelectorAll("#f01-hook-beat3 .f01-hook-b3-line");
+
+  // ══ SCENE 1 (0.0–1.2s): black field; coral dot pulses; "TITIK CAHAYA" fades in small ══
+  // Star core entrance pop + subtle pulse (finite)
+  tl.fromTo(star, { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.768, ease: "power3.out" }, 0.000);
+  // subtle jitter on the dot (finite sine, 2 cycles)
+  var starProxy = { p: 0 };
+  tl.to(starProxy, { p: Math.PI * 4, duration: 2.304, ease: "none", onUpdate: function () {
+    var s = Math.sin(starProxy.p) * 0.5 + 1;
+    star.style.transform = "scale(" + s.toFixed(3) + ")";
+  } }, 0.000);
+
+  // "TITIK CAHAYA" fades in small, cream, offset above center (star sits center)
+  tl.fromTo(beat1, { opacity: 0, y: 0 }, { opacity: 1, y: 0, duration: 1.152, ease: "power3.out" }, 0.384);
+
+  // ══ SCENE 2 (1.2–2.8s): hard-cut to "BOLA API" coral; star expands; glow blooms; ring draws ══
+  tl.set(beat1, { opacity: 0 }, 2.304);
+  tl.fromTo(beat2, { opacity: 0, scale: 0.85 }, { opacity: 1, scale: 1, duration: 0.019, ease: "none" }, 2.304);
+
+  // Star dot expands (scale up 1 → 2.2)
+  tl.to(star, { scale: 2.2, duration: 1.536, ease: "power3.out" }, 2.304);
+  // Coral radial glow blooms behind
+  tl.fromTo(glow, { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 1.728, ease: "power3.out" }, 2.496);
+  // Pulse ring expands outward
+  tl.fromTo(ring, { opacity: 0.8, scale: 0.3 }, { opacity: 0, scale: 2.4, duration: 2.304, ease: "power2.out" }, 2.592);
+
+  // ══ SCENE 3 (2.8–5.0s): hard-cut to "BOLA API RAKSASA" hero-title cream; hold ══
+  tl.set(beat2, { opacity: 0 }, 5.376);
+  tl.set(star, { opacity: 0 }, 5.376);
+  tl.set(ring, { opacity: 0 }, 5.376);
+  // per-line reveal (staggered)
+  b3lines.forEach(function (line, i) {
+    tl.fromTo(line, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.960, ease: "power3.out" }, 2.8 + i * 0.18);
+  });
+  // Glow settles to a static halo (dims slightly, holds)
+  tl.to(glow, { opacity: 0.5, duration: 1.536, ease: "power2.inOut" }, 5.568);
+
+  // Full-span anchor
+  
+  var genBg = document.getElementById("f01-hook-imgbg");
+  var flatBg = document.getElementById("f01-hook-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    // dim the flat wash so the illustration shows through but the brand tint stays
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["01-hook"] = tl;
+})();
+</script>
+</template>

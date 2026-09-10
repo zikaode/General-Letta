@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast HyperFrames - Bilingual Captions & Subtitles</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background-color: #000000;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      color: #ffffff;
+    }
+
+    #master-root {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Video Mentahan Podcast (Full HD 1080p) */
+    .podcast-raw-video {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      object-fit: cover;
+      object-position: center;
+      z-index: 1;
+    }
+
+    /* Subtle Cinematic Vignette & Bottom Dimmer to make subtitles pop */
+    .video-vignette {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: radial-gradient(circle at 50% 40%, transparent 60%, rgba(0, 0, 0, 0.45) 100%),
+                  linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.35) 25%, transparent 50%);
+      pointer-events: none;
+    }
+
+    /* Overlay Stage */
+    .overlay-stage {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+      z-index: 10;
+      padding: 60px 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      pointer-events: none;
+    }
+
+    /* Top Bar Podcast Badge */
+    .podcast-header-badge {
+      align-self: flex-start;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding: 12px 24px;
+      border-radius: 999px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    .live-dot {
+      width: 12px;
+      height: 12px;
+      background: #ef4444;
+      border-radius: 50%;
+      box-shadow: 0 0 12px #ef4444;
+    }
+    .badge-text {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #f8fafc;
+    }
+
+    /* Lower-Third (Nama Narasumber) */
+    .lower-third {
+      position: absolute;
+      bottom: 190px;
+      left: 80px;
+      background: rgba(15, 23, 42, 0.88);
+      border-left: 6px solid #38bdf8;
+      border-radius: 14px;
+      padding: 16px 28px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    .speaker-name {
+      font-size: 28px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 2px;
+    }
+    .speaker-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: #38bdf8;
+    }
+
+    /* Bilingual Subtitle / Caption Dock */
+    .subtitle-dock {
+      position: absolute;
+      bottom: 45px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 20;
+    }
+
+    .caption-card {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      background: rgba(10, 15, 30, 0.84);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 20px;
+      padding: 20px 40px;
+      backdrop-filter: blur(18px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    /* Baris 1: Original Spoken Caption */
+    .caption-original {
+      font-size: 26px;
+      font-weight: 700;
+      color: #f1f5f9;
+      line-height: 1.4;
+      margin-bottom: 8px;
+      letter-spacing: 0.2px;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .lang-pill-orig {
+      font-size: 13px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: rgba(56, 189, 248, 0.25);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      text-transform: uppercase;
+    }
+
+    /* Baris 2: Subtitle Terjemahan Bahasa Indonesia */
+    .caption-translated {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fbbf24; /* Aksen Kuning Emas */
+      line-height: 1.35;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .lang-pill-id {
+      font-size: 13px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: rgba(251, 191, 36, 0.25);
+      color: #fbbf24;
+      border: 1px solid rgba(251, 191, 36, 0.4);
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div id="master-root" data-composition-id="podcast-master" data-width="1920" data-height="1080" data-start="0" data-duration="30">
+    
+    <!-- Audio Asli Narasumber Podcast (30 Detik) -->
+    <audio id="podcast-audio" src="../assets/podcast/raw_podcast_30s.m4a" data-start="0" data-duration="30" data-volume="1"></audio>
+
+    <!-- Video Mentah Orang Berbicara / Wawancara (30 Detik) -->
+    <video id="podcast-video" class="podcast-raw-video clip" src="../assets/podcast/raw_podcast_30s.mp4" data-start="0" data-duration="30" muted playsinline></video>
+
+    <!-- Cinematic Vignette & Bottom Contrast Layer -->
+    <div class="video-vignette clip" data-start="0" data-duration="30"></div>
+
+    <!-- Lapisan Overlay HyperFrames -->
+    <div class="overlay-stage clip" data-start="0" data-duration="30">
+      <!-- Top Badge Podcast Episode -->
+      <div class="podcast-header-badge" id="header-badge">
+        <span class="live-dot"></span>
+        <span class="badge-text">Insight Podcast • Future of Education</span>
+      </div>
+
+      <!-- Lower-Third Card (Nama Narasumber) -->
+      <div class="lower-third" id="lower-third">
+        <h3 class="speaker-name">Kristi Vinter-Nemvalts</h3>
+        <p class="speaker-title">Educational Researcher & Chancellor</p>
+      </div>
+
+      <!-- Bilingual Subtitle Dock -->
+      <div class="subtitle-dock" id="subtitle-dock">
+        <!-- Cue 1: 0.8s - 4.5s -->
+        <div class="caption-card" id="cue-1">
+          <div class="caption-original">
+            <span class="lang-pill-orig">EST</span>
+            <span>"Koolivõrgu ja hariduse arengu osas..."</span>
+          </div>
+          <div class="caption-translated">
+            <span class="lang-pill-id">ID</span>
+            <span>"Mengenai jaringan sekolah dan perkembangan pendidikan..."</span>
+          </div>
+        </div>
+
+        <!-- Cue 2: 4.8s - 9.5s -->
+        <div class="caption-card" id="cue-2">
+          <div class="caption-original">
+            <span class="lang-pill-orig">EST</span>
+            <span>"Leidub väga palju häid mõtteid ja suundi teadustöös."</span>
+          </div>
+          <div class="caption-translated">
+            <span class="lang-pill-id">ID</span>
+            <span>"Terdapat banyak sekali pemikiran dan arah yang baik dalam riset."</span>
+          </div>
+        </div>
+
+        <!-- Cue 3: 9.8s - 15.2s -->
+        <div class="caption-card" id="cue-3">
+          <div class="caption-original">
+            <span class="lang-pill-orig">EST</span>
+            <span>"Kuidas lapsed ja õppijad saavad tulevikus edukalt edasi minna..."</span>
+          </div>
+          <div class="caption-translated">
+            <span class="lang-pill-id">ID</span>
+            <span>"Bagaimana anak-anak dan pelajar dapat terus maju di masa depan..."</span>
+          </div>
+        </div>
+
+        <!-- Cue 4: 15.5s - 21.8s -->
+        <div class="caption-card" id="cue-4">
+          <div class="caption-original">
+            <span class="lang-pill-orig">EST</span>
+            <span>"See on suur väljakutse, millega haridussüsteem silmitsi seisab."</span>
+          </div>
+          <div class="caption-translated">
+            <span class="lang-pill-id">ID</span>
+            <span>"Ini adalah tantangan besar yang dihadapi oleh sistem pendidikan kita."</span>
+          </div>
+        </div>
+
+        <!-- Cue 5: 22.2s - 29.2s -->
+        <div class="caption-card" id="cue-5">
+          <div class="caption-original">
+            <span class="lang-pill-orig">EST</span>
+            <span>"Arendades uusi oskusi ja luues tugeva tulevikuvõimekuse."</span>
+          </div>
+          <div class="caption-translated">
+            <span class="lang-pill-id">ID</span>
+            <span>"Dengan mengembangkan keterampilan baru dan membangun potensi masa depan."</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      const tl = gsap.timeline({ paused: true });
+
+      // 1. Top Header Badge Animation (Detik 0.5 - 28.5)
+      tl.to("#header-badge", {
+        y: 0,
+        opacity: 1,
+        duration: 0.8,
+        ease: "power3.out"
+      }, 0.5);
+      tl.to("#header-badge", {
+        y: -20,
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.in"
+      }, 28.5);
+      tl.set("#header-badge", { opacity: 0 }, 29.2);
+
+      // 2. Lower-Third Speaker Bio Animation (Detik 1.5 - 7.5)
+      tl.to("#lower-third", {
+        x: 0,
+        opacity: 1,
+        duration: 0.8,
+        ease: "power3.out"
+      }, 1.5);
+      tl.to("#lower-third", {
+        x: -40,
+        opacity: 0,
+        duration: 0.6,
+        ease: "power2.in"
+      }, 7.0);
+      tl.set("#lower-third", { opacity: 0 }, 7.7);
+
+      // 3. Subtitle Cue Animations (Sinkron dengan Speech Audio)
+      const cues = [
+        { id: "#cue-1", start: 0.8, end: 4.5 },
+        { id: "#cue-2", start: 4.8, end: 9.5 },
+        { id: "#cue-3", start: 9.8, end: 15.2 },
+        { id: "#cue-4", start: 15.5, end: 21.8 },
+        { id: "#cue-5", start: 22.2, end: 29.2 }
+      ];
+
+      cues.forEach(cue => {
+        // Entrance
+        tl.to(cue.id, {
+          y: 0,
+          opacity: 1,
+          duration: 0.35,
+          ease: "back.out(1.2)"
+        }, cue.start);
+
+        // Exit
+        tl.to(cue.id, {
+          y: -15,
+          opacity: 0,
+          duration: 0.3,
+          ease: "power2.in"
+        }, cue.end);
+
+        // Hard kill at boundary
+        tl.set(cue.id, { opacity: 0, y: 20 }, cue.end + 0.35);
+      });
+
+      window.__timelines["podcast-master"] = tl;
+    })();
+  </script>
+</body>
+</html>

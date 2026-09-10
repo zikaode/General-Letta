@@ -1,0 +1,111 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+
+  #f10-penutup-bg { z-index: 0; background: #1A1A1A; }
+
+  #f10-penutup-star {
+    position: absolute; width: 16px; height: 16px; left: 952px; top: 180px;
+    border-radius: 50%; background: #E85D5D;
+    box-shadow: 0 0 30px rgba(232,93,93,0.7);
+    will-change: transform, opacity; opacity: 0;
+  }
+
+  #f10-penutup-phrase {
+    position: absolute; top: 380px; left: 0; width: 100%;
+    display: flex; flex-direction: column; align-items: center;
+    will-change: transform, opacity;
+  }
+  .f10-penutup-word {
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 125px; line-height: 1.05; letter-spacing: 4px; color: #F5F0E8;
+    will-change: transform, opacity; opacity: 0;
+  }
+  #f10-penutup-accent {
+    position: absolute; top: 700px; left: 50%;
+    width: 300px; height: 5px; margin-left: -150px;
+    background: #E85D5D;
+    transform: scaleX(0); transform-origin: 0% 50%;
+    will-change: transform, opacity;
+  }
+  /* readability scrim at the very bottom so captions stay legible */
+  /* readability scrim at the very bottom so captions stay legible */
+
+  #f10-penutup-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="10-penutup" data-width="1920" data-height="1080">
+  <img id="f10-penutup-imgbg" class="clip" data-start="0" data-duration="10" data-track-index="2" src="assets/img/frame-10.png" alt="" />
+
+
+
+
+
+
+  <div id="f10-penutup-bg" class="clip" data-start="0" data-duration="2.48" data-track-index="0"></div>
+  <div class="clip" data-start="0" data-duration="2.48" data-track-index="1">
+    <div id="f10-penutup-star"></div>
+    <div id="f10-penutup-phrase">
+      <span class="f10-penutup-word" id="f10-penutup-w1">KITA ADALAH</span>
+      <span class="f10-penutup-word" id="f10-penutup-w2">DEBU BINTANG</span>
+    </div>
+    <div id="f10-penutup-accent"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 2.48;
+
+  var star = document.getElementById("f10-penutup-star");
+  var w1 = document.getElementById("f10-penutup-w1");
+  var w2 = document.getElementById("f10-penutup-w2");
+  var accent = document.getElementById("f10-penutup-accent");
+
+  // ══ SCENE 1 (0.0–0.8s): ink field; single small coral star fades in center ══
+  tl.fromTo(star, { opacity: 0, scale: 0.5 }, { opacity: 1, scale: 1, duration: 0.372, ease: "power2.out" }, 0.031);
+
+  // ══ SCENE 2 (0.8–2.0s): the ONE move — phrase fades in per-word stagger; accent draws ══
+  tl.fromTo(w1, { opacity: 0, y: 35 }, { opacity: 1, y: 0, duration: 0.341, ease: "power3.out" }, 0.496);
+  tl.fromTo(w2, { opacity: 0, y: 35 }, { opacity: 1, y: 0, duration: 0.341, ease: "power3.out" }, 0.651);
+  tl.fromTo(accent, { transform: "scaleX(0)", opacity: 1 }, { transform: "scaleX(1)", duration: 0.372, ease: "power2.out" }, 0.930);
+
+  // ══ SCENE 3 (2.0–4.0s): phrase holds dead still; star twinkles (subtle jitter) ══
+  var twProxy = { p: 0 };
+  tl.to(twProxy, { p: Math.PI * 8, duration: 1.240, ease: "none", onUpdate: function () {
+    var s = 1 + Math.sin(twProxy.p) * 0.18;
+    star.style.transform = "scale(" + s.toFixed(3) + ")";
+    star.style.opacity = String(0.85 + Math.sin(twProxy.p) * 0.15);
+  } }, 1.240);
+
+  // Final frame — a gentle settle at the very tail (allowed on final frame)
+  tl.to(w1, { opacity: 0.92, duration: 0.248, ease: "power1.inOut" }, 2.170);
+  tl.to(w2, { opacity: 0.92, duration: 0.248, ease: "power1.inOut" }, 2.170);
+  
+  var genBg = document.getElementById("f10-penutup-imgbg");
+  var flatBg = document.getElementById("f10-penutup-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    // dim the flat wash so the illustration shows through but the brand tint stays
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["10-penutup"] = tl;
+})();
+</script>
+</template>

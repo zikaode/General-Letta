@@ -1,0 +1,202 @@
+<template>
+<style>
+  @font-face { font-family: "Bebas Neue"; font-style: normal; font-weight: 400; src: url("https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2") format("woff2"); font-display: block; }
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 700; src: url("https://fonts.gstatic.com/s/inter/v19/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2") format("woff2"); font-display: block; }
+
+  #root { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: hidden; container-type: size; }
+  .clip { position: absolute; inset: 0; }
+
+  #f07-debu-bg { z-index: 0; background: #1A1A1A; }
+
+  #f07-debu-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .f07-debu-connector { stroke: #E85D5D; stroke-width: 1.5; opacity: 0; }
+
+  .f07-debu-particle {
+    position: absolute; border-radius: 50%; background: #E85D5D;
+    will-change: transform, opacity; opacity: 0;
+  }
+  .f07-debu-star {
+    position: absolute; border-radius: 50%; background: #F5F0E8;
+    will-change: transform, opacity; opacity: 0;
+  }
+
+  #f07-debu-silhouette-glow {
+    position: absolute; width: 400px; height: 500px; left: 760px; top: 180px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(232,93,93,0.25) 0%, transparent 65%);
+    will-change: opacity; opacity: 0;
+  }
+
+  .f07-debu-element-label {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif; font-size: 40px; color: #F5F0E8;
+    will-change: opacity; opacity: 0;
+  }
+  .f07-debu-element-sub {
+    position: absolute;
+    font-family: "Inter", sans-serif; font-weight: 700; font-size: 13px;
+    letter-spacing: 3px; text-transform: uppercase; color: #858585;
+    will-change: opacity; opacity: 0;
+  }
+  #f07-debu-ca { left: 500px; top: 380px; }
+  #f07-debu-ca-sub { left: 500px; top: 428px; }
+  #f07-debu-fe { left: 1330px; top: 380px; }
+  #f07-debu-fe-sub { left: 1330px; top: 428px; }
+
+  #f07-debu-phrase {
+    position: absolute; top: 750px; left: 0; width: 100%; text-align: center;
+    font-family: "Bebas Neue", sans-serif; font-weight: 400; text-transform: uppercase;
+    font-size: 64px; letter-spacing: 6px; color: #F5F0E8;
+    will-change: transform, opacity; opacity: 0;
+  }
+  /* readability scrim at the very bottom so captions stay legible */
+  /* readability scrim at the very bottom so captions stay legible */
+
+  #f07-debu-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="07-debu-bintang" data-width="1920" data-height="1080" data-duration="11.06">
+  <img id="f07-debu-imgbg" class="clip" data-start="0" data-duration="11.06" data-track-index="2" src="assets/img/frame-07.png" alt="" />
+
+
+
+
+
+
+  <div id="f07-debu-bg" class="clip" data-start="0" data-duration="11.56" data-track-index="0"></div>
+  <div class="clip" data-start="0" data-duration="11.56" data-track-index="1">
+    <svg id="f07-debu-svg" viewBox="0 0 1920 1080">
+      <line class="f07-debu-connector" x1="960" y1="430" x2="180" y2="140" />
+      <line class="f07-debu-connector" x1="960" y1="430" x2="1740" y2="110" />
+      <line class="f07-debu-connector" x1="960" y1="430" x2="1850" y2="500" />
+      <line class="f07-debu-connector" x1="960" y1="430" x2="90" y2="480" />
+      <line class="f07-debu-connector" x1="960" y1="430" x2="300" y2="820" />
+      <line class="f07-debu-connector" x1="960" y1="430" x2="1620" y2="780" />
+    </svg>
+    <div id="f07-debu-silhouette-glow"></div>
+    <!-- Human silhouette particles are created by script -->
+    <!-- Background stars -->
+    <div class="f07-debu-star" style="left:180px; top:140px; width:10px; height:10px;"></div>
+    <div class="f07-debu-star" style="left:1740px; top:110px; width:8px; height:8px;"></div>
+    <div class="f07-debu-star" style="left:1850px; top:500px; width:12px; height:12px;"></div>
+    <div class="f07-debu-star" style="left:90px; top:480px; width:7px; height:7px;"></div>
+    <div class="f07-debu-star" style="left:300px; top:820px; width:9px; height:9px;"></div>
+    <div class="f07-debu-star" style="left:1620px; top:780px; width:8px; height:8px;"></div>
+    <!-- Element labels -->
+    <div id="f07-debu-ca" class="f07-debu-element-label">CA</div>
+    <div id="f07-debu-ca-sub" class="f07-debu-element-sub">KALSIUM · TULANG</div>
+    <div id="f07-debu-fe" class="f07-debu-element-label">FE</div>
+    <div id="f07-debu-fe-sub" class="f07-debu-element-sub">BESI · DARAH</div>
+    <div id="f07-debu-phrase">DEBU BINTANG</div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  window.__timelines = window.__timelines || {};
+  var tl = gsap.timeline({ paused: true });
+  var DURATION = 10.56;
+
+  var container = document.querySelector('[data-composition-id="07-debu-bintang"] .clip[data-track-index="1"]');
+
+  // Deterministic silhouette particle positions (a simple standing human figure, center ~960,430)
+  // Head: circle; torso: vertical cluster; arms + legs: spread
+  var SIL = [
+    // head
+    { x: 960, y: 250, s: 9 }, { x: 948, y: 245, s: 6 }, { x: 972, y: 245, s: 6 },
+    { x: 940, y: 255, s: 5 }, { x: 980, y: 255, s: 5 },
+    // shoulders/torso
+    { x: 920, y: 300, s: 7 }, { x: 1000, y: 300, s: 7 },
+    { x: 935, y: 340, s: 6 }, { x: 985, y: 340, s: 6 },
+    { x: 945, y: 380, s: 6 }, { x: 975, y: 380, s: 6 },
+    { x: 950, y: 420, s: 6 }, { x: 970, y: 420, s: 6 },
+    // arms
+    { x: 895, y: 350, s: 5 }, { x: 875, y: 395, s: 5 },
+    { x: 1005, y: 350, s: 5 }, { x: 1025, y: 395, s: 5 },
+    // legs
+    { x: 945, y: 470, s: 5 }, { x: 975, y: 470, s: 5 },
+    { x: 935, y: 520, s: 5 }, { x: 985, y: 520, s: 5 },
+    { x: 930, y: 570, s: 4 }, { x: 990, y: 570, s: 4 },
+  ];
+
+  var silParticles = [];
+  SIL.forEach(function (d) {
+    var el = document.createElement("div");
+    el.className = "f07-debu-particle";
+    el.style.width = d.s + "px"; el.style.height = d.s + "px";
+    el.style.left = d.x + "px"; el.style.top = d.y + "px";
+    el.style.opacity = "0";
+    el.style.transform = "scale(0)";
+    container.appendChild(el);
+    silParticles.push(el);
+  });
+
+  var stars = document.querySelectorAll('[data-composition-id="07-debu-bintang"] .f07-debu-star');
+  var connectors = document.querySelectorAll('[data-composition-id="07-debu-bintang"] .f07-debu-connector');
+  var glow = document.getElementById("f07-debu-silhouette-glow");
+  var ca = document.getElementById("f07-debu-ca");
+  var caSub = document.getElementById("f07-debu-ca-sub");
+  var fe = document.getElementById("f07-debu-fe");
+  var feSub = document.getElementById("f07-debu-fe-sub");
+  var phrase = document.getElementById("f07-debu-phrase");
+
+  // ══ SCENE 1 (0.0–2.0s): silhouette forms from particles (staggered pop) ══
+  silParticles.forEach(function (el, i) {
+    tl.fromTo(el, { scale: 0, opacity: 0 }, { scale: 1, opacity: 0.9, duration: 0.603, ease: "back.out(1.5)" }, 0.2 + i * 0.06);
+  });
+
+  // ══ SCENE 2 (2.0–4.0s): connectors draw; background stars pop in; element labels fade in ══
+  connectors.forEach(function (c, i) {
+    tl.fromTo(c, { opacity: 0 }, { opacity: 0.4, duration: 0.905, ease: "power2.out" }, 2.0 + i * 0.15);
+  });
+  stars.forEach(function (s, i) {
+    tl.fromTo(s, { scale: 0, opacity: 0 }, { scale: 1, opacity: 0.8, duration: 0.603, ease: "back.out(1.4)" }, 2.2 + i * 0.12);
+  });
+  tl.fromTo(ca, { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.754, ease: "power3.out" }, 4.375);
+  tl.fromTo(caSub, { opacity: 0 }, { opacity: 1, duration: 0.603, ease: "power2.out" }, 4.601);
+  tl.fromTo(fe, { opacity: 0, x: 20 }, { opacity: 1, x: 0, duration: 0.754, ease: "power3.out" }, 4.827);
+  tl.fromTo(feSub, { opacity: 0 }, { opacity: 1, duration: 0.603, ease: "power2.out" }, 5.054);
+
+  // ══ SCENE 3 (4.0–5.5s): silhouette glows; connectors pulse once; phrase fades in ══
+  tl.fromTo(glow, { opacity: 0 }, { opacity: 1, duration: 1.207, ease: "power2.out" }, 6.034);
+  // connectors pulse (one brightness sweep)
+  connectors.forEach(function (c, i) {
+    tl.to(c, { opacity: 0.7, duration: 0.377, ease: "power2.out" }, 4.2 + i * 0.06);
+    tl.to(c, { opacity: 0.4, duration: 0.528, ease: "power2.inOut" }, 4.45 + i * 0.06);
+  });
+  tl.fromTo(phrase, { opacity: 0, y: 25 }, { opacity: 1, y: 0, duration: 1.056, ease: "power3.out" }, 6.939);
+
+  // ══ SCENE 4 (5.5–7.0s): held STILL — subtle jitter on silhouette particles only ══
+  silParticles.forEach(function (el, i) {
+    if (i % 3 !== 0) return; // jitter only every 3rd particle (subtle)
+    var proxy = { p: 0 };
+    tl.to(proxy, { p: Math.PI * 3, duration: 2.263, ease: "none", onUpdate: (function (pr, e, ph) {
+      return function () {
+        var o = 0.9 + Math.sin(pr.p + ph) * 0.08;
+        e.style.opacity = String(o);
+      };
+    })(proxy, el, i * 0.9) }, 8.297);
+  });
+  
+  var genBg = document.getElementById("f07-debu-imgbg");
+  var flatBg = document.getElementById("f07-debu-bg");
+  if (genBg) {
+    tl.fromTo(genBg, { opacity: 0 }, { opacity: 1, duration: 1.0, ease: "power1.out" }, 0.0);
+  }
+  if (flatBg) {
+    // dim the flat wash so the illustration shows through but the brand tint stays
+    tl.to(flatBg, { opacity: 0.25, duration: 0.8, ease: "power1.out" }, 0.0);
+  }
+  tl.to({}, { duration: DURATION }, 0.000);
+  window.__timelines["07-debu-bintang"] = tl;
+})();
+</script>
+</template>
+

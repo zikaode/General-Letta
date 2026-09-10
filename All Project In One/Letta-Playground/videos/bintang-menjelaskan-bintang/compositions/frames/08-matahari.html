@@ -1,0 +1,522 @@
+<template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;700&display=swap');
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2') format('woff2');
+  font-display: block;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2') format('woff2');
+  font-display: block;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2') format('woff2');
+  font-display: block;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2') format('woff2');
+  font-display: block;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2') format('woff2');
+  font-display: block;
+}
+
+#root {
+  container-type: size;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+
+#root * {
+  box-sizing: border-box;
+}
+
+/* ── Full-bleed cream background clip ── */
+.f08-matahari-bg {
+  position: absolute;
+  inset: 0;
+  background: #F5F0E8;
+  z-index: 0;
+}
+
+/* ── Main content clip ── */
+.f08-matahari-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* ── Sun diagram area (center-left) ── */
+.f08-matahari-sun-wrap {
+  position: absolute;
+  left: 380px;
+  top: 280px;
+  width: 360px;
+  height: 360px;
+}
+
+.f08-matahari-sun-label {
+  position: absolute;
+  left: 50%;
+  top: -52px;
+  margin-left: -55px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #1A1A1A;
+  opacity: 0;
+  white-space: nowrap;
+}
+
+.f08-matahari-sun-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.f08-matahari-sun-circle {
+  fill: none;
+  stroke: #E85D5D;
+  stroke-width: 6;
+}
+
+.f08-matahari-sun-fill {
+  fill: #E85D5D;
+  fill-opacity: 0;
+}
+
+.f08-matahari-progress-ring {
+  fill: none;
+  stroke: #E85D5D;
+  stroke-width: 4;
+  stroke-linecap: round;
+  transform-origin: 180px 180px;
+  transform: rotate(-90deg);
+}
+
+/* ── Earth orbit ── */
+.f08-matahari-orbit-path {
+  fill: none;
+  stroke: #1A1A1A;
+  stroke-width: 1;
+  stroke-dasharray: 4 6;
+  opacity: 0;
+}
+
+.f08-matahari-earth-dot {
+  fill: #F5F0E8;
+  stroke: #1A1A1A;
+  stroke-width: 2;
+  opacity: 0;
+}
+
+/* ── Counter area (right of sun) ── */
+.f08-matahari-counter-wrap {
+  position: absolute;
+  left: 820px;
+  top: 250px;
+  width: 700px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.f08-matahari-bloom-stage {
+  position: relative;
+  display: inline-block;
+}
+
+.f08-matahari-bloom-glow {
+  position: absolute;
+  inset: -120px;
+  background: radial-gradient(ellipse at center, rgba(232, 93, 93, 0.35) 0%, rgba(232, 93, 93, 0.12) 40%, rgba(232, 93, 93, 0) 70%);
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.f08-matahari-counter-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+
+.f08-matahari-counter {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 200px;
+  line-height: 1.0;
+  letter-spacing: 2px;
+  color: #1A1A1A;
+  font-variant-numeric: tabular-nums;
+  display: inline-block;
+  transform-origin: left center;
+}
+
+.f08-matahari-counter-comma {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 200px;
+  line-height: 1.0;
+  color: #1A1A1A;
+  display: inline-block;
+}
+
+.f08-matahari-counter-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 56px;
+  line-height: 1.0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #E85D5D;
+  margin-top: 12px;
+  opacity: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.f08-matahari-counter-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6B6B6B;
+  margin-top: 8px;
+  opacity: 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* ── Timeline (below) ── */
+.f08-matahari-timeline-wrap {
+  position: absolute;
+  left: 380px;
+  top: 720px;
+  width: 1160px;
+  height: 120px;
+  opacity: 0;
+}
+
+.f08-matahari-timeline-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.f08-matahari-timeline-line {
+  fill: none;
+  stroke: #1A1A1A;
+  stroke-width: 3;
+}
+
+.f08-matahari-timeline-node {
+  fill: #E85D5D;
+  stroke: #F5F0E8;
+  stroke-width: 4;
+}
+
+.f08-matahari-timeline-node-halo {
+  fill: #F5F0E8;
+  stroke: none;
+}
+
+.f08-matahari-timeline-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  fill: #1A1A1A;
+}
+
+/* ── Section eyebrow ── */
+.f08-matahari-eyebrow {
+  position: absolute;
+  left: 96px;
+  top: 72px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #E85D5D;
+  opacity: 0;
+}
+
+/* ── Accent line under eyebrow ── */
+.f08-matahari-accent-line {
+  position: absolute;
+  left: 96px;
+  top: 100px;
+  width: 64px;
+  height: 4px;
+  background: #E85D5D;
+  opacity: 0;
+}
+  /* readability scrim at the very bottom so captions stay legible */
+  /* readability scrim at the very bottom so captions stay legible */
+
+  #f08-matahari-imgbg {
+    position: absolute; z-index: 0; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5) saturate(1.05);
+    will-change: opacity; opacity: 0; pointer-events: none;
+  }
+</style>
+
+<div id="root" data-composition-id="08-matahari" data-width="1920" data-height="1080" data-duration="13.14">
+  <img id="f08-matahari-imgbg" class="clip" data-start="0" data-duration="13.14" data-track-index="2" src="assets/img/frame-08.png" alt="" />
+
+
+
+
+
+
+
+  <!-- Full-bleed cream background -->
+  <div class="clip f08-matahari-bg" data-start="0" data-duration="13.64" data-track-index="0"></div>
+
+  <!-- Main scene clip -->
+  <div class="clip f08-matahari-scene" data-start="0" data-duration="13.64" data-track-index="1">
+
+    <!-- Eyebrow -->
+    <div class="f08-matahari-eyebrow" id="f08-matahari-eyebrow">Bintang Menjelaskan Bintang</div>
+    <div class="f08-matahari-accent-line" id="f08-matahari-accent-line"></div>
+
+    <!-- Sun diagram (center-left) -->
+    <div class="f08-matahari-sun-wrap" id="f08-matahari-sun-wrap">
+      <div class="f08-matahari-sun-label" id="f08-matahari-sun-label">MATAHARI</div>
+      <svg class="f08-matahari-sun-svg" viewBox="0 0 360 360">
+        <!-- Sun circle outline (draws on) -->
+        <circle class="f08-matahari-sun-circle" id="f08-matahari-sun-circle" cx="180" cy="180" r="120" />
+        <!-- Sun fill (fades in after draw) -->
+        <circle class="f08-matahari-sun-fill" id="f08-matahari-sun-fill" cx="180" cy="180" r="120" />
+        <!-- Progress ring (sweeps around sun) -->
+        <circle class="f08-matahari-progress-ring" id="f08-matahari-progress-ring" cx="180" cy="180" r="140" />
+        <!-- Orbit path (dashed, faint) -->
+        <circle class="f08-matahari-orbit-path" id="f08-matahari-orbit-path" cx="180" cy="180" r="155" />
+        <!-- Earth dot -->
+        <circle class="f08-matahari-earth-dot" id="f08-matahari-earth-dot" cx="180" cy="25" r="8" />
+      </svg>
+    </div>
+
+    <!-- Counter area (right of sun) -->
+    <div class="f08-matahari-counter-wrap">
+      <div class="f08-matahari-bloom-stage">
+        <div class="f08-matahari-bloom-glow" id="f08-matahari-bloom-glow"></div>
+        <div class="f08-matahari-counter-row">
+          <span class="f08-matahari-counter" id="f08-matahari-counter">0</span>
+          <span class="f08-matahari-counter-comma" id="f08-matahari-counter-comma" data-layout-allow-overlap>,6</span>
+        </div>
+      </div>
+      <div class="f08-matahari-counter-label" id="f08-matahari-counter-label">MILIAR TAHUN</div>
+      <div class="f08-matahari-counter-sub" id="f08-matahari-counter-sub">USIA MATAHARI KITA</div>
+    </div>
+
+    <!-- Horizontal ink timeline (below) -->
+    <div class="f08-matahari-timeline-wrap" id="f08-matahari-timeline-wrap">
+      <svg class="f08-matahari-timeline-svg" viewBox="0 0 1160 120" preserveAspectRatio="xMidYMid meet">
+        <!-- Timeline line -->
+        <line class="f08-matahari-timeline-line" id="f08-matahari-timeline-line" x1="80" y1="60" x2="1080" y2="60" />
+        <!-- Node 1: LAHIR -->
+        <circle class="f08-matahari-timeline-node-halo" cx="80" cy="60" r="22" />
+        <circle class="f08-matahari-timeline-node" cx="80" cy="60" r="14" />
+        <text class="f08-matahari-timeline-label" x="80" y="100" text-anchor="middle">LAHIR</text>
+        <!-- Node 2: SEKARANG -->
+        <circle class="f08-matahari-timeline-node-halo" cx="580" cy="60" r="22" />
+        <circle class="f08-matahari-timeline-node" cx="580" cy="60" r="14" />
+        <text class="f08-matahari-timeline-label" x="580" y="100" text-anchor="middle">SEKARANG</text>
+        <!-- Node 3: MASA DEPAN -->
+        <circle class="f08-matahari-timeline-node-halo" cx="1080" cy="60" r="22" />
+        <circle class="f08-matahari-timeline-node" cx="1080" cy="60" r="14" />
+        <text class="f08-matahari-timeline-label" x="1080" y="100" text-anchor="middle">MASA DEPAN</text>
+      </svg>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function () {
+  // ── Setup: measure SVG paths for stroke-dash draw ──
+  var sunCircle = document.getElementById("f08-matahari-sun-circle");
+  var sunFill = document.getElementById("f08-matahari-sun-fill");
+  var progressRing = document.getElementById("f08-matahari-progress-ring");
+  var orbitPath = document.getElementById("f08-matahari-orbit-path");
+  var earthDot = document.getElementById("f08-matahari-earth-dot");
+  var timelineLine = document.getElementById("f08-matahari-timeline-line");
+  var counter = document.getElementById("f08-matahari-counter");
+  var counterComma = document.getElementById("f08-matahari-counter-comma");
+  var counterLabel = document.getElementById("f08-matahari-counter-label");
+  var counterSub = document.getElementById("f08-matahari-counter-sub");
+  var sunLabel = document.getElementById("f08-matahari-sun-label");
+  var eyebrow = document.getElementById("f08-matahari-eyebrow");
+  var accentLine = document.getElementById("f08-matahari-accent-line");
+  var timelineWrap = document.getElementById("f08-matahari-timeline-wrap");
+  var bloomGlow = document.getElementById("f08-matahari-bloom-glow");
+
+  // Measure sun circle
+  var sunLen = sunCircle.getTotalLength();
+  sunCircle.style.strokeDasharray = sunLen;
+  sunCircle.style.strokeDashoffset = sunLen;
+
+  // Measure progress ring
+  var ringLen = progressRing.getTotalLength();
+  progressRing.style.strokeDasharray = ringLen;
+  progressRing.style.strokeDashoffset = ringLen;
+
+  // Measure timeline line
+  var tlLineLen = timelineLine.getTotalLength();
+  timelineLine.style.strokeDasharray = tlLineLen;
+  timelineLine.style.strokeDashoffset = tlLineLen;
+
+  // Counter initial state
+  counter.textContent = "0";
+  counterComma.style.opacity = "0";
+
+  // ── Timeline ──
+  var tl = gsap.timeline({ paused: true });
+  window.__timelines = window.__timelines || {};
+  window.__timelines["08-matahari"] = tl;
+
+  // Scene 1 (0.0–1.0s): cream field. Coral sun circle draws on at center-left. Ink label "MATAHARI" above.
+
+  // Eyebrow + accent line fade in
+  tl.fromTo(eyebrow, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.843, ease: "power2.out" }, 0.000);
+  tl.fromTo(accentLine, { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.843, ease: "power2.out" }, 0.211);
+
+  // Sun circle draws on (svg-path-draw)
+  tl.to(sunCircle, { strokeDashoffset: 0, duration: 1.685, ease: "power2.out" }, 0.211);
+
+  // Sun fill fades in after stroke completes
+  tl.to(sunFill, { fillOpacity: 0.15, duration: 0.843, ease: "power1.out" }, 1.475);
+
+  // MATAHARI label fades in
+  tl.fromTo(sunLabel, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.737, ease: "power2.out" }, 1.053);
+
+  // Scene 2 (1.0–3.5s): "4,6" count-up beside sun, "MILIAR TAHUN" beneath. Progress ring sweeps around sun.
+  // Horizontal ink timeline draws below with three coral nodes. Tiny cream earth dot orbits sun (finite).
+
+  // Count-up: 0 → 4 (counting-dynamic-scale)
+  var state = { value: 0 };
+  var START_SCALE = 0.5; // 40-60% of end size
+  var COUNT_DUR = 2.0;
+  var COUNT_EASE = "power3.out";
+
+  tl.to(state, {
+    value: 4,
+    duration: COUNT_DUR,
+    ease: COUNT_EASE,
+    onUpdate: function () {
+      counter.textContent = String(Math.round(state.value));
+    }
+  }, 2.107);
+
+  // Visual growth — scale grows with the count
+  tl.fromTo(counter, { scale: START_SCALE }, { scale: 1, duration: COUNT_DUR, ease: COUNT_EASE }, 2.107);
+
+  // Comma suffix slides in after count lands
+  tl.fromTo(counterComma, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.843, ease: "power2.out" }, 1.0 + COUNT_DUR);
+
+  // Label fades in early (before count peaks)
+  tl.fromTo(counterLabel, { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 1.053, ease: "power2.out" }, 2.739);
+
+  // Sub label fades in
+  tl.fromTo(counterSub, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.843, ease: "power2.out" }, 3.371);
+
+  // Progress ring sweeps around sun (stat-bars-and-fills ring form, svg-path-draw mechanics)
+  tl.to(progressRing, { strokeDashoffset: 0, duration: 4.213, ease: "power2.out" }, 2.528);
+
+  // Orbit path fades in
+  tl.fromTo(orbitPath, { opacity: 0 }, { opacity: 0.3, duration: 0.843, ease: "power1.out" }, 2.949);
+
+  // Earth dot becomes visible
+  tl.fromTo(earthDot, { opacity: 0 }, { opacity: 1, duration: 0.632, ease: "power1.out" }, 3.160);
+
+  // Earth orbit — finite deterministic tween (NOT infinite repeat)
+  // The earth dot orbits the sun: rotate around center (180,180) at radius 155
+  // We animate rotation of a wrapper concept, but since earthDot is an SVG circle,
+  // we use SVG transform attribute via GSAP
+  var ORBIT_DUR = 4.0; // covers from ~1.5s to ~5.5s (finite)
+  var orbitState = { angle: 0 };
+  var orbitRadius = 155;
+  var sunCenterX = 180;
+  var sunCenterY = 180;
+
+  tl.to(orbitState, {
+    angle: 360 * 1.5, // 1.5 full rotations over the tween (finite, deterministic)
+    duration: ORBIT_DUR,
+    ease: "none",
+    onUpdate: function () {
+      var rad = (orbitState.angle * Math.PI) / 180;
+      var ex = sunCenterX + Math.cos(rad) * orbitRadius;
+      var ey = sunCenterY + Math.sin(rad) * orbitRadius;
+      earthDot.setAttribute("cx", ex);
+      earthDot.setAttribute("cy", ey);
+    }
+  }, 3.160);
+
+  // Timeline draws (svg-path-draw) — horizontal ink line
+  tl.to(timelineLine, { strokeDashoffset: 0, duration: 2.107, ease: "power2.out" }, 3.792);
+
+  // Timeline wrapper fades in
+  tl.fromTo(timelineWrap, { opacity: 0 }, { opacity: 1, duration: 0.843, ease: "power1.out" }, 3.371);
+
+  // Scene 3 (3.5–5.0s): counter lands at "4,6"; ring completes; coral glow blooms behind number.
+  // Timeline nodes settle.
+
+  // Glow bloom behind counter (ambient-glow-bloom, bloom-and-hold form — scene <3s after bloom)
+  tl.fromTo(bloomGlow, { opacity: 0, scale: 0.85 }, { opacity: 0.28, scale: 1, duration: 1.685, ease: "power2.out" }, 7.373);
+
+  // Bounded breathe during hold — finite phase tween, NOT yoyo
+  var breathePhase = { p: 0 };
+  var BREATHE_DUR = 1.5; // 3.5 + 0.8 = 4.3s start; 4.3 to 5.8s = 1.5s
+  var BREATHE_CYCLES = 0.5; // half cycle over the breathe duration (one gentle pulse)
+  var GLOW_PEAK = 0.28;
+  var OPACITY_AMP = 0.03;
+  var SCALE_AMP = 0.02;
+
+  tl.to(breathePhase, {
+    p: Math.PI * 2 * BREATHE_CYCLES,
+    duration: BREATHE_DUR,
+    ease: "none",
+    onUpdate: function () {
+      var s = Math.sin(breathePhase.p);
+      bloomGlow.style.opacity = String(GLOW_PEAK + s * OPACITY_AMP);
+      bloomGlow.style.transform = "scale(" + (1 + s * SCALE_AMP) + ")";
+    }
+  }, 9.059);
+
+  // Scene 4 (5.0–6.0s): hold — counter, sun, timeline read STILL. Earth dot continues finite orbit.
+  // (Earth orbit tween runs until ~5.5s, then earth holds its last position — all part of the finite tween)
+  // No exit animation (not the final frame).
+})();
+</script>
+</template>
